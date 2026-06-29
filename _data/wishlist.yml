@@ -1,5 +1,334 @@
+# Wishlist of Black Women Writers
+# Edit through the admin interface at /admin/
+# The Jekyll template reads this as site.data.wishlist.authors
+
 authors:
-  - status: aspirational
-    name: "test "
-    slug: test_author
-    image: /objects/demo_001.jpg
+  - name: "test"
+    slug: "test_author"
+    status: aspirational
+    profile_url: ""
+    image: "demo_001.jpg"
+
+  - name: "Ida B. Wells-Barnett"
+    slug: "ida_b_wells-barnett"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/ida-b-wells/"
+    image: "wells_ida_b.png"
+
+  - name: "Mary Church Terrell"
+    slug: "mary_church_terrell"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/mary-church-terrell/"
+    image: "terrell_mary_church.png"
+
+  - name: "Frances E.W. Harper"
+    slug: "frances_ew_harper"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/frances-ellen-watkins-harper/#literary-works"
+    image: "harper_frances.png"
+
+  - name: "Gertrude Bustill Mossell"
+    slug: "gertrude_bustill_mossell"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/gertrude-bustill-mossell/"
+    image: "mossell_gertrude.png"
+
+  - name: "Harriet Jacobs"
+    slug: "harriet_jacobs"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/harriet-jacobs/"
+    image: "jacobs_harriet.jpg"
+
+  - name: "Elizabeth Keckley"
+    slug: "elizabeth_keckley"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/author-page-for-elizabeth-keckley/"
+    image: "keckley_elizabeth.webp"
+
+  - name: "Fannie Barrier Williams"
+    slug: "fannie_barrier_williams"
+    status: current
+    profile_url: "https://thisbeautifulsisterhood.org/fannie-barrier-williams-and-the-synecdochal-whole-charting-the-lives-and-works-of-mary-church-terrell-frances-ellen-watkins-harper-and-ida-b-wells-barnett/"
+    image: "williams_fannie_barrier.webp"
+
+  - name: "Octavia V. Rogers Albert"
+    slug: "octavia_v_rogers_albert"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Anonymous Author of Memoir of Old Elizabeth, a coloured woman"
+    slug: "anonymous_author_of_memoir_of_old_elizabeth_a_coloured_woman"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Eloise Bibb"
+    slug: "eloise_bibb"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Virginia W. Broughton"
+    slug: "virginia_w_broughton"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Hallie Quinn Brown"
+    slug: "hallie_quinn_brown"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Josephine Brown"
+    slug: "josephine_brown"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Annie L. Burton"
+    slug: "annie_l_burton"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Olivia Ward Bush-Banks"
+    slug: "olivia_ward_bush-banks"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Mary Ann Shadd Cary"
+    slug: "mary_ann_shadd_cary"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Julia C. Collins"
+    slug: "julia_c_collins"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Anna Julia Haywood Cooper"
+    slug: "anna_julia_haywood_cooper"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Hannah Crafts"
+    slug: "hannah_crafts"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Lucy A. Delany"
+    slug: "lucy_a_delany"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Alice Dunbar-Nelson"
+    slug: "alice_dunbar-nelson"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Sarah Farro"
+    slug: "sarah_farro"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Julia A.J. Foote"
+    slug: "julia_aj_foote"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Mary Weston Fordham"
+    slug: "mary_weston_fordham"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Charlotte Forten Grimke"
+    slug: "charlotte_forten_grimke"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Josephine D. Henderson Heard"
+    slug: "josephine_d_henderson_heard"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Pauline Hopkins"
+    slug: "pauline_hopkins"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Amelia E. Johnson"
+    slug: "amelia_e_johnson"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Maggie Pogue Johnson"
+    slug: "maggie_pogue_johnson"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Jarena Lee"
+    slug: "jarena_lee"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Victoria Earle Matthews"
+    slug: "victoria_earle_matthews"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Hiram Mattison"
+    slug: "hiram_mattison"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Adah Isaacs Menken"
+    slug: "adah_isaacs_menken"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "N.F. Mosell"
+    slug: "nf_mosell"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Louisa Picquet"
+    slug: "louisa_picquet"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Ann Plato"
+    slug: "ann_plato"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Eliza Potter"
+    slug: "eliza_potter"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Mary Prince"
+    slug: "mary_prince"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Nancy Prince"
+    slug: "nancy_prince"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "H. Cordelia Ray"
+    slug: "h_cordelia_ray"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Frank [Frances] A. Rollin"
+    slug: "frank"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Amanda Smith"
+    slug: "amanda_smith"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Effie Waller Smith"
+    slug: "effie_waller_smith"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Sara G. Stanley"
+    slug: "sara_g_stanley"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Maria Stewart"
+    slug: "maria_stewart"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Susie King Taylor"
+    slug: "susie_king_taylor"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Clara Ann Thompson"
+    slug: "clara_ann_thompson"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Priscilla Jane Thompson"
+    slug: "priscilla_jane_thompson"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Sojourner Truth"
+    slug: "sojourner_truth"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Mary E. Tucker"
+    slug: "mary_e_tucker"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Bethany Veney"
+    slug: "bethany_veney"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Phillis Wheatley"
+    slug: "phillis_wheatley"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Sarah Jane Woodson Earl"
+    slug: "sarah_jane_woodson_earl"
+    status: aspirational
+    profile_url: ""
+    image: ""
+
+  - name: "Harriet E. Wilson"
+    slug: "harriet_e_wilson"
+    status: aspirational
+    profile_url: ""
+    image: ""

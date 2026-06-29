@@ -1,0 +1,96 @@
+# Decap CMS configuration for This Beautiful Sisterhood.
+# Pilot scope: edits the wishlist (_data/wishlist.yml) only.
+# Other content types (author profiles, catalog, pages) will be added later.
+
+# ---------------------------------------------------------------------------
+# BACKEND: authentication and where edits get committed.
+# Using GitHub OAuth via Netlify's free OAuth bridge service. Contributors
+# need GitHub accounts and must be added as collaborators on the repo.
+# ---------------------------------------------------------------------------
+backend:
+  name: github
+  repo: thisbeautifulsisterhood/BSBtest
+  branch: main
+  # base_url and auth_endpoint can be omitted if using Netlify's default
+  # OAuth bridge. If self-hosting an OAuth proxy, set them here.
+
+# ---------------------------------------------------------------------------
+# MEDIA: where uploaded images go (in the repo) and how they're referenced
+# from the site (in URLs).
+# ---------------------------------------------------------------------------
+media_folder: "objects"        # uploads land in /objects on the filesystem
+public_folder: "/objects"      # URLs reference /objects/<filename>
+
+# ---------------------------------------------------------------------------
+# SITE INFO: shown on the admin login page.
+# ---------------------------------------------------------------------------
+site_url: https://thisbeautifulsisterhood.org
+display_url: https://thisbeautifulsisterhood.org
+
+# ---------------------------------------------------------------------------
+# EDITORIAL WORKFLOW: if enabled, edits go through a draft/review/publish
+# workflow rather than committing directly. Recommended for production;
+# starting with simple workflow for the pilot.
+# ---------------------------------------------------------------------------
+# publish_mode: editorial_workflow
+
+# ---------------------------------------------------------------------------
+# COLLECTIONS: each entry below defines a content type contributors can edit.
+# For the pilot, only the wishlist is configured.
+# ---------------------------------------------------------------------------
+collections:
+  - name: "wishlist"
+    label: "Wishlist Authors"
+    description: >
+      The list of Black women writers we are currently researching or aspire
+      to research. New authors are almost always added with "aspirational"
+      status and promoted to "current" once a profile essay is completed.
+    files:
+      - name: "wishlist_data"
+        label: "Wishlist Authors"
+        file: "_data/wishlist.yml"
+        delete: false              # protects the file from accidental deletion
+        editor:
+          preview: false           # preview pane disabled (no useful template for YAML)
+        fields:
+          - name: "authors"
+            label: "Authors"
+            label_singular: "Author"
+            widget: "list"
+            summary: "{{name}}  —  {{status}}"   # how each entry shows in the list
+            fields:
+              - name: "name"
+                label: "Author Name"
+                widget: "string"
+                hint: "The author's full name as commonly cited in scholarship. Example: Pauline Hopkins"
+                required: true
+
+              - name: "slug"
+                label: "Slug (URL identifier)"
+                widget: "string"
+                hint: "Lowercase, underscores only. Format: lastname_firstname. Example: hopkins_pauline. Do not change once set — this is used in URLs."
+                pattern: ['^[a-z][a-z0-9_-]*$', "Lowercase letters, numbers, underscores, and dashes only. Must start with a letter."]
+                required: true
+
+              - name: "status"
+                label: "Research Status"
+                widget: "select"
+                options:
+                  - { label: "Aspirational (no profile yet)", value: "aspirational" }
+                  - { label: "Current Research (profile completed)", value: "current" }
+                default: "aspirational"
+                required: true
+
+              - name: "profile_url"
+                label: "Profile URL"
+                widget: "string"
+                hint: "Path to the author's profile page. Example: /authors/pauline-hopkins/. Leave blank for aspirational authors."
+                required: false
+
+              - name: "image"
+                label: "Author Portrait"
+                widget: "image"
+                hint: "Upload a portrait or select an existing one. Recommended size: ~400px tall, 3:4 portrait orientation. Leave blank if no portrait is available."
+                required: false
+                allow_multiple: false
+                choose_url: false   # disables URL-based image references for cleaner uploads
