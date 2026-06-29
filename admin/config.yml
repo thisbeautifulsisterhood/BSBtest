@@ -11,8 +11,9 @@ backend:
   name: github
   repo: thisbeautifulsisterhood/BSBtest
   branch: main
-  # base_url and auth_endpoint can be omitted if using Netlify's default
-  # OAuth bridge. If self-hosting an OAuth proxy, set them here.
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  site_domain: sprightly-rolypoly-e6a7c8.netlify.app
 
 # ---------------------------------------------------------------------------
 # MEDIA: where uploaded images go (in the repo) and how they're referenced
