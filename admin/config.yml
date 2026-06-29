@@ -24,8 +24,8 @@ public_folder: "/objects"      # URLs reference /objects/<filename>
 # ---------------------------------------------------------------------------
 # SITE INFO: shown on the admin login page.
 # ---------------------------------------------------------------------------
-site_url: https://thisbeautifulsisterhood.org
-display_url: https://thisbeautifulsisterhood.org
+site_url: https://thisbeautifulsisterhood.github.io/BSBtest
+display_url: https://thisbeautifulsisterhood.github.io/BSBtest
 
 # ---------------------------------------------------------------------------
 # EDITORIAL WORKFLOW: if enabled, edits go through a draft/review/publish
