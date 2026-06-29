@@ -13,43 +13,43 @@ authors:
     slug: "ida_b_wells-barnett"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/ida-b-wells/"
-    image: "wells_ida_b.png"
+    image: "ida-b-1.webp"
 
   - name: "Mary Church Terrell"
     slug: "mary_church_terrell"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/mary-church-terrell/"
-    image: "terrell_mary_church.png"
+    image: "mary-church-terrell.webp"
 
   - name: "Frances E.W. Harper"
     slug: "frances_ew_harper"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/frances-ellen-watkins-harper/#literary-works"
-    image: "harper_frances.png"
+    image: "few-harper.webp"
 
   - name: "Gertrude Bustill Mossell"
     slug: "gertrude_bustill_mossell"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/gertrude-bustill-mossell/"
-    image: "mossell_gertrude.png"
+    image: "gertrude-mossell.webp"
 
   - name: "Harriet Jacobs"
     slug: "harriet_jacobs"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/harriet-jacobs/"
-    image: "jacobs_harriet.jpg"
+    image: "harriet-1.webp"
 
   - name: "Elizabeth Keckley"
     slug: "elizabeth_keckley"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/author-page-for-elizabeth-keckley/"
-    image: "keckley_elizabeth.webp"
+    image: ""
 
   - name: "Fannie Barrier Williams"
     slug: "fannie_barrier_williams"
     status: current
     profile_url: "https://thisbeautifulsisterhood.org/fannie-barrier-williams-and-the-synecdochal-whole-charting-the-lives-and-works-of-mary-church-terrell-frances-ellen-watkins-harper-and-ida-b-wells-barnett/"
-    image: "williams_fannie_barrier.webp"
+    image: "fannie-barrier-1.webp"
 
   - name: "Octavia V. Rogers Albert"
     slug: "octavia_v_rogers_albert"
