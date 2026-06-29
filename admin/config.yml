@@ -13,7 +13,7 @@ backend:
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
-  site_domain: sprightly-rolypoly-e6a7c8.netlify.app
+  site_domain: 4650dad2-11ce-4a1d-9415-e6ef73eafd9c
 
 # ---------------------------------------------------------------------------
 # MEDIA: where uploaded images go (in the repo) and how they're referenced
