@@ -4,16 +4,20 @@
 
 # ---------------------------------------------------------------------------
 # BACKEND: authentication and where edits get committed.
-# Using GitHub OAuth via Netlify's free OAuth bridge service. Contributors
-# need GitHub accounts and must be added as collaborators on the repo.
+# For LOCAL TESTING ONLY: uses test-repo backend so saves write to local files.
+# To deploy with GitHub backend, restore the github backend config below.
 # ---------------------------------------------------------------------------
 backend:
-  name: github
-  repo: thisbeautifulsisterhood/BSBtest
-  branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  site_domain: 4650dad2-11ce-4a1d-9415-e6ef73eafd9c
+  name: test-repo
+
+# GitHub backend config (for production/deployment):
+# backend:
+#   name: github
+#   repo: thisbeautifulsisterhood/BSBtest
+#   branch: main
+#   base_url: https://api.netlify.com
+#   auth_endpoint: auth
+#   site_domain: 4650dad2-11ce-4a1d-9415-e6ef73eafd9c
 
 # ---------------------------------------------------------------------------
 # MEDIA: where uploaded images go (in the repo) and how they're referenced
@@ -25,8 +29,8 @@ public_folder: "/objects"      # URLs reference /objects/<filename>
 # ---------------------------------------------------------------------------
 # SITE INFO: shown on the admin login page.
 # ---------------------------------------------------------------------------
-site_url: https://thisbeautifulsisterhood.github.io/BSBtest
-display_url: https://thisbeautifulsisterhood.github.io/BSBtest
+site_url: http://localhost:4000
+display_url: http://localhost:4000
 
 # ---------------------------------------------------------------------------
 # EDITORIAL WORKFLOW: if enabled, edits go through a draft/review/publish
