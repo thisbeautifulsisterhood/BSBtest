@@ -1,0 +1,66 @@
+name: Report a Correction
+description: Report a factual error, typo, incorrect date, misattribution, or broken link on the site.
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the site accurate. Please provide as much detail as you can so the correction can be verified and applied confidently.
+
+  - type: input
+    id: page_url
+    attributes:
+      label: Page URL
+      description: The full URL of the page where the error appears.
+      placeholder: e.g., https://thisbeautifulsisterhood.org/ida-b-wells/
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: What currently appears?
+      description: Quote or describe the incorrect information as it appears on the site now. Copy-paste is fine.
+      placeholder: e.g., "Wells-Barnett was born in Holly Springs, Mississippi in 1861."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_text
+    attributes:
+      label: What should it say instead?
+      description: The corrected information.
+      placeholder: e.g., "Wells-Barnett was born in Holly Springs, Mississippi on July 16, 1862."
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for the correction
+      description: A published or archival source that supports the correction. Peer-reviewed scholarship, primary documents, or authoritative reference works are strongly preferred over general websites.
+      placeholder: e.g., Paula Giddings, *Ida: A Sword Among Lions* (Amistad, 2008), p. 21.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How would you characterize this?
+      options:
+        - "Typo or formatting issue (low urgency)"
+        - "Factual error (should be fixed when possible)"
+        - "Misattribution or serious error (should be fixed soon)"
+        - "Not sure"
+      default: 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Anything else?
+      description: Additional context, related pages that may have the same error, or notes about the correction.
+    validations:
+      required: false

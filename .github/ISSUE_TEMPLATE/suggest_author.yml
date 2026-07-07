@@ -1,0 +1,81 @@
+name: Suggest a New Author
+description: Propose a Black woman writer to add to the wishlist for future research.
+title: "[Suggestion] Add author: "
+labels: ["suggestion", "wishlist"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new author. This form gathers the information the team needs to evaluate whether the author fits the project scope and to seed initial research.
+
+        You don't need to answer every field — anything you know is useful.
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Author name
+      description: The author's full name as most commonly cited in scholarship.
+      placeholder: e.g., Pauline Hopkins
+    validations:
+      required: true
+
+  - type: input
+    id: life_dates
+    attributes:
+      label: Life dates (if known)
+      description: Birth and death years, or an approximate period.
+      placeholder: e.g., 1859–1930
+    validations:
+      required: false
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should this author be included?
+      description: A brief case for inclusion. What makes this author part of the "sisterhood" the project is recovering? What was excluded, silenced, or overlooked in the historical record?
+      placeholder: e.g., Hopkins edited Colored American Magazine and published four novels between 1900 and 1903, but her work was largely out of print until the 1980s...
+    validations:
+      required: true
+
+  - type: textarea
+    id: known_works
+    attributes:
+      label: Known works
+      description: List any works by this author you're aware of, especially works that might belong in our catalog. Publication years welcome.
+      placeholder: |
+        - Contending Forces (1900)
+        - Hagar's Daughter (1901–1902, serialized)
+        - Winona (1902, serialized)
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and evidence
+      description: Where did you learn about this author? Links to scholarly databases, digitized archives, biographical entries, or other authoritative sources are especially valuable.
+      placeholder: e.g., Schomburg Center Digital Collections; Lois Brown, "Pauline Hopkins" in African American National Biography...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: research_interest
+    attributes:
+      label: Are you interested in researching this author?
+      description: This helps us match aspirational entries to potential researchers.
+      options:
+        - "I want to research this author myself"
+        - "I'm suggesting for someone else to research"
+        - "Not sure yet"
+      default: 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Anything else?
+      description: Special considerations, connections to authors already in the collection, sensitivities to be aware of, etc.
+      placeholder: e.g., There's an unresolved attribution question about the serial "As the Lord Lives, He Is One of Our Mother's Children"...
+    validations:
+      required: false

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1100 1380" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1100" height="1380" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1100" height="100" fill="#1F3864"/>
+<text x="40" y="48" font-size="30" font-weight="bold" fill="#FFFFFF">Growth Inventory Review — Visual Workflow</text>
+<text x="40" y="78" font-size="15" fill="#D9E1F2">One-page guide · Train with Intent · ~272 rows, most need zero thought</text>
+<text x="40" y="140" font-size="17" fill="#1F3864" font-weight="bold" text-anchor="start">1 · How the sheet was built</text>
+<rect x="40" y="155" width="460" height="110" rx="10" fill="#D9E1F2" stroke="#4472C4" stroke-width="1.5"/>
+<text x="60" y="182" font-size="14.5" fill="#1F3864" font-weight="bold" text-anchor="start">Read-Only Script</text>
+<text x="60" y="204" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">Guessed from the FILENAME only.</text>
+<text x="60" y="221" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">Defaults to the HIGHEST classification</text>
+<text x="60" y="238" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">when unsure.</text>
+<rect x="520" y="155" width="460" height="110" rx="10" fill="#D9E1F2" stroke="#4472C4" stroke-width="1.5"/>
+<text x="540" y="182" font-size="14.5" fill="#1F3864" font-weight="bold" text-anchor="start">Summary Script</text>
+<text x="540" y="204" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">Actually read the file CONTENT.</text>
+<text x="540" y="221" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">Defaults to a LOWER classification</text>
+<text x="540" y="238" font-size="12.5" fill="#1F3864" font-weight="normal" text-anchor="start">when unsure.</text>
+<defs><marker id="arrow270265270300" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#1F3864"/></marker></defs>
+<line x1="270" y1="265" x2="270" y2="300" stroke="#1F3864" stroke-width="2" marker-end="url(#arrow270265270300)"/>
+<defs><marker id="arrow750265750300" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#1F3864"/></marker></defs>
+<line x1="750" y1="265" x2="750" y2="300" stroke="#1F3864" stroke-width="2" marker-end="url(#arrow750265750300)"/>
+<defs><marker id="arrow270300500325" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#1F3864"/></marker></defs>
+<line x1="270" y1="300" x2="500" y2="325" stroke="#1F3864" stroke-width="2" marker-end="url(#arrow270300500325)"/>
+<defs><marker id="arrow750300530325" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#1F3864"/></marker></defs>
+<line x1="750" y1="300" x2="530" y2="325" stroke="#1F3864" stroke-width="2" marker-end="url(#arrow750300530325)"/>
+<rect x="300" y="325" width="240" height="65" rx="10" fill="#E2EFDA" stroke="#375623" stroke-width="1.5"/>
+<text x="420" y="355" font-size="14" fill="#375623" font-weight="bold" text-anchor="middle">AGREE</text>
+<text x="420" y="377" font-size="12" fill="#375623" font-weight="normal" text-anchor="middle">→ nothing to do</text>
+<rect x="560" y="325" width="240" height="65" rx="10" fill="#FFF2CC" stroke="#7F5F00" stroke-width="1.5"/>
+<text x="680" y="355" font-size="14" fill="#7F5F00" font-weight="bold" text-anchor="middle">⚠ CONFLICT</text>
+<text x="680" y="377" font-size="11.5" fill="#7F5F00" font-weight="normal" text-anchor="middle">→ 19 rows total, needs you</text>
+<text x="40" y="420" font-size="12.5" fill="#595959" font-weight="normal" text-anchor="start">Rule: when unsure on a CONFLICT, pick the option BEFORE the slash — it's always the more restrictive one, on purpose.</text>
+<rect x="40" y="440" width="940" height="55" rx="10" fill="#FCE4D6" stroke="#833C00" stroke-width="1.5"/>
+<text x="60" y="465" font-size="13" fill="#833C00" font-weight="bold" text-anchor="start">Even an AGREE is still just an AI guess.</text>
+<text x="60" y="486" font-size="12" fill="#833C00" font-weight="normal" text-anchor="start">"No conflict" means both scripts happened to agree — not that they're correct. Check every row before you type a value in, don't just copy it.</text>
+<text x="40" y="525" font-size="17" fill="#1F3864" font-weight="bold" text-anchor="start">2 · Split the work</text>
+<rect x="40" y="540" width="940" height="55" rx="10" fill="#1F3864" stroke="#1F3864" stroke-width="1.5"/>
+<text x="60" y="573" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start">Filter Growth Inventory by  OWNER  (column D)  →  everyone reviews the rows where they're the listed owner</text>
+<text x="40" y="625" font-size="17" fill="#1F3864" font-weight="bold" text-anchor="start">3 · Images first  (~80% of all files)</text>
+<rect x="40" y="640" width="300" height="90" rx="10" fill="#E2EFDA" stroke="#375623" stroke-width="1.5"/>
+<text x="55" y="667" font-size="13.5" fill="#375623" font-weight="bold" text-anchor="start">Generic Device</text>
+<text x="55" y="687" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Suggested: Archive.</text>
+<text x="55" y="703" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Glance & confirm — not</text>
+<text x="55" y="719" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">a rubber stamp.</text>
+<rect x="355" y="640" width="300" height="90" rx="10" fill="#E2EFDA" stroke="#375623" stroke-width="1.5"/>
+<text x="370" y="667" font-size="13.5" fill="#375623" font-weight="bold" text-anchor="start">Screenshot</text>
+<text x="370" y="687" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Suggested: Archive.</text>
+<text x="370" y="703" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Glance & confirm — not</text>
+<text x="370" y="719" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">a rubber stamp.</text>
+<rect x="670" y="640" width="300" height="90" rx="10" fill="#E2EFDA" stroke="#375623" stroke-width="1.5"/>
+<text x="685" y="667" font-size="13.5" fill="#375623" font-weight="bold" text-anchor="start">WhatsApp Export</text>
+<text x="685" y="687" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Suggested: Dedupe then</text>
+<text x="685" y="703" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Archive. Confirm it fits.</text>
+<rect x="40" y="745" width="940" height="85" rx="10" fill="#FFF2CC" stroke="#7F5F00" stroke-width="1.5"/>
+<text x="60" y="773" font-size="14" fill="#7F5F00" font-weight="bold" text-anchor="start">Named Asset  (27 files)</text>
+<text x="60" y="793" font-size="12.5" fill="#7F5F00" font-weight="normal" text-anchor="start">Decision reads "Review individually" — that's a PLACEHOLDER, not an answer.</text>
+<text x="60" y="810" font-size="12.5" fill="#7F5F00" font-weight="normal" text-anchor="start">Open the file. Live brand asset worth keeping → set to its Marketing destination.  Dead draft → Archive.</text>
+<text x="40" y="865" font-size="17" fill="#1F3864" font-weight="bold" text-anchor="start">4 · Documents — four scenarios you'll actually hit</text>
+<rect x="40" y="880" width="460" height="140" rx="10" fill="#E2EFDA" stroke="#375623" stroke-width="1.5"/>
+<text x="58" y="910" font-size="14" fill="#375623" font-weight="bold" text-anchor="start">No tags shown</text>
+<text x="58" y="932" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">Means the 2 scripts agreed —</text>
+<text x="58" y="949" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">NOT that they're correct.</text>
+<text x="58" y="966" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">→ Read the description, confirm you</text>
+<text x="58" y="983" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">  actually agree, then type your</text>
+<text x="58" y="1000" font-size="12" fill="#375623" font-weight="normal" text-anchor="start">  confirmed values in.</text>
+<rect x="520" y="880" width="460" height="140" rx="10" fill="#FFF2CC" stroke="#7F5F00" stroke-width="1.5"/>
+<text x="538" y="910" font-size="14" fill="#7F5F00" font-weight="bold" text-anchor="start">⚠ CONFLICT tag</text>
+<text x="538" y="932" font-size="12" fill="#7F5F00" font-weight="normal" text-anchor="start">Two scripts disagreed on classification.</text>
+<text x="538" y="949" font-size="12" fill="#7F5F00" font-weight="normal" text-anchor="start">→ Pick the option BEFORE the slash,</text>
+<text x="538" y="966" font-size="12" fill="#7F5F00" font-weight="normal" text-anchor="start">  or open the file if still unsure.</text>
+<text x="538" y="983" font-size="12" fill="#7F5F00" font-weight="normal" text-anchor="start">→ In the cell: delete the option you</text>
+<text x="538" y="1000" font-size="12" fill="#7F5F00" font-weight="normal" text-anchor="start">  don't keep.</text>
+<rect x="40" y="1040" width="460" height="140" rx="10" fill="#FCE4D6" stroke="#833C00" stroke-width="1.5"/>
+<text x="58" y="1070" font-size="14" fill="#833C00" font-weight="bold" text-anchor="start">Script couldn't read the file</text>
+<text x="58" y="1092" font-size="12" fill="#833C00" font-weight="normal" text-anchor="start">Usually a PDF. Note says "could not</text>
+<text x="58" y="1109" font-size="12" fill="#833C00" font-weight="normal" text-anchor="start">read, check manually."</text>
+<text x="58" y="1126" font-size="12" fill="#833C00" font-weight="normal" text-anchor="start">→ Open the File Link yourself.</text>
+<text x="58" y="1143" font-size="12" fill="#833C00" font-weight="normal" text-anchor="start">  e.g. it's a CV → Confidential, easy.</text>
+<rect x="520" y="1040" width="460" height="140" rx="10" fill="#D9E1F2" stroke="#4472C4" stroke-width="1.5"/>
+<text x="538" y="1070" font-size="14" fill="#4472C4" font-weight="bold" text-anchor="start">⚠ Check  (location only)</text>
+<text x="538" y="1092" font-size="12" fill="#4472C4" font-weight="normal" text-anchor="start">Only ONE script found a location —</text>
+<text x="538" y="1109" font-size="12" fill="#4472C4" font-weight="normal" text-anchor="start">it never got double-checked.</text>
+<text x="538" y="1126" font-size="12" fill="#4472C4" font-weight="normal" text-anchor="start">→ Confirm or correct it.</text>
+<text x="538" y="1143" font-size="12" fill="#4472C4" font-weight="normal" text-anchor="start">  Lighter touch than a full conflict.</text>
+<rect x="40" y="1215" width="1020" height="90" rx="12" fill="#1F3864" stroke="#1F3864" stroke-width="1.5"/>
+<text x="60" y="1245" font-size="13.5" fill="#D9E1F2" font-weight="bold" text-anchor="start">DONE MEANS:</text>
+<text x="60" y="1267" font-size="12.5" fill="#FFFFFF" font-weight="normal" text-anchor="start">Every row has a real Final Location + Final Classification. No "Review individually" left. No unresolved ⚠ CONFLICT.</text>
+<text x="60" y="1289" font-size="12.5" fill="#FFFFFF" font-weight="normal" text-anchor="start">Disagree with a teammate's entry? Add a comment on the cell — don't just overwrite it.</text>
+</svg>
