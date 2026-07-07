@@ -1,0 +1,84 @@
+name: Report a Site Problem
+description: Report something broken on the site — images not loading, links going nowhere, pages not displaying correctly, etc.
+title: "[Site Issue] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. The more specific you can be about what happened and where, the faster it can be fixed.
+
+  - type: input
+    id: page_url
+    attributes:
+      label: What page or URL is affected?
+      description: The specific page where you noticed the problem. If the whole site is affected, say "site-wide".
+      placeholder: e.g., https://thisbeautifulsisterhood.org/wishlist/
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What went wrong?
+      description: Describe what you saw versus what you expected to see.
+      placeholder: e.g., The portrait for Harriet Jacobs shows as a broken image icon instead of loading. All other portraits on the same page load correctly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: What steps should we take to see the problem ourselves?
+      placeholder: |
+        1. Visit the wishlist page
+        2. Scroll to the Current Research section
+        3. Look at the fourth portrait in the top row
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: What browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Brave
+        - Other
+        - Not sure
+      default: 6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: What kind of device?
+      options:
+        - Desktop / laptop
+        - Tablet
+        - Phone
+        - Not sure
+      default: 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional but very helpful)
+      description: You can drag and drop an image into this field or paste one directly.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Anything else?
+      description: Related pages with the same problem, when it started, or anything else that might help diagnose the issue.
+    validations:
+      required: false

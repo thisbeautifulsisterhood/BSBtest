@@ -1,0 +1,12 @@
+# Configures the issue chooser page.
+# See: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: Site Editing Guide
+    url: https://github.com/thisbeautifulsisterhood/BSBtest
+    about: For step-by-step instructions on adding content, editing pages, or working with the metadata spreadsheet, see the Editing Guide.
+  - name: General question or discussion
+    url: https://github.com/thisbeautifulsisterhood/BSBtest/discussions
+    about: For open-ended questions that aren't bug reports or specific proposals, use Discussions.
