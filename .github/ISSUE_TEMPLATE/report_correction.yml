@@ -40,7 +40,7 @@ body:
     attributes:
       label: Source for the correction
       description: A published or archival source that supports the correction. Peer-reviewed scholarship, primary documents, or authoritative reference works are strongly preferred over general websites.
-      placeholder: e.g., Paula Giddings, *Ida: A Sword Among Lions* (Amistad, 2008), p. 21.
+      placeholder: "e.g., Paula Giddings, *Ida: A Sword Among Lions* (Amistad, 2008), p. 21."
     validations:
       required: false
 
