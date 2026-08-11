@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="author-profile">
+  <header class="author-header">
+    {% if page.portrait %}
+    <figure class="author-portrait-figure">
+      <img src="{{ '/objects/' | append: page.portrait | relative_url }}"
+           alt="{{ page.title }}"
+           class="author-portrait"
+           onerror="this.style.display='none'">
+      {% if page.portrait_caption %}
+      <figcaption class="author-portrait-caption">{{ page.portrait_caption }}</figcaption>
+      {% endif %}
+    </figure>
+    {% endif %}
+    <div class="author-header-text">
+      <h1>{{ page.title }}</h1>
+      {% if page.contributor %}<p class="author-byline">By {{ page.contributor }}</p>{% endif %}
+    </div>
+  </header>
+
+  <hr class="author-rule">
+
+  {% if page.summary %}
+  <p class="author-summary">{{ page.summary }}</p>
+  <hr class="author-rule">
+  {% endif %}
+
+  <div class="author-essay">
+    {{ content }}
+  </div>
+
+  {% assign related_works = site.data.collection_metadata_100
+       | where: "creator", page.title %}
+  {% if related_works.size > 0 %}
+  <section class="author-works">
+    <h2>Literary Works by {{ page.title }}</h2>
+    <ul>
+      {% for work in related_works %}
+        <li><a href="/items/{{ work.objectid }}/">{{ work.title }}</a>{% if work.date %} ({{ work.date }}){% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <p class="back-link"><a href="/wishlist/">← Back to the Wish List</a></p>
+</article>

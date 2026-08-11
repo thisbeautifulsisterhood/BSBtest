@@ -142,7 +142,7 @@ The Beautiful Sisterhood project publishes crowd-sourced research from scholars 
 
 ## Current Research Developed from the Wishlist
 
-{% assign current = site.data.wishlist.authors | where: "status", "current" %}
+{% assign current = site.data.wishlist | where: "status", "current" %}
 <ul class="current-grid">
 {% for author in current %}
   <li>
@@ -160,7 +160,7 @@ The Beautiful Sisterhood project publishes crowd-sourced research from scholars 
 
 <p class="wishlist-blurb">We still need your contributions! In the form, add authors and works for inclusion, or propose your research projects about the authors and works already listed in our <em>Current Research</em> and <em>Aspirational Research</em> lists.</p>
 
-{% assign aspirational = site.data.wishlist.authors | where: "status", "aspirational" %}
+{% assign aspirational = site.data.wishlist | where: "status", "aspirational" %}
 <ul class="aspirational-list">
 {% for author in aspirational %}
   <li>{% if author.highlight == "true" %}<span style="color: var(--wl-gold);">{{ author.name }}</span>{% else %}{{ author.name }}{% endif %}</li>

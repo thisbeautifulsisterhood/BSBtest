@@ -1,4 +1,142 @@
-/* 
-    Put your custom SCSS here! 
+/*
+    Put your custom SCSS here!
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+.author-profile {
+  --author-green: #3f6b4f;
+  --author-ink: #1a1a1a;
+  --author-gray: #6b6b6b;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--author-ink);
+}
+
+
+/* Header: portrait + title/byline side by side */
+.author-header {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.author-portrait-figure {
+  margin: 0;
+  text-align: center;
+}
+.author-portrait {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.author-portrait-caption {
+  text-align: center;
+  font-size: 0.95rem;
+  font-style: normal;
+  color: var(--author-ink);
+  margin-top: 0.75rem;
+}
+.author-header-text h1 {
+  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--author-green);
+  font-weight: 700;
+  font-size: 2.75rem;
+  margin: 0 0 0.75rem;
+}
+.author-byline {
+  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--author-ink);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.author-rule {
+  border: none;
+  border-top: 2px solid var(--author-ink);
+  width: 220px;
+  margin: 2rem auto;
+}
+
+.author-summary {
+  color: var(--author-green);
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 720px;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+.author-essay {
+  max-width: 700px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.85;
+}
+
+.author-essay h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+.author-essay p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: unquote("clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.37), 24px)");
+  margin-bottom: 1.2rem;
+}
+
+/* Captioned inline images within the essay body */
+.body-image {
+  display: block;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto 0.5rem;
+}
+.body-image-caption {
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--author-gray);
+}
+
+/* Pull quotes */
+.pull-quote {
+  border-left: 3px solid var(--author-ink);
+  padding-left: 1.25rem;
+  margin: 2rem 0;
+}
+.pull-quote p:first-child {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.pull-quote p:last-child {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--author-ink);
+  margin: 0;
+}
+
+.author-works {
+  margin-top: 3rem;
+  border-top: 1px solid #c9c9c9;
+  padding-top: 1.5rem;
+}
+
+.back-link {
+  margin-top: 2rem;
+}
+.back-link a {
+  color: var(--author-green);
+}
