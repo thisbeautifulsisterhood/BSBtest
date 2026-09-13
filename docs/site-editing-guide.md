@@ -16,7 +16,7 @@ added on top.
 3. [Creating & editing pages](#3-creating--editing-pages)
 4. [CSS & styling](#4-css--styling)
 5. [Adding & placing data](#5-adding--placing-data)
-6. [Build, deploy, and the Decap CMS pilot](#6-build-deploy-and-the-decap-cms-pilot)
+6. [Build & deploy](#6-build--deploy)
 7. [Conventions & standards](#7-conventions--standards)
 8. [Known gaps worth flagging to new contributors](#8-known-gaps-worth-flagging-to-new-contributors)
 9. [Quick reference — "I want to…"](#9-quick-reference--i-want-to)
@@ -128,8 +128,8 @@ Author essays are a Jekyll *collection* (configured in `_config.yml` as `authors
 **To add a new author profile:**
 
 1. Add a portrait image to `objects/` (e.g. `hopkins_pauline.jpg`).
-2. Create `_authors/hopkins_pauline.md` with front matter matching the existing example
-   (`_authors/ida_b_wells-barnett.md`):
+2. Copy `_authors/_TEMPLATE.md` to `_authors/hopkins_pauline.md`, remove its `published: false` line, and fill
+   in the front matter. (`_authors/ida_b_wells-barnett.md` is also a good worked example to reference.)
 
 ```yaml
 ---
@@ -316,7 +316,7 @@ auto-fill it from).
 
 ---
 
-## 6. Build, deploy, and the Decap CMS pilot
+## 6. Build & deploy
 
 ### How a change goes live
 
@@ -333,18 +333,8 @@ CSV row with the wrong number of columns, or a broken image reference.
   one other team member before merging.
 - **No write access** — fork the repo and open a pull request against it; same flow as any open-source project.
 
-### The Decap CMS pilot (`/admin`)
-
-`admin/config.yml` configures a [Decap CMS](https://decapcms.org/) editing interface, reachable at `/admin`, as
-a friendlier alternative to editing raw CSV/YAML on GitHub. As configured today it is explicitly scoped to a
-single pilot use case: editing the wishlist's author list through a form, with fields for name, slug, research
-status, profile URL, and portrait upload.
-
-> **Not yet wired to production:** the backend is currently set to `test-repo` — "for local testing only," per
-> its own comments — meaning saves in `/admin` write to local files, not to GitHub. Going live requires
-> switching to the commented-out `github` backend block. It also currently targets `_data/wishlist.yml`, while
-> the live wishlist data actually lives in `_data/wishlist.csv` — that mismatch needs to be resolved before the
-> CMS pilot can edit the real file.
+There is currently no CMS/form-based editing layer for this repository — all edits (data rows, essays, config)
+go through GitHub directly, using the workflow above.
 
 ---
 
@@ -376,13 +366,6 @@ A few things in the current state of the repo are worth knowing about up front, 
 - **This file fills a documented gap.** `CONTRIBUTING.md` repeatedly points to a "Site Editing Guide in the
   project documentation" — no such file existed in this repository until this one. Treat it as that guide, and
   keep it updated as the project evolves.
-- **"Literary Works" list on author pages doesn't currently populate.** `_layouts/author.html` looks up related
-  works via `site.data.collection_metadata_100` — a variable name that doesn't match the project's actual data
-  (`site.data.bsbtest`, referenced elsewhere as `site.data[site.metadata]`). As written, that section will
-  always render empty.
-- **Decap CMS pilot isn't connected to the live wishlist file.** Covered in [§6](#6-build-deploy-and-the-decap-cms-pilot):
-  `test-repo` backend plus a filename mismatch (`wishlist.yml` configured vs. `wishlist.csv` in use) mean edits
-  through `/admin` don't yet reach the real site.
 - **This may be a test/staging branch.** The repository name and several `wishlist.csv` `profile_url` values
   pointing to `thisbeautifulsisterhood.org` (the live site) rather than in-repo paths suggest this `BSBtest`
   repository is a staging or development copy, separate from production. Confirm with the maintainer before
@@ -408,4 +391,4 @@ A few things in the current state of the repo are worth knowing about up front, 
 ---
 
 *Compiled from the repository: `_config.yml`, `CONTRIBUTING.md`, `_data/`, `_layouts/`, `_includes/`, `_sass/`,
-`_authors/`, `pages/`, and `admin/config.yml`.*
+`_authors/`, and `pages/`.*

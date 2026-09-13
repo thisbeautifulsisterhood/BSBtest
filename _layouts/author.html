@@ -31,7 +31,7 @@ layout: default
     {{ content }}
   </div>
 
-  {% assign related_works = site.data.collection_metadata_100
+  {% assign related_works = site.data[site.metadata]
        | where: "creator", page.title %}
   {% if related_works.size > 0 %}
   <section class="author-works">

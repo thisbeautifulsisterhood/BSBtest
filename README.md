@@ -1,3 +1,13 @@
+# This Beautiful Sisterhood
+
+A digital recovery project cataloging Black women writers excluded from the Woman's Department of the 1884
+New Orleans World's Fair. Built on the CollectionBuilder-GH template described below.
+
+**New to this repo?** Start with the [Site Editing Guide](docs/site-editing-guide.md) for how pages, styling,
+and data fit together, and [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and conventions.
+
+---
+
 # CollectionBuilder-GH
 
 A project to generate a free and simple digital collection site using [GitHub Pages](https://pages.github.com/) given:

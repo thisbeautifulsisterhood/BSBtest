@@ -2,7 +2,7 @@
 
 Thank you for helping build this recovery project. This document explains how to contribute to the site — whether you're on the research team, a collaborator from another institution, or someone with a suggestion to share.
 
-For step-by-step instructions on specific editing tasks (adding an author, updating the catalog, editing pages), see the **Site Editing Guide** in the project documentation. This document covers the higher-level workflow, conventions, and how to work with the rest of the team.
+For step-by-step instructions on specific editing tasks (adding an author, updating the catalog, editing pages), see the **[Site Editing Guide](docs/site-editing-guide.md)**. This document covers the higher-level workflow, conventions, and how to work with the rest of the team.
 
 ## Who this guide is for
 
