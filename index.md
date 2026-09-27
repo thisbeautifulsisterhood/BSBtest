@@ -1,5 +1,5 @@
 ---
-layout: home-infographic
+layout: page-full-width
 title: Home
 ---
 
