@@ -3,77 +3,126 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+
+/* ==================================================
+   AUTHOR PAGE STYLES
+   ================================================== */
+
 .author-profile {
   --author-green: #3f6b4f;
   --author-ink: #1a1a1a;
   --author-gray: #6b6b6b;
+
   max-width: 900px;
   margin: 0 auto;
-  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  font-family: "Alegreya Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+
   color: var(--author-ink);
 }
 
 
 /* Header: portrait + title/byline side by side */
+
 .author-header {
   display: grid;
   grid-template-columns: minmax(220px, 320px) 1fr;
   gap: 2.5rem;
+
   align-items: start;
+
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
 }
+
 .author-portrait-figure {
   margin: 0;
   text-align: center;
 }
+
 .author-portrait {
   width: 100%;
   max-width: 320px;
   height: auto;
+
   display: block;
+
   margin: 0 auto;
 }
+
 .author-portrait-caption {
   text-align: center;
+
   font-size: 0.95rem;
   font-style: normal;
+
   color: var(--author-ink);
+
   margin-top: 0.75rem;
 }
+
 .author-header-text h1 {
-  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Alegreya Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+
   color: var(--author-green);
+
   font-weight: 700;
   font-size: 2.75rem;
+
   margin: 0 0 0.75rem;
 }
+
 .author-byline {
-  font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Alegreya Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+
   color: var(--author-ink);
+
   font-size: 1rem;
+
   margin: 0;
 }
 
 .author-rule {
   border: none;
   border-top: 2px solid var(--author-ink);
+
   width: 220px;
+
   margin: 2rem auto;
 }
 
 .author-summary {
   color: var(--author-green);
+
   font-weight: 700;
   font-size: 1.15rem;
   line-height: 1.6;
+
   max-width: 720px;
+
   text-align: center;
+
   margin: 1.5rem auto;
 }
 
 .author-essay {
   max-width: 700px;
+
   font-family: "Alegreya Sans", sans-serif;
   font-size: 1.15rem;
   line-height: 1.85;
@@ -81,62 +130,458 @@
 
 .author-essay h2 {
   font-family: "Alegreya Sans", sans-serif;
+
   font-weight: 700;
   font-size: 1.9rem;
 }
 
 .author-essay p {
   font-family: "Alegreya Sans", sans-serif;
+
   font-weight: 400;
-  font-size: unquote("clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.37), 24px)");
+
+  font-size: unquote(
+    "clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.37), 24px)"
+  );
+
   margin-bottom: 1.2rem;
 }
 
+
 /* Captioned inline images within the essay body */
+
 .body-image {
   display: block;
+
   max-width: 480px;
   width: 100%;
   height: auto;
+
   margin: 2rem auto 0.5rem;
 }
+
 .body-image-caption {
   max-width: 480px;
+
   margin: 0 auto 2rem;
+
   text-align: center;
+
   font-size: 0.85rem;
   font-style: italic;
+
   color: var(--author-gray);
 }
 
+
 /* Pull quotes */
+
 .pull-quote {
   border-left: 3px solid var(--author-ink);
+
   padding-left: 1.25rem;
+
   margin: 2rem 0;
 }
+
 .pull-quote p:first-child {
   font-weight: 700;
   font-style: italic;
   font-size: 1.1rem;
+
   margin-bottom: 0.5rem;
 }
+
 .pull-quote p:last-child {
   font-style: italic;
   font-size: 0.95rem;
+
   color: var(--author-ink);
+
   margin: 0;
 }
 
 .author-works {
   margin-top: 3rem;
+
   border-top: 1px solid #c9c9c9;
+
   padding-top: 1.5rem;
 }
 
 .back-link {
   margin-top: 2rem;
 }
+
 .back-link a {
   color: var(--author-green);
+}
+
+
+/* ==================================================
+   BEAUTIFUL SISTERHOOD HOMEPAGE
+   ================================================== */
+
+
+/* HERO */
+
+.bsb-hero {
+  min-height: 994px;
+
+  background:
+    linear-gradient(
+      rgba(185, 193, 181, 0.2),
+      rgba(185, 193, 181, 0.2)
+    ),
+    url("../img/bsb/hero.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bsb-hero-box {
+  width: 100%;
+
+  padding: 80px 30px;
+
+  text-align: center;
+
+  background: rgba(128, 161, 158, 0.68);
+}
+
+.bsb-hero h1 {
+  margin: 0 0 45px;
+
+  font-family: "Playfair Display", Georgia, serif;
+
+  font-size: unquote(
+    "clamp(34px, 5vw, 60px)"
+  );
+
+  font-weight: 400;
+
+  text-transform: uppercase;
+}
+
+.bsb-hero p {
+  max-width: 1000px;
+
+  margin: auto;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(24px, 3vw, 32px)"
+  );
+
+  line-height: 1.4;
+}
+
+
+/* ABOUT */
+
+.bsb-about {
+  background: #faf9f6;
+
+  padding: 100px 5%;
+}
+
+.bsb-about-grid {
+  max-width: 1400px;
+
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+}
+
+.bsb-about h2 {
+  margin-top: 0;
+
+  font-family: "Playfair Display", Georgia, serif;
+
+  font-size: unquote(
+    "clamp(40px, 5vw, 64px)"
+  );
+
+  font-weight: 600;
+
+  line-height: 1.15;
+}
+
+.bsb-about p {
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.6;
+}
+
+.bsb-about img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+}
+
+.bsb-about-text img {
+  margin: 35px 0;
+}
+
+.bsb-about-images img {
+  margin-bottom: 35px;
+}
+
+.bsb-about-images img:first-child {
+  box-shadow: 12px 12px 50px #a4ae96;
+}
+
+
+/* EXPLORE THE COLLECTION */
+
+.bsb-explore {
+  background: #faf9f6;
+
+  padding: 30px 5% 100px;
+}
+
+.bsb-explore hr {
+  border: 0;
+  border-top: 2px solid #d4af37;
+
+  width: 100px;
+
+  margin: 0 auto 45px;
+}
+
+.bsb-explore > h2 {
+  text-align: center;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(36px, 4vw, 48px)"
+  );
+
+  font-weight: 600;
+
+  margin-bottom: 80px;
+}
+
+.bsb-explore-grid {
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.bsb-card {
+  position: relative;
+
+  border: 5px solid #edf2f7;
+
+  padding: 55px 30px 30px;
+
+  color: #2d3748;
+
+  text-decoration: none;
+
+  min-height: 230px;
+}
+
+.bsb-card:hover {
+  text-decoration: none;
+}
+
+.bsb-card h3 {
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+.bsb-card p {
+  font-size: 20px;
+
+  line-height: 1.4;
+}
+
+.bsb-icon {
+  position: absolute;
+
+  top: -48px;
+  left: 28px;
+
+  width: 90px;
+  height: 90px;
+
+  background: #80a19e;
+
+  border: 5px solid #edf2f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 45px;
+}
+
+.bsb-icon.green {
+  background: #a4ae96;
+}
+
+.bsb-icon.purple {
+  background: #c3abba;
+}
+
+
+/* BSB DIVIDER */
+
+.bsb-footer-title {
+  display: flex;
+  align-items: center;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 42px;
+
+  font-weight: 700;
+
+  padding: 15px 0;
+}
+
+.bsb-footer-title::before,
+.bsb-footer-title::after {
+  content: "";
+
+  height: 2px;
+
+  background: #1c1917;
+
+  flex: 1;
+}
+
+.bsb-footer-title span {
+  padding: 0 25px;
+}
+
+
+/* EXPAND THE SISTERHOOD */
+
+.bsb-expand {
+  background: #faf9f6;
+
+  padding: 80px 5%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+
+  align-items: center;
+}
+
+.bsb-expand h2 {
+  font-size: unquote(
+    "clamp(36px, 4vw, 48px)"
+  );
+
+  font-weight: 600;
+}
+
+.bsb-buttons {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 25px;
+}
+
+.bsb-button {
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+
+  color: #111;
+
+  text-decoration: none;
+}
+
+.bsb-button.blue {
+  background: #80a19e;
+}
+
+.bsb-button.purple-button {
+  background: #c3abba;
+}
+
+.bsb-footer-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  box-shadow: 12px 12px 50px #a4ae96;
+}
+
+
+/* ==================================================
+   HOMEPAGE MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-hero {
+    min-height: 650px;
+
+    background-attachment: scroll;
+  }
+
+  .bsb-hero-box {
+    padding: 60px 20px;
+  }
+
+  .bsb-about {
+    padding: 70px 25px;
+  }
+
+  .bsb-about-grid {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .bsb-explore {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .bsb-explore-grid {
+    grid-template-columns: 1fr;
+
+    gap: 80px;
+  }
+
+  .bsb-expand {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+
+    padding: 60px 25px;
+  }
+
+  .bsb-buttons {
+    flex-wrap: wrap;
+  }
 }
