@@ -1,10 +1,10 @@
 display_name,stub,dropdown_parent
 Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Locations,/locations.html
-Map,/map.html
-Timeline,/timeline.html
-Data,/data.html
-About,/about.html
-Wish List,/wishlist/
+Search the Sisterhood,/search.html,
+Browse,/browse.html,Search the Sisterhood
+Subjects,/subjects.html,Search the Sisterhood
+Locations,/locations.html,Search the Sisterhood
+Map,/map.html,Search the Sisterhood
+Study the Sisterhood,/about.html,
+Teach the Sisterhood,/timeline.html,
+Join the Sisterhood,/wishlist/,
