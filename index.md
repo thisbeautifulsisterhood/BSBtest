@@ -50,7 +50,7 @@ title: Home
     <div class="bsb-about-images">
 
       <img
-        src="{{ '/assets/img/bsb/eminent-women.png' | relative_url }}"
+        src="{{ '/assets/img/bsb/eminent-women.webp' | relative_url }}"
         alt="Eminent Women 1884"
       >
 
