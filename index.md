@@ -140,8 +140,8 @@ title: Home
           </a>
           about your ideas. We welcome your
           <a href="https://thisbeautifulsisterhood.org/contact-us/">
-            contributions
-          </a>!
+            contributions!
+          </a>
         </p>
 
       </div>
