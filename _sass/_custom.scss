@@ -241,9 +241,6 @@
    BEAUTIFUL SISTERHOOD HOMEPAGE
    ================================================== */
 
-
-/* Homepage palette */
-
 .bsb-home {
   --bsb-black: #1c1917;
   --bsb-gray: #71717a;
@@ -257,7 +254,6 @@
   width: 100%;
 
   margin: 0;
-
   padding: 0;
 
   color: var(--bsb-black);
@@ -267,8 +263,6 @@
   font-family: "Figtree", Arial, sans-serif;
 }
 
-
-/* Prevent inherited Bootstrap container spacing from affecting sections */
 
 .bsb-home *,
 .bsb-home *::before,
@@ -399,8 +393,9 @@
 
   margin: 0;
 
-  padding: unquote("clamp(60px, 12vw, 120px)")
-           unquote("clamp(20px, 4vw, 40px)");
+  padding:
+    unquote("clamp(60px, 12vw, 120px)")
+    unquote("clamp(20px, 4vw, 40px)");
 }
 
 
@@ -465,7 +460,9 @@
 
 
 
-/* Main exposition figure */
+/* ==================================================
+   MAIN EXPOSITION FIGURE
+   ================================================== */
 
 .bsb-main-figure {
   width: 100%;
@@ -612,38 +609,35 @@
 
 
 /* ==================================================
-   EXPLORE
+   EXPLORE THE COLLECTION
    ================================================== */
 
 .bsb-explore {
-  margin: 0;
+  background: #ffffff;
 
-  padding:
-    0
-    unquote("clamp(20px, 4vw, 40px)")
-    80px;
-
-  background: var(--bsb-off-white);
+  padding: 48px 0 70px;
 }
 
 
 .bsb-gold-rule {
   border: 0;
 
-  border-top: 2px solid var(--bsb-gold);
+  border-top: 2px solid #d4af37;
 
-  width: 100px;
+  width: calc(100% - 440px);
 
-  margin: 0 auto 60px;
+  max-width: 1215px;
+
+  margin: 0 auto 58px;
 }
 
 
 .bsb-explore > h2 {
-  margin: 0 0 90px;
-
-  color: var(--bsb-black);
+  margin: 0 0 55px;
 
   text-align: center;
+
+  color: #1c1917;
 
   font-family: "DM Sans", Arial, sans-serif;
 
@@ -658,56 +652,60 @@
 
 
 .bsb-explore-grid {
-  max-width: 1200px;
+  max-width: 1215px;
 
   margin: 0 auto;
 
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 48px 85px 40px;
+
+  background: #faf9f6;
 
   display: grid;
 
   grid-template-columns: repeat(3, minmax(0, 1fr));
 
-  gap: 80px;
+  column-gap: 70px;
+  row-gap: 40px;
 }
 
 
 
-/* Explore card */
+/* ==================================================
+   EXPLORE CARDS
+   ================================================== */
 
 .bsb-card {
   position: relative;
 
   display: block;
 
-  min-height: 235px;
+  min-height: 215px;
 
-  margin-top: 50px;
+  margin-top: 36px;
 
-  padding: 55px 24px 24px;
+  padding: 52px 20px 22px;
 
-  border: 5px solid var(--bsb-card-border);
+  border: 5px solid #edf2f7;
 
   background: transparent;
 
-  color: #2d3748;
+  color: #1c1917;
 
   text-decoration: none;
 }
 
 
 .bsb-card:hover {
-  color: #2d3748;
+  color: #1c1917;
 
   text-decoration: none;
 }
 
 
 .bsb-card h3 {
-  margin: 5px 0 10px;
+  margin: 0 0 14px;
 
-  color: #2d3748;
+  color: #1c1917;
 
   font-family: "Figtree", Arial, sans-serif;
 
@@ -719,14 +717,19 @@
 }
 
 
+.bsb-card:first-child h3 {
+  font-weight: 700;
+}
+
+
 .bsb-card p {
   margin: 0;
 
-  color: #2d3748;
+  color: #1c1917;
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: 20px;
+  font-size: 18px;
 
   font-weight: 400;
 
@@ -735,59 +738,57 @@
 
 
 
-/* Explore icons */
+/* ==================================================
+   EXPLORE ICONS
+   ================================================== */
 
 .bsb-icon {
   position: absolute;
 
-  top: -50px;
-  left: 24px;
+  top: -42px;
+  left: 20px;
 
-  width: 90px;
-  height: 90px;
+  width: 84px;
+  height: 84px;
 
-  padding: 20px;
+  padding: 18px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border: 5px solid #eeeeee;
+  border: 5px solid #edf2f7;
 
-  color: rgba(0, 0, 0, 0.9);
+  color: #111111;
 }
 
 
 .bsb-icon svg {
   display: block;
 
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 
 .bsb-icon-blue {
-  background: var(--bsb-blue);
+  background: #80a19e;
 }
 
 
 .bsb-icon-green {
-  background: var(--bsb-green);
-
-  color: rgba(0, 0, 0, 0.91);
+  background: #a4ae96;
 }
 
 
 .bsb-icon-purple {
-  background: var(--bsb-purple);
-
-  color: rgba(0, 0, 0, 0.87);
+  background: #c3abba;
 }
 
 
 
 /* ==================================================
-   BSB FOOTER DIVIDER
+   BSB DIVIDER
    ================================================== */
 
 .bsb-footer-title {
@@ -796,10 +797,10 @@
   display: flex;
 
   align-items: center;
-
   justify-content: center;
 
-  padding: 10px 0;
+  padding: 0;
+  margin: 0;
 
   background: #ffffff;
 }
@@ -813,22 +814,24 @@
 
   height: 2px;
 
-  background: var(--bsb-black);
+  background: #ead79a;
 }
 
 
 .bsb-footer-title span {
-  padding: 0 28px;
+  padding: 0 16px;
 
-  color: var(--bsb-black);
+  color: #80a19e;
+
+  background: #ffffff;
 
   font-family: "DM Sans", Arial, sans-serif;
 
   font-size: 42px;
 
-  font-weight: 700;
+  font-weight: 400;
 
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 
@@ -840,19 +843,19 @@
 .bsb-expand {
   width: 100%;
 
-  margin: 0;
+  max-width: 1215px;
 
-  padding:
-    unquote("clamp(40px, 8vw, 80px)")
-    unquote("clamp(20px, 4vw, 40px)");
+  margin: 0 auto;
 
-  background: var(--bsb-off-white);
+  padding: 70px 0;
+
+  background: #faf9f6;
 
   display: grid;
 
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr 1.1fr;
 
-  gap: 40px;
+  gap: 80px;
 
   align-items: center;
 }
@@ -860,13 +863,14 @@
 
 .bsb-expand-text {
   width: 100%;
+  padding-left: 0;
 }
 
 
 .bsb-expand h2 {
-  margin: 0 0 35px;
+  margin: 0 0 18px;
 
-  color: var(--bsb-black);
+  color: #1c1917;
 
   font-family: "DM Sans", Arial, sans-serif;
 
@@ -876,32 +880,47 @@
 
   font-weight: 400;
 
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 
 .bsb-expand p {
-  margin: 0 0 28px;
+  margin: 0 0 18px;
+
+  color: #1c1917;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 18px;
+
+  line-height: 1.4;
 }
 
 
 .bsb-footer-label {
-  color: #000000 !important;
+  margin-top: 0;
+
+  color: #1c1917 !important;
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: unquote(
-    "clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.37), 24px)"
-  );
+  font-size: 18px;
+
+  font-weight: 400;
 }
 
 
-.bsb-buttons {
-  margin-top: 25px;
 
+/* ==================================================
+   BUTTONS
+   ================================================== */
+
+.bsb-buttons {
   display: flex;
 
   gap: 10px;
+
+  margin-top: 28px;
 
   flex-wrap: wrap;
 }
@@ -910,38 +929,47 @@
 .bsb-button {
   display: inline-block;
 
-  padding: unquote("clamp(10px, 2vw, 20px)");
+  padding: 16px 20px;
 
   border: 0;
 
-  color: var(--bsb-black) !important;
+  color: #1c1917 !important;
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: unquote(
-    "clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.37), 18px)"
-  );
+  font-size: 16px;
 
-  font-weight: 400;
+  font-weight: 700;
 
-  line-height: 1.4;
+  line-height: 1;
+
+  text-transform: uppercase;
 
   text-decoration: none !important;
 }
 
 
 .bsb-button-blue {
-  background: var(--bsb-blue);
+  background: #80a19e;
 }
 
 
 .bsb-button-purple {
-  background: var(--bsb-purple);
+  background: #c3abba;
 }
 
 
+
+/* ==================================================
+   EXPAND IMAGE
+   ================================================== */
+
 .bsb-expand-image {
   width: 100%;
+
+  display: flex;
+
+  justify-content: flex-end;
 }
 
 
@@ -949,11 +977,16 @@
   display: block;
 
   width: 100%;
+
+  max-width: 590px;
+
   height: auto;
 
   border-radius: 0;
 
-  box-shadow: 12px 12px 50px 0 var(--bsb-green);
+  box-shadow:
+    0 0 60px 5px #a4ae96,
+    0 0 14px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -973,6 +1006,25 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
 
     gap: 40px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+
+  .bsb-expand {
+    max-width: calc(100% - 40px);
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+
+    padding: 60px 20px;
+  }
+
+
+  .bsb-expand-image img {
+    max-width: 100%;
   }
 
 }
@@ -1019,18 +1071,26 @@
   }
 
 
+  .bsb-gold-rule {
+    width: calc(100% - 40px);
+
+    margin-bottom: 40px;
+  }
+
+
   .bsb-explore {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 45px 20px 60px;
   }
 
 
   .bsb-explore > h2 {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
 
 
   .bsb-explore-grid {
+    padding: 45px 25px 35px;
+
     grid-template-columns: 1fr;
 
     gap: 65px;
@@ -1042,17 +1102,40 @@
   }
 
 
-  .bsb-expand {
-    grid-template-columns: 1fr;
-
-    gap: 55px;
-
-    padding: 60px 20px;
+  .bsb-footer-title span {
+    font-size: 34px;
   }
 
 
-  .bsb-footer-title span {
-    font-size: 34px;
+  .bsb-footer-title::before,
+  .bsb-footer-title::after {
+    height: 2px;
+  }
+
+
+  .bsb-expand {
+    max-width: calc(100% - 40px);
+
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+
+    padding: 50px 20px;
+  }
+
+
+  .bsb-expand h2 {
+    font-size: 36px;
+  }
+
+
+  .bsb-expand-image {
+    justify-content: center;
+  }
+
+
+  .bsb-buttons {
+    flex-wrap: wrap;
   }
 
 }
