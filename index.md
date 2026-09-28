@@ -158,7 +158,7 @@ title: Home
         <figure class="bsb-eminent-figure">
 
           <img
-            src="{{ '/assets/img/bsb/eminent-women.png' | relative_url }}"
+            src="{{ '/assets/img/bsb/eminent-women.webp' | relative_url }}"
             alt="This composite photograph hung over Maud Howe’s desk in the Woman’s Literary Department at the 1884 New Orleans World’s Fair."
           >
 
