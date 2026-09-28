@@ -276,7 +276,7 @@ title: Home
         </div>
 
         <h3>
-          <strong>Search!</strong>
+          Search!
         </h3>
 
         <p>
