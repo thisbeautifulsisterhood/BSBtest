@@ -26,6 +26,58 @@ title: Home
 
   </section>
 
+  <nav class="bsb-search-nav">
+
+    <div class="bsb-search-nav-inner">
+
+      <a href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+      <div class="bsb-search-nav-dropdown">
+
+        <a href="{{ '/search.html' | relative_url }}">
+          Search the Sisterhood
+          <span class="bsb-nav-arrow">⌄</span>
+        </a>
+
+        <div class="bsb-search-nav-menu">
+
+          <a href="{{ '/subjects.html' | relative_url }}">
+            Genres
+          </a>
+
+          <a href="{{ '/subjects.html' | relative_url }}">
+            Keywords
+          </a>
+
+          <a href="{{ '/locations.html' | relative_url }}">
+            States
+          </a>
+
+          <a href="{{ '/authors/' | relative_url }}">
+            Authors
+          </a>
+
+        </div>
+
+      </div>
+
+      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
+        Study the Sisterhood
+      </a>
+
+      <a href="https://thisbeautifulsisterhood.org/teaching/">
+        Teach the Sisterhood
+      </a>
+
+      <a href="https://thisbeautifulsisterhood.org/join/">
+        Join the Sisterhood
+      </a>
+
+    </div>
+
+  </nav>
 
   <!-- ==================================================
        ABOUT THIS BEAUTIFUL SISTERHOOD
