@@ -1917,3 +1917,25 @@
   }
 
 }
+
+/* ==================================================
+   HIDE COLLECTIONBUILDER DEFAULT HEADER + FOOTER
+   SITE-WIDE
+   ================================================== */
+
+/* Top black CollectionBuilder navigation/header */
+nav.navbar,
+.navbar-dark,
+#site-nav,
+.site-nav,
+header.site-header {
+  display: none !important;
+}
+
+
+/* Bottom black CollectionBuilder footer */
+footer,
+#footer,
+.site-footer {
+  display: none !important;
+}
