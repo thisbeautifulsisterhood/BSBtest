@@ -1134,3 +1134,655 @@
   }
 
 }
+
+/* ==================================================
+   SEARCH THE SISTERHOOD PAGE
+   ================================================== */
+
+.bsb-search-page {
+  --bsb-black: #1c1917;
+  --bsb-green: #a4ae96;
+  --bsb-purple: #c3abba;
+  --bsb-off-white: #faf9f6;
+  --bsb-gold: #d4af37;
+  --bsb-blue: #80a19e;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: var(--bsb-black);
+
+  background: #ffffff;
+
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+
+.bsb-search-page *,
+.bsb-search-page *::before,
+.bsb-search-page *::after {
+  box-sizing: border-box;
+}
+
+
+.bsb-search-page p {
+  color: var(--bsb-black);
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.45;
+}
+
+
+.bsb-search-page a {
+  color: var(--bsb-black);
+
+  text-decoration: none;
+}
+
+
+.bsb-search-page a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* ==================================================
+   SEARCH PAGE HERO
+   ================================================== */
+
+.bsb-search-hero {
+  min-height: 445px;
+
+  padding: 0 20px;
+
+  background:
+    linear-gradient(
+      rgba(185, 193, 181, 0.18),
+      rgba(185, 193, 181, 0.18)
+    ),
+    url("../img/bsb/hero.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: repeat;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+.bsb-search-hero-box {
+  width: 100%;
+
+  max-width: 1215px;
+
+  padding: 60px 20px;
+
+  background: rgba(128, 161, 158, 0.54);
+}
+
+
+.bsb-search-hero h1 {
+  margin: 0 0 48px;
+
+  color: var(--bsb-black);
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(40px, 2.5rem + ((1vw - 3.2px) * 1.111), 52px)"
+  );
+
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+
+.bsb-search-hero p {
+  margin: 0;
+
+  color: var(--bsb-black);
+
+  font-size: unquote(
+    "clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.556), 26px)"
+  );
+
+  line-height: 1.4;
+}
+
+
+
+/* ==================================================
+   DISCOVER THE SISTERHOOD
+   ================================================== */
+
+.bsb-discover {
+  width: 100%;
+
+  padding: 95px 20px 70px;
+
+  background: #ffffff;
+}
+
+
+.bsb-discover-grid {
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 35px;
+
+  align-items: center;
+}
+
+
+.bsb-discover-image {
+  width: 100%;
+}
+
+
+.bsb-discover-image img {
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  box-shadow:
+    10px 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+
+.bsb-discover-content h2 {
+  margin: 0 0 18px;
+
+  color: var(--bsb-black);
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(38px, 2.375rem + ((1vw - 3.2px) * 0.926), 48px)"
+  );
+
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+
+.bsb-discover-content h2 em {
+  font-style: italic;
+}
+
+
+.bsb-discover-content p {
+  margin: 0 0 18px;
+}
+
+
+.bsb-search-outline-button {
+  display: inline-block;
+
+  margin-top: 10px;
+
+  padding: 13px 18px;
+
+  border: 2px solid var(--bsb-black);
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  text-decoration: none !important;
+}
+
+
+.bsb-search-outline-button:hover {
+  background: var(--bsb-black);
+
+  color: #ffffff !important;
+}
+
+
+.bsb-discover-bottom {
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 50px auto 0;
+}
+
+
+.bsb-discover-bottom p {
+  margin: 0 0 20px;
+}
+
+
+.bsb-search-gold-rule {
+  border: 0;
+
+  border-top: 2px solid var(--bsb-gold);
+
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 55px auto 0;
+}
+
+
+
+/* ==================================================
+   DATABASE INTRO
+   ================================================== */
+
+.bsb-database {
+  width: 100%;
+
+  padding: 75px 20px;
+
+  background: var(--bsb-off-white);
+}
+
+
+.bsb-database-grid {
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+
+.bsb-database h3 {
+  margin: 0 0 15px;
+
+  color: var(--bsb-black);
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 22px;
+
+  font-weight: 400;
+
+  line-height: 1.35;
+}
+
+
+.bsb-database h2 {
+  margin: 0;
+
+  color: var(--bsb-black);
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(36px, 2.25rem + ((1vw - 3.2px) * 0.926), 46px)"
+  );
+
+  font-weight: 600;
+
+  line-height: 1.2;
+}
+
+
+.bsb-database p {
+  margin: 0 0 22px;
+}
+
+
+.bsb-database-contact {
+  display: inline-block;
+
+  padding: 12px 18px;
+
+  background: var(--bsb-blue);
+
+  color: var(--bsb-black) !important;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+}
+
+
+
+/* ==================================================
+   SEARCH CATEGORY LINKS
+   ================================================== */
+
+.bsb-search-links {
+  width: 100%;
+
+  padding: 65px 20px 80px;
+
+  background: #ffffff;
+}
+
+
+.bsb-search-links-grid {
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 25px;
+}
+
+
+.bsb-search-link-card {
+  min-height: 130px;
+
+  padding: 35px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  color: var(--bsb-black) !important;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.25;
+
+  text-decoration: none !important;
+}
+
+
+.bsb-search-link-card.blue {
+  background: var(--bsb-blue);
+}
+
+
+.bsb-search-link-card.gold {
+  background: #e5c968;
+}
+
+
+.bsb-search-link-card:hover {
+  filter: brightness(0.97);
+
+  text-decoration: none !important;
+}
+
+
+
+/* ==================================================
+   LOOKING FOR SOMETHING SPECIFIC
+   ================================================== */
+
+.bsb-specific-search {
+  width: 100%;
+
+  max-width: 1215px;
+
+  min-height: 360px;
+
+  margin: 0 auto 80px;
+
+  padding: 70px 30px;
+
+  background:
+    linear-gradient(
+      rgba(114, 130, 121, 0.80),
+      rgba(114, 130, 121, 0.80)
+    ),
+    url("../img/bsb/search-panel.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+
+.bsb-specific-search-inner {
+  width: 100%;
+
+  max-width: 800px;
+}
+
+
+.bsb-specific-search h2 {
+  margin: 0 0 20px;
+
+  color: #ffffff;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: unquote(
+    "clamp(36px, 2.25rem + ((1vw - 3.2px) * 0.926), 46px)"
+  );
+
+  font-weight: 600;
+
+  line-height: 1.2;
+}
+
+
+.bsb-specific-search p {
+  margin: 0 0 10px;
+
+  color: #ffffff;
+
+  font-size: 20px;
+}
+
+
+.bsb-search-note {
+  font-size: 17px !important;
+
+  opacity: 0.9;
+}
+
+
+
+/* ==================================================
+   COLLECTIONBUILDER SEARCH AREA
+   ================================================== */
+
+/*
+   Because pages/search.md still uses layout: search,
+   CollectionBuilder/Lunr will add its real search UI
+   after the custom content.
+
+   These rules make that section visually fit the
+   recreated Sisterhood page.
+*/
+
+.bsb-search-page + .container,
+.bsb-search-page ~ .container {
+  max-width: 1215px;
+}
+
+
+#search-container,
+.search-container {
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+
+#search-input,
+.search-input {
+  border-radius: 0 !important;
+
+  border: 1px solid #999999 !important;
+}
+
+
+
+/* ==================================================
+   SEARCH PAGE TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+  .bsb-search-hero-box {
+    max-width: calc(100% - 40px);
+  }
+
+
+  .bsb-discover-grid {
+    gap: 30px;
+  }
+
+
+  .bsb-database-grid {
+    gap: 40px;
+  }
+
+
+  .bsb-search-links-grid {
+    gap: 20px;
+  }
+
+
+  .bsb-specific-search {
+    max-width: calc(100% - 40px);
+  }
+
+}
+
+
+
+/* ==================================================
+   SEARCH PAGE MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-search-hero {
+    min-height: 380px;
+
+    padding: 0;
+  }
+
+
+  .bsb-search-hero-box {
+    max-width: 100%;
+
+    padding: 50px 20px;
+  }
+
+
+  .bsb-search-hero h1 {
+    margin-bottom: 30px;
+  }
+
+
+  .bsb-discover {
+    padding: 60px 20px;
+  }
+
+
+  .bsb-discover-grid {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+
+  .bsb-discover-bottom {
+    margin-top: 35px;
+  }
+
+
+  .bsb-database {
+    padding: 55px 20px;
+  }
+
+
+  .bsb-database-grid {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+
+  .bsb-search-links {
+    padding: 50px 20px 65px;
+  }
+
+
+  .bsb-search-links-grid {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+  }
+
+
+  .bsb-search-link-card {
+    min-height: 110px;
+
+    padding: 28px;
+
+    font-size: 22px;
+  }
+
+
+  .bsb-specific-search {
+    max-width: calc(100% - 40px);
+
+    min-height: 320px;
+
+    margin-bottom: 60px;
+
+    padding: 50px 20px;
+  }
+
+}
