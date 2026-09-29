@@ -1,9 +1,7 @@
 ---
 title: Site Search
-layout: search
+layout: bsb-search
 permalink: /search.html
-# see _data/search-config.csv for display options
-# Lunr.js search will be added below the content in this file
 ---
 
 <div class="bsb-search-page">
@@ -26,6 +24,66 @@ permalink: /search.html
     </div>
 
   </section>
+
+
+  <!-- =========================================
+       WHITE NAVIGATION
+       ========================================= -->
+
+  <nav class="bsb-search-nav">
+
+    <div class="bsb-search-nav-inner">
+
+      <a href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+
+      <div class="bsb-search-nav-dropdown">
+
+        <a href="{{ '/search.html' | relative_url }}">
+          Search the Sisterhood
+          <span class="bsb-nav-arrow">⌄</span>
+        </a>
+
+        <div class="bsb-search-nav-menu">
+
+          <a href="{{ '/subjects.html' | relative_url }}">
+            Genres
+          </a>
+
+          <a href="{{ '/subjects.html' | relative_url }}">
+            Keywords
+          </a>
+
+          <a href="{{ '/locations.html' | relative_url }}">
+            States
+          </a>
+
+          <a href="{{ '/authors/' | relative_url }}">
+            Authors
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
+        Study the Sisterhood
+      </a>
+
+      <a href="https://thisbeautifulsisterhood.org/teaching/">
+        Teach the Sisterhood
+      </a>
+
+      <a href="https://thisbeautifulsisterhood.org/join/">
+        Join the Sisterhood
+      </a>
+
+    </div>
+
+  </nav>
 
 
   <!-- =========================================
@@ -96,6 +154,7 @@ permalink: /search.html
 
     </div>
 
+
     <hr class="bsb-search-gold-rule">
 
   </section>
@@ -160,7 +219,6 @@ permalink: /search.html
         Search by Authors →
       </a>
 
-
       <a
         class="bsb-search-link-card gold"
         href="{{ '/subjects.html' | relative_url }}"
@@ -168,14 +226,12 @@ permalink: /search.html
         Search by Genres →
       </a>
 
-
       <a
         class="bsb-search-link-card gold"
         href="{{ '/locations.html' | relative_url }}"
       >
         Search by States →
       </a>
-
 
       <a
         class="bsb-search-link-card blue"

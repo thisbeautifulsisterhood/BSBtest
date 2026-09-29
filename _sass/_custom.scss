@@ -1260,7 +1260,113 @@
   line-height: 1.4;
 }
 
+/* ==================================================
+   SEARCH PAGE NAV
+   ================================================== */
 
+.bsb-search-nav {
+  width: 100%;
+
+  margin: 0;
+
+  padding: 20px;
+
+  background: #ffffff;
+
+  border: 0;
+}
+
+
+.bsb-search-nav-inner {
+  width: 100%;
+
+  max-width: 1215px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 28px;
+}
+
+
+.bsb-search-nav a {
+  color: #1c1917;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 1.3;
+
+  text-decoration: none;
+}
+
+
+.bsb-search-nav a:hover {
+  color: #1c1917;
+
+  text-decoration: none;
+
+  opacity: 0.7;
+}
+
+
+.bsb-search-nav-dropdown {
+  position: relative;
+}
+
+
+.bsb-nav-arrow {
+  margin-left: 2px;
+
+  font-size: 13px;
+}
+
+
+.bsb-search-nav-menu {
+  position: absolute;
+
+  z-index: 1000;
+
+  top: calc(100% + 8px);
+
+  left: 0;
+
+  display: none;
+
+  min-width: 190px;
+
+  padding: 8px 0;
+
+  background: #ffffff;
+
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.13);
+}
+
+
+.bsb-search-nav-menu a {
+  display: block;
+
+  width: 100%;
+
+  padding: 9px 15px;
+
+  font-size: 16px;
+
+  white-space: nowrap;
+}
+
+
+.bsb-search-nav-dropdown:hover .bsb-search-nav-menu {
+  display: block;
+}
 
 /* ==================================================
    DISCOVER THE SISTERHOOD
@@ -1722,6 +1828,31 @@
 
   .bsb-search-hero h1 {
     margin-bottom: 30px;
+  }
+
+
+  .bsb-search-nav {
+    padding: 15px 20px;
+  }
+
+
+  .bsb-search-nav-inner {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+    gap: 12px;
+  }
+
+
+  .bsb-search-nav-menu {
+    position: static;
+
+    box-shadow: none;
+
+    padding: 6px 0 0 15px;
   }
 
 
