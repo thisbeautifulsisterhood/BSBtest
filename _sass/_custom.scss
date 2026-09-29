@@ -1917,33 +1917,3 @@
   }
 
 }
-
-/* ==================================================
-   HIDE COLLECTIONBUILDER DEFAULT CHROME SITE-WIDE
-   ================================================== */
-
-/* White site title/header block */
-#site-title,
-.site-title,
-.site-header,
-header .container,
-header {
-  display: none !important;
-}
-
-
-/* Black CollectionBuilder navigation */
-nav.navbar,
-.navbar-dark,
-#site-nav,
-.site-nav {
-  display: none !important;
-}
-
-
-/* Black CollectionBuilder footer */
-footer,
-#footer,
-.site-footer {
-  display: none !important;
-}
