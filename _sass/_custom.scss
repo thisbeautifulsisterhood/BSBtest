@@ -1,7 +1,7 @@
 /*
-    Put your custom SCSS here!
-    This allows you to override any CollectionBuilder or Bootstrap CSS
-    without modifying the base theme files directly.
+  Put your custom SCSS here!
+  This allows you to override any CollectionBuilder or Bootstrap CSS
+  without modifying the base theme files directly.
 */
 
 
@@ -24,7 +24,8 @@
   max-width: 900px;
   margin: 0 auto;
 
-  font-family: "Alegreya Sans",
+  font-family:
+    "Alegreya Sans",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -33,7 +34,6 @@
 
   color: var(--author-ink);
 }
-
 
 .author-header {
   display: grid;
@@ -45,12 +45,10 @@
   margin-bottom: 1.5rem;
 }
 
-
 .author-portrait-figure {
   margin: 0;
   text-align: center;
 }
-
 
 .author-portrait {
   width: 100%;
@@ -58,10 +56,8 @@
   height: auto;
 
   display: block;
-
   margin: 0 auto;
 }
-
 
 .author-portrait-caption {
   text-align: center;
@@ -74,9 +70,9 @@
   margin-top: 0.75rem;
 }
 
-
 .author-header-text h1 {
-  font-family: "Alegreya Sans",
+  font-family:
+    "Alegreya Sans",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -91,9 +87,9 @@
   margin: 0 0 0.75rem;
 }
 
-
 .author-byline {
-  font-family: "Alegreya Sans",
+  font-family:
+    "Alegreya Sans",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -107,7 +103,6 @@
   margin: 0;
 }
 
-
 .author-rule {
   border: none;
   border-top: 2px solid var(--author-ink);
@@ -116,7 +111,6 @@
 
   margin: 2rem auto;
 }
-
 
 .author-summary {
   color: var(--author-green);
@@ -132,7 +126,6 @@
   margin: 1.5rem auto;
 }
 
-
 .author-essay {
   max-width: 700px;
 
@@ -142,14 +135,12 @@
   line-height: 1.85;
 }
 
-
 .author-essay h2 {
   font-family: "Alegreya Sans", sans-serif;
 
   font-weight: 700;
   font-size: 1.9rem;
 }
-
 
 .author-essay p {
   font-family: "Alegreya Sans", sans-serif;
@@ -163,7 +154,6 @@
   margin-bottom: 1.2rem;
 }
 
-
 .body-image {
   display: block;
 
@@ -173,7 +163,6 @@
 
   margin: 2rem auto 0.5rem;
 }
-
 
 .body-image-caption {
   max-width: 480px;
@@ -188,7 +177,6 @@
   color: var(--author-gray);
 }
 
-
 .pull-quote {
   border-left: 3px solid var(--author-ink);
 
@@ -197,7 +185,6 @@
   margin: 2rem 0;
 }
 
-
 .pull-quote p:first-child {
   font-weight: 700;
   font-style: italic;
@@ -205,7 +192,6 @@
 
   margin-bottom: 0.5rem;
 }
-
 
 .pull-quote p:last-child {
   font-style: italic;
@@ -216,7 +202,6 @@
   margin: 0;
 }
 
-
 .author-works {
   margin-top: 3rem;
 
@@ -225,16 +210,13 @@
   padding-top: 1.5rem;
 }
 
-
 .back-link {
   margin-top: 2rem;
 }
 
-
 .back-link a {
   color: var(--author-green);
 }
-
 
 
 /* ==================================================
@@ -263,13 +245,11 @@
   font-family: "Figtree", Arial, sans-serif;
 }
 
-
 .bsb-home *,
 .bsb-home *::before,
 .bsb-home *::after {
   box-sizing: border-box;
 }
-
 
 .bsb-home p {
   color: var(--bsb-black);
@@ -283,22 +263,18 @@
   line-height: 1.4;
 }
 
-
 .bsb-home a {
   color: var(--bsb-black);
-
   text-decoration: none;
 }
-
 
 .bsb-home a:hover {
   text-decoration: underline;
 }
 
 
-
 /* ==================================================
-   HERO
+   HOMEPAGE HERO
    ================================================== */
 
 .bsb-hero {
@@ -325,7 +301,6 @@
   justify-content: center;
 }
 
-
 .bsb-hero-box {
   width: 100%;
 
@@ -337,7 +312,6 @@
 
   background: rgba(128, 161, 158, 0.68);
 }
-
 
 .bsb-hero h1 {
   max-width: 1300px;
@@ -360,11 +334,9 @@
   text-transform: uppercase;
 }
 
-
 .bsb-hero h1 em {
   font-style: italic;
 }
-
 
 .bsb-hero p {
   max-width: 1100px;
@@ -383,7 +355,6 @@
 }
 
 
-
 /* ==================================================
    ABOUT
    ================================================== */
@@ -397,7 +368,6 @@
     unquote("clamp(60px, 12vw, 120px)")
     unquote("clamp(20px, 4vw, 40px)");
 }
-
 
 .bsb-about-grid {
   width: 100%;
@@ -416,7 +386,6 @@
   align-items: start;
 }
 
-
 .bsb-about-text h2 {
   margin: 0 0 45px;
 
@@ -434,30 +403,24 @@
   line-height: 1.3;
 }
 
-
 .bsb-about-text h2 em {
   font-style: italic;
 }
-
 
 .bsb-about-text p {
   margin: 0 0 28px;
 }
 
-
 .bsb-about-text a,
 .bsb-about-images a {
   color: var(--bsb-black);
-
   text-decoration: none;
 }
-
 
 .bsb-about-text a:hover,
 .bsb-about-images a:hover {
   text-decoration: underline;
 }
-
 
 
 /* ==================================================
@@ -472,7 +435,6 @@
   text-align: center;
 }
 
-
 .bsb-main-figure img {
   display: block;
 
@@ -481,7 +443,6 @@
 
   margin: 0;
 }
-
 
 .bsb-main-figure figcaption {
   margin-top: 12px;
@@ -502,7 +463,6 @@
 }
 
 
-
 /* ==================================================
    ABOUT RIGHT COLUMN
    ================================================== */
@@ -511,11 +471,9 @@
   width: 100%;
 }
 
-
 .bsb-about-images figure {
   margin: 0;
 }
-
 
 .bsb-eminent-figure img {
   display: block;
@@ -528,7 +486,6 @@
   box-shadow: 12px 12px 50px 0 var(--bsb-green);
 }
 
-
 .bsb-eminent-details {
   margin-top: 20px;
 
@@ -536,7 +493,6 @@
 
   color: var(--bsb-black);
 }
-
 
 .bsb-eminent-details summary {
   cursor: pointer;
@@ -548,7 +504,6 @@
   line-height: 1.45;
 }
 
-
 .bsb-eminent-details p {
   margin: 18px 0 0;
 
@@ -559,10 +514,8 @@
   line-height: 1.4;
 }
 
-
 .bsb-side-divider {
   border: 0;
-
   border-top: 2px solid rgba(28, 25, 23, 0.4);
 
   width: 100px;
@@ -570,13 +523,11 @@
   margin: 35px auto;
 }
 
-
 .bsb-side-figure {
   width: 100%;
 
   text-align: center;
 }
-
 
 .bsb-side-figure img {
   display: block;
@@ -586,7 +537,6 @@
 
   margin: 0 auto;
 }
-
 
 .bsb-side-figure figcaption {
   margin-top: 12px;
@@ -607,7 +557,6 @@
 }
 
 
-
 /* ==================================================
    EXPLORE THE COLLECTION
    ================================================== */
@@ -618,10 +567,8 @@
   padding: 48px 0 70px;
 }
 
-
 .bsb-gold-rule {
   border: 0;
-
   border-top: 2px solid #d4af37;
 
   width: calc(100% - 440px);
@@ -630,7 +577,6 @@
 
   margin: 0 auto 58px;
 }
-
 
 .bsb-explore > h2 {
   margin: 0 0 55px;
@@ -650,7 +596,6 @@
   line-height: 1.3;
 }
 
-
 .bsb-explore-grid {
   max-width: 1215px;
 
@@ -667,7 +612,6 @@
   column-gap: 70px;
   row-gap: 40px;
 }
-
 
 
 /* ==================================================
@@ -694,13 +638,10 @@
   text-decoration: none;
 }
 
-
 .bsb-card:hover {
   color: #1c1917;
-
   text-decoration: none;
 }
-
 
 .bsb-card h3 {
   margin: 0 0 14px;
@@ -716,6 +657,9 @@
   line-height: 1.3;
 }
 
+.bsb-card h3 strong {
+  font-weight: 400;
+}
 
 .bsb-card p {
   margin: 0;
@@ -730,7 +674,6 @@
 
   line-height: 1.4;
 }
-
 
 
 /* ==================================================
@@ -757,7 +700,6 @@
   color: #111111;
 }
 
-
 .bsb-icon svg {
   display: block;
 
@@ -765,21 +707,17 @@
   height: 45px;
 }
 
-
 .bsb-icon-blue {
   background: #80a19e;
 }
-
 
 .bsb-icon-green {
   background: #a4ae96;
 }
 
-
 .bsb-icon-purple {
   background: #c3abba;
 }
-
 
 
 /* ==================================================
@@ -792,16 +730,13 @@
   display: flex;
 
   align-items: center;
-
   justify-content: center;
 
   margin: 0;
-
   padding: 0;
 
   background: #ffffff;
 }
-
 
 .bsb-footer-title::before,
 .bsb-footer-title::after {
@@ -813,7 +748,6 @@
 
   background: #d4af37;
 }
-
 
 .bsb-footer-title span {
   padding: 0 16px;
@@ -856,13 +790,11 @@
   align-items: center;
 }
 
-
 .bsb-expand-text {
   width: 100%;
 
   padding-left: 0;
 }
-
 
 .bsb-expand h2 {
   margin: 0 0 18px;
@@ -878,7 +810,6 @@
   line-height: 1.2;
 }
 
-
 .bsb-expand p {
   margin: 0 0 16px;
 
@@ -890,7 +821,6 @@
 
   line-height: 1.4;
 }
-
 
 .bsb-footer-label {
   margin-top: 0;
@@ -906,7 +836,7 @@
 
 
 /* ==================================================
-   BUTTONS
+   FOOTER BUTTONS
    ================================================== */
 
 .bsb-buttons {
@@ -918,7 +848,6 @@
 
   flex-wrap: wrap;
 }
-
 
 .bsb-button {
   display: inline-block;
@@ -942,11 +871,9 @@
   text-decoration: none !important;
 }
 
-
 .bsb-button-blue {
   background: #80a19e;
 }
-
 
 .bsb-button-purple {
   background: #c3abba;
@@ -964,7 +891,6 @@
 
   justify-content: flex-end;
 }
-
 
 .bsb-expand-image img {
   display: block;
@@ -983,89 +909,8 @@
 }
 
 
-
 /* ==================================================
-   BUTTONS
-   ================================================== */
-
-.bsb-buttons {
-  display: flex;
-
-  gap: 10px;
-
-  margin-top: 28px;
-
-  flex-wrap: wrap;
-}
-
-
-.bsb-button {
-  display: inline-block;
-
-  padding: 16px 20px;
-
-  border: 0;
-
-  color: #1c1917 !important;
-
-  font-family: "Figtree", Arial, sans-serif;
-
-  font-size: 16px;
-
-  font-weight: 700;
-
-  line-height: 1;
-
-  text-transform: uppercase;
-
-  text-decoration: none !important;
-}
-
-
-.bsb-button-blue {
-  background: #80a19e;
-}
-
-
-.bsb-button-purple {
-  background: #c3abba;
-}
-
-
-
-/* ==================================================
-   EXPAND IMAGE
-   ================================================== */
-
-.bsb-expand-image {
-  width: 100%;
-
-  display: flex;
-
-  justify-content: flex-end;
-}
-
-
-.bsb-expand-image img {
-  display: block;
-
-  width: 100%;
-
-  max-width: 590px;
-
-  height: auto;
-
-  border-radius: 0;
-
-  box-shadow:
-    0 0 60px 5px #a4ae96,
-    0 0 14px rgba(0, 0, 0, 0.2);
-}
-
-
-
-/* ==================================================
-   TABLET
+   HOMEPAGE / FOOTER TABLET
    ================================================== */
 
 @media (max-width: 1024px) {
@@ -1073,7 +918,6 @@
   .bsb-about-grid {
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
   }
-
 
   .bsb-explore-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1084,17 +928,15 @@
     padding-right: 40px;
   }
 
-
   .bsb-expand {
     max-width: calc(100% - 40px);
 
     grid-template-columns: 1fr 1fr;
 
-    gap: 40px;
+    column-gap: 40px;
 
-    padding: 60px 20px;
+    padding: 55px 20px;
   }
-
 
   .bsb-expand-image img {
     max-width: 100%;
@@ -1103,9 +945,8 @@
 }
 
 
-
 /* ==================================================
-   MOBILE
+   HOMEPAGE / FOOTER MOBILE
    ================================================== */
 
 @media (max-width: 767px) {
@@ -1116,21 +957,17 @@
     background-attachment: scroll;
   }
 
-
   .bsb-hero-box {
     padding: 60px 20px;
   }
-
 
   .bsb-hero h1 {
     margin-bottom: 35px;
   }
 
-
   .bsb-about {
     padding: 70px 20px;
   }
-
 
   .bsb-about-grid {
     grid-template-columns: 1fr;
@@ -1138,11 +975,9 @@
     gap: 55px;
   }
 
-
   .bsb-about-text h2 {
     margin-bottom: 30px;
   }
-
 
   .bsb-gold-rule {
     width: calc(100% - 40px);
@@ -1150,16 +985,13 @@
     margin-bottom: 40px;
   }
 
-
   .bsb-explore {
     padding: 45px 20px 60px;
   }
 
-
   .bsb-explore > h2 {
     margin-bottom: 45px;
   }
-
 
   .bsb-explore-grid {
     padding: 45px 25px 35px;
@@ -1169,22 +1001,18 @@
     gap: 65px;
   }
 
-
   .bsb-card {
     min-height: auto;
   }
-
 
   .bsb-footer-title span {
     font-size: 34px;
   }
 
-
   .bsb-footer-title::before,
   .bsb-footer-title::after {
-    height: 2px;
+    height: 1px;
   }
-
 
   .bsb-expand {
     max-width: calc(100% - 40px);
@@ -1196,22 +1024,24 @@
     padding: 50px 20px;
   }
 
-
   .bsb-expand h2 {
     font-size: 36px;
   }
-
 
   .bsb-expand-image {
     justify-content: center;
   }
 
+  .bsb-expand-image img {
+    max-width: 510px;
+  }
 
   .bsb-buttons {
     flex-wrap: wrap;
   }
 
 }
+
 
 /* ==================================================
    SEARCH THE SISTERHOOD PAGE
@@ -1226,6 +1056,7 @@
   --bsb-blue: #80a19e;
 
   width: 100%;
+
   margin: 0;
   padding: 0;
 
@@ -1236,13 +1067,11 @@
   font-family: "Figtree", Arial, sans-serif;
 }
 
-
 .bsb-search-page *,
 .bsb-search-page *::before,
 .bsb-search-page *::after {
   box-sizing: border-box;
 }
-
 
 .bsb-search-page p {
   color: var(--bsb-black);
@@ -1254,18 +1083,15 @@
   line-height: 1.45;
 }
 
-
 .bsb-search-page a {
   color: var(--bsb-black);
 
   text-decoration: none;
 }
 
-
 .bsb-search-page a:hover {
   text-decoration: underline;
 }
-
 
 
 /* ==================================================
@@ -1288,7 +1114,7 @@
 
   background-position: center;
 
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 
   display: flex;
 
@@ -1296,7 +1122,6 @@
 
   justify-content: center;
 }
-
 
 .bsb-search-hero-box {
   width: 100%;
@@ -1307,7 +1132,6 @@
 
   background: rgba(128, 161, 158, 0.54);
 }
-
 
 .bsb-search-hero h1 {
   margin: 0 0 48px;
@@ -1325,7 +1149,6 @@
   line-height: 1.2;
 }
 
-
 .bsb-search-hero p {
   margin: 0;
 
@@ -1337,6 +1160,7 @@
 
   line-height: 1.4;
 }
+
 
 /* ==================================================
    SEARCH PAGE NAV
@@ -1354,7 +1178,6 @@
   border: 0;
 }
 
-
 .bsb-search-nav-inner {
   width: 100%;
 
@@ -1371,7 +1194,6 @@
   gap: 28px;
 }
 
-
 .bsb-search-nav a {
   color: #1c1917;
 
@@ -1386,7 +1208,6 @@
   text-decoration: none;
 }
 
-
 .bsb-search-nav a:hover {
   color: #1c1917;
 
@@ -1395,18 +1216,15 @@
   opacity: 0.7;
 }
 
-
 .bsb-search-nav-dropdown {
   position: relative;
 }
-
 
 .bsb-nav-arrow {
   margin-left: 2px;
 
   font-size: 13px;
 }
-
 
 .bsb-search-nav-menu {
   position: absolute;
@@ -1428,7 +1246,6 @@
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.13);
 }
 
-
 .bsb-search-nav-menu a {
   display: block;
 
@@ -1441,10 +1258,10 @@
   white-space: nowrap;
 }
 
-
 .bsb-search-nav-dropdown:hover .bsb-search-nav-menu {
   display: block;
 }
+
 
 /* ==================================================
    DISCOVER THE SISTERHOOD
@@ -1457,7 +1274,6 @@
 
   background: #ffffff;
 }
-
 
 .bsb-discover-grid {
   width: 100%;
@@ -1477,11 +1293,9 @@
   align-items: center;
 }
 
-
 .bsb-discover-image {
   width: 100%;
 }
-
 
 .bsb-discover-image img {
   display: block;
@@ -1493,7 +1307,6 @@
   box-shadow:
     10px 10px 25px rgba(0, 0, 0, 0.22);
 }
-
 
 .bsb-discover-content h2 {
   margin: 0 0 18px;
@@ -1511,16 +1324,13 @@
   line-height: 1.2;
 }
 
-
 .bsb-discover-content h2 em {
   font-style: italic;
 }
 
-
 .bsb-discover-content p {
   margin: 0 0 18px;
 }
-
 
 .bsb-search-outline-button {
   display: inline-block;
@@ -1540,13 +1350,11 @@
   text-decoration: none !important;
 }
 
-
 .bsb-search-outline-button:hover {
   background: var(--bsb-black);
 
   color: #ffffff !important;
 }
-
 
 .bsb-discover-bottom {
   width: 100%;
@@ -1556,11 +1364,9 @@
   margin: 50px auto 0;
 }
 
-
 .bsb-discover-bottom p {
   margin: 0 0 20px;
 }
-
 
 .bsb-search-gold-rule {
   border: 0;
@@ -1575,7 +1381,6 @@
 }
 
 
-
 /* ==================================================
    DATABASE INTRO
    ================================================== */
@@ -1587,7 +1392,6 @@
 
   background: var(--bsb-off-white);
 }
-
 
 .bsb-database-grid {
   width: 100%;
@@ -1607,7 +1411,6 @@
   align-items: center;
 }
 
-
 .bsb-database h3 {
   margin: 0 0 15px;
 
@@ -1621,7 +1424,6 @@
 
   line-height: 1.35;
 }
-
 
 .bsb-database h2 {
   margin: 0;
@@ -1639,11 +1441,9 @@
   line-height: 1.2;
 }
 
-
 .bsb-database p {
   margin: 0 0 22px;
 }
-
 
 .bsb-database-contact {
   display: inline-block;
@@ -1664,7 +1464,6 @@
 }
 
 
-
 /* ==================================================
    SEARCH CATEGORY LINKS
    ================================================== */
@@ -1676,7 +1475,6 @@
 
   background: #ffffff;
 }
-
 
 .bsb-search-links-grid {
   width: 100%;
@@ -1692,7 +1490,6 @@
 
   gap: 25px;
 }
-
 
 .bsb-search-link-card {
   min-height: 130px;
@@ -1718,23 +1515,19 @@
   text-decoration: none !important;
 }
 
-
 .bsb-search-link-card.blue {
   background: var(--bsb-blue);
 }
 
-
 .bsb-search-link-card.gold {
   background: #e5c968;
 }
-
 
 .bsb-search-link-card:hover {
   filter: brightness(0.97);
 
   text-decoration: none !important;
 }
-
 
 
 /* ==================================================
@@ -1774,13 +1567,11 @@
   text-align: center;
 }
 
-
 .bsb-specific-search-inner {
   width: 100%;
 
   max-width: 800px;
 }
-
 
 .bsb-specific-search h2 {
   margin: 0 0 20px;
@@ -1798,7 +1589,6 @@
   line-height: 1.2;
 }
 
-
 .bsb-specific-search p {
   margin: 0 0 10px;
 
@@ -1807,7 +1597,6 @@
   font-size: 20px;
 }
 
-
 .bsb-search-note {
   font-size: 17px !important;
 
@@ -1815,31 +1604,19 @@
 }
 
 
-
 /* ==================================================
    COLLECTIONBUILDER SEARCH AREA
    ================================================== */
-
-/*
-   Because pages/search.md still uses layout: search,
-   CollectionBuilder/Lunr will add its real search UI
-   after the custom content.
-
-   These rules make that section visually fit the
-   recreated Sisterhood page.
-*/
 
 .bsb-search-page + .container,
 .bsb-search-page ~ .container {
   max-width: 1215px;
 }
 
-
 #search-container,
 .search-container {
   font-family: "Figtree", Arial, sans-serif;
 }
-
 
 #search-input,
 .search-input {
@@ -1847,7 +1624,6 @@
 
   border: 1px solid #999999 !important;
 }
-
 
 
 /* ==================================================
@@ -1860,28 +1636,23 @@
     max-width: calc(100% - 40px);
   }
 
-
   .bsb-discover-grid {
     gap: 30px;
   }
-
 
   .bsb-database-grid {
     gap: 40px;
   }
 
-
   .bsb-search-links-grid {
     gap: 20px;
   }
-
 
   .bsb-specific-search {
     max-width: calc(100% - 40px);
   }
 
 }
-
 
 
 /* ==================================================
@@ -1896,23 +1667,19 @@
     padding: 0;
   }
 
-
   .bsb-search-hero-box {
     max-width: 100%;
 
     padding: 50px 20px;
   }
 
-
   .bsb-search-hero h1 {
     margin-bottom: 30px;
   }
 
-
   .bsb-search-nav {
     padding: 15px 20px;
   }
-
 
   .bsb-search-nav-inner {
     flex-direction: column;
@@ -1924,7 +1691,6 @@
     gap: 12px;
   }
 
-
   .bsb-search-nav-menu {
     position: static;
 
@@ -1933,11 +1699,9 @@
     padding: 6px 0 0 15px;
   }
 
-
   .bsb-discover {
     padding: 60px 20px;
   }
-
 
   .bsb-discover-grid {
     grid-template-columns: 1fr;
@@ -1945,16 +1709,13 @@
     gap: 35px;
   }
 
-
   .bsb-discover-bottom {
     margin-top: 35px;
   }
 
-
   .bsb-database {
     padding: 55px 20px;
   }
-
 
   .bsb-database-grid {
     grid-template-columns: 1fr;
@@ -1962,18 +1723,15 @@
     gap: 35px;
   }
 
-
   .bsb-search-links {
     padding: 50px 20px 65px;
   }
-
 
   .bsb-search-links-grid {
     grid-template-columns: 1fr;
 
     gap: 18px;
   }
-
 
   .bsb-search-link-card {
     min-height: 110px;
@@ -1982,7 +1740,6 @@
 
     font-size: 22px;
   }
-
 
   .bsb-specific-search {
     max-width: calc(100% - 40px);
