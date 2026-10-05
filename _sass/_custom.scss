@@ -1750,3 +1750,510 @@
   }
 
 }
+
+/* ==================================================
+   STUDY THE SISTERHOOD
+   ================================================== */
+
+.bsb-study-page {
+  --bsb-black: #1c1917;
+  --bsb-green: #a4ae96;
+  --bsb-purple: #c3abba;
+  --bsb-off-white: #faf9f6;
+  --bsb-gold: #d4af37;
+  --bsb-blue: #80a19e;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: var(--bsb-black);
+  background: #ffffff;
+
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+.bsb-study-page *,
+.bsb-study-page *::before,
+.bsb-study-page *::after {
+  box-sizing: border-box;
+}
+
+.bsb-study-page p,
+.bsb-study-page li {
+  color: var(--bsb-black);
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+
+/* ==================================================
+   STUDY HERO
+   ================================================== */
+
+.bsb-study-hero {
+  min-height: 445px;
+
+  padding: 0 40px;
+
+  background:
+    linear-gradient(
+      rgba(185, 193, 181, 0.20),
+      rgba(185, 193, 181, 0.20)
+    ),
+    url("../img/bsb/hero.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bsb-study-hero-box {
+  width: 100%;
+  max-width: 1215px;
+
+  padding: 70px 25px;
+
+  background: #ffffff;
+
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.20);
+}
+
+.bsb-study-hero h1 {
+  margin: 0 0 45px;
+
+  color: var(--bsb-black);
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.bsb-study-hero p {
+  margin: 0;
+
+  font-size: 24px;
+}
+
+
+/* ==================================================
+   DISCOVERY & RECOVERY
+   ================================================== */
+
+.bsb-study-discovery {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #ffffff;
+}
+
+.bsb-study-discovery-grid {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  gap: 55px;
+
+  align-items: center;
+}
+
+.bsb-study-discovery-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border: 1px solid var(--bsb-gold);
+
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.20);
+}
+
+.bsb-study-discovery-text h2 {
+  margin: 0 0 25px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.bsb-study-discovery-text p {
+  margin: 0 0 28px;
+}
+
+.bsb-study-discovery-text ul {
+  margin: -10px 0 30px;
+}
+
+
+/* ==================================================
+   ORIGINAL RESEARCH
+   ================================================== */
+
+.bsb-study-research {
+  width: 100%;
+
+  padding: 70px 40px 90px;
+
+  background: #fafafa;
+}
+
+.bsb-study-section-heading {
+  max-width: 1215px;
+
+  margin: 0 auto 60px;
+
+  text-align: center;
+}
+
+.bsb-study-section-heading h2 {
+  margin: 0 0 10px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+.bsb-study-section-heading p {
+  margin: 0;
+
+  font-size: 23px;
+}
+
+
+/* Featured exhibit */
+
+.bsb-study-featured {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto 75px;
+
+  padding: 30px;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+
+  gap: 45px;
+
+  align-items: center;
+
+  background: rgba(219, 197, 96, 0.65);
+}
+
+.bsb-study-featured-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.bsb-study-featured-text h3 {
+  margin: 0 0 25px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.bsb-study-featured-text h4 {
+  margin: 0 0 20px;
+
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bsb-study-featured-text a {
+  color: var(--bsb-black);
+
+  text-decoration: none;
+}
+
+.bsb-study-featured-text p {
+  font-size: 18px;
+}
+
+.bsb-study-outline-button {
+  display: inline-block;
+
+  margin-top: 10px;
+
+  padding: 13px 22px;
+
+  border: 1px solid #d4d4d8;
+
+  color: var(--bsb-black) !important;
+
+  background: transparent;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+}
+
+
+/* Cards */
+
+.bsb-study-subsection {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto 65px;
+}
+
+.bsb-study-subsection > h3 {
+  margin: 0 0 35px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.bsb-study-card-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 45px;
+}
+
+.bsb-study-card {
+  display: block;
+
+  color: var(--bsb-black) !important;
+
+  text-align: center;
+
+  text-decoration: none !important;
+}
+
+.bsb-study-card img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 18px;
+}
+
+.bsb-study-card span {
+  display: block;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* ==================================================
+   TEACH THE SISTERHOOD
+   ================================================== */
+
+.bsb-study-teach {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #ffffff;
+}
+
+.bsb-study-teach-inner {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto;
+}
+
+.bsb-study-teach h2 {
+  margin: 0 0 25px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 600;
+
+  line-height: 1.2;
+}
+
+.bsb-study-teach p {
+  max-width: 1050px;
+
+  margin-bottom: 30px;
+}
+
+.bsb-study-teach-grid {
+  margin-top: 40px;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 30px;
+}
+
+.bsb-study-teach-box {
+  min-height: 135px;
+
+  padding: 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: 20px;
+
+  line-height: 1.4;
+}
+
+.bsb-study-teach-box.purple {
+  background: var(--bsb-purple);
+}
+
+.bsb-study-teach-box.green {
+  background: var(--bsb-green);
+}
+
+.bsb-study-teach-box.gold {
+  background: var(--bsb-gold);
+}
+
+.bsb-study-teach-box.blue {
+  background: var(--bsb-blue);
+}
+
+.bsb-study-teach-button-wrap {
+  margin-top: 55px;
+
+  text-align: center;
+}
+
+.bsb-study-teach-button {
+  display: inline-block;
+
+  padding: 18px 30px;
+
+  border: 1px solid #d4d4d8;
+
+  color: var(--bsb-black) !important;
+
+  background: var(--bsb-off-white);
+
+  font-size: 20px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+}
+
+
+/* ==================================================
+   STUDY TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+  .bsb-study-discovery-grid {
+    gap: 35px;
+  }
+
+  .bsb-study-featured {
+    grid-template-columns: 1.4fr 1fr;
+  }
+
+}
+
+
+/* ==================================================
+   STUDY MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-study-hero {
+    min-height: 380px;
+
+    padding: 30px 20px;
+  }
+
+  .bsb-study-hero-box {
+    padding: 50px 20px;
+  }
+
+  .bsb-study-hero h1 {
+    font-size: 40px;
+  }
+
+  .bsb-study-discovery {
+    padding: 60px 20px;
+  }
+
+  .bsb-study-discovery-grid {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .bsb-study-discovery-text h2 {
+    font-size: 38px;
+  }
+
+  .bsb-study-research {
+    padding: 60px 20px;
+  }
+
+  .bsb-study-section-heading h2 {
+    font-size: 40px;
+  }
+
+  .bsb-study-featured {
+    grid-template-columns: 1fr;
+
+    padding: 20px;
+  }
+
+  .bsb-study-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bsb-study-teach {
+    padding: 60px 20px;
+  }
+
+  .bsb-study-teach h2 {
+    font-size: 40px;
+  }
+
+  .bsb-study-teach-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
