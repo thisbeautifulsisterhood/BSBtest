@@ -792,10 +792,12 @@
   display: flex;
 
   align-items: center;
+
   justify-content: center;
 
-  padding: 0;
   margin: 0;
+
+  padding: 0;
 
   background: #ffffff;
 }
@@ -807,9 +809,9 @@
 
   flex: 1;
 
-  height: 2px;
+  height: 1px;
 
-  background: #ead79a;
+  background: #d4af37;
 }
 
 
@@ -830,7 +832,6 @@
 }
 
 
-
 /* ==================================================
    EXPAND THE SISTERHOOD
    ================================================== */
@@ -842,7 +843,7 @@
 
   margin: 0 auto;
 
-  padding: 70px 0;
+  padding: 60px 0;
 
   background: #faf9f6;
 
@@ -850,7 +851,7 @@
 
   grid-template-columns: 1fr 1.1fr;
 
-  gap: 80px;
+  column-gap: 70px;
 
   align-items: center;
 }
@@ -858,6 +859,7 @@
 
 .bsb-expand-text {
   width: 100%;
+
   padding-left: 0;
 }
 
@@ -869,9 +871,7 @@
 
   font-family: "DM Sans", Arial, sans-serif;
 
-  font-size: unquote(
-    "clamp(36px, 2.25rem + ((1vw - 3.2px) * 1.111), 48px)"
-  );
+  font-size: 42px;
 
   font-weight: 400;
 
@@ -880,13 +880,13 @@
 
 
 .bsb-expand p {
-  margin: 0 0 18px;
+  margin: 0 0 16px;
 
   color: #1c1917;
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: 18px;
+  font-size: 16px;
 
   line-height: 1.4;
 }
@@ -899,9 +899,87 @@
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: 18px;
+  font-size: 16px;
 
   font-weight: 400;
+}
+
+
+/* ==================================================
+   BUTTONS
+   ================================================== */
+
+.bsb-buttons {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 24px;
+
+  flex-wrap: wrap;
+}
+
+
+.bsb-button {
+  display: inline-block;
+
+  padding: 14px 18px;
+
+  border: 0;
+
+  color: #1c1917 !important;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+}
+
+
+.bsb-button-blue {
+  background: #80a19e;
+}
+
+
+.bsb-button-purple {
+  background: #c3abba;
+}
+
+
+/* ==================================================
+   EXPAND IMAGE
+   ================================================== */
+
+.bsb-expand-image {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+
+.bsb-expand-image img {
+  display: block;
+
+  width: 100%;
+
+  max-width: 510px;
+
+  height: auto;
+
+  border-radius: 0;
+
+  box-shadow:
+    0 0 55px 5px #a4ae96,
+    0 0 12px rgba(0, 0, 0, 0.18);
 }
 
 
