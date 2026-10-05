@@ -744,9 +744,18 @@
 
   flex: 1;
 
-  height: 1px;
+  height: 4px;
 
-  background: #d4af37;
+  background:
+    linear-gradient(
+      to bottom,
+      #d4af37 0,
+      #d4af37 1px,
+      transparent 1px,
+      transparent 3px,
+      #d4af37 3px,
+      #d4af37 4px
+    );
 }
 
 .bsb-footer-title span {
