@@ -290,7 +290,7 @@ permalink: /study.html
         >
 
           <img
-            src="{{ '/assets/img/bsb/study-report.png' | relative_url }}"
+            src="{{ '/assets/img/bsb/study-report.webp' | relative_url }}"
             alt=""
           >
 
