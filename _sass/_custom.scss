@@ -1944,21 +1944,21 @@
 
 .bsb-study-featured {
   width: 100%;
-  max-width: 1215px;
+  max-width: 1400px;
 
   margin: 0 auto 75px;
 
-  padding: 30px;
+  padding: 24px 15px;
 
   display: grid;
 
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  grid-template-columns: 2fr 1fr;
 
-  gap: 45px;
+  gap: 30px;
 
   align-items: center;
 
-  background: rgba(219, 197, 96, 0.65);
+  background: #d9c467;
 }
 
 .bsb-study-featured-image img {
