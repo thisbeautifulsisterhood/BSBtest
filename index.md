@@ -63,7 +63,7 @@ title: Home
 
       </div>
 
-      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
+      <a href="{{ '/study.html' | relative_url }}">
         Study the Sisterhood
       </a>
 
@@ -344,7 +344,7 @@ title: Home
 
       <a
         class="bsb-card"
-        href="https://thisbeautifulsisterhood.org/study-the-sisterhood/"
+        href="{{ '/study.html' | relative_url }}"
       >
 
         <div class="bsb-icon bsb-icon-green">

@@ -69,8 +69,8 @@ permalink: /search.html
       </div>
 
 
-      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
-        Study the Sisterhood
+      <a href="{{ '/study.html' | relative_url }}">
+      Study the Sisterhood
       </a>
 
       <a href="https://thisbeautifulsisterhood.org/teaching/">
