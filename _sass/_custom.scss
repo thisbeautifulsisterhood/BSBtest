@@ -1177,7 +1177,7 @@
   width: 100%;
   margin: 0;
 
-  padding: 26px 20px;
+  padding: 30px 20px;
 
   background: #ffffff;
   border: 0;
@@ -1185,7 +1185,7 @@
 
 .bsb-search-nav-inner {
   width: 100%;
-  max-width: 1215px;
+  max-width: 1400px;
 
   margin: 0 auto;
 
@@ -1193,7 +1193,7 @@
   align-items: center;
   justify-content: center;
 
-  gap: 30px;
+  gap: 36px;
 }
 
 .bsb-search-nav a {
@@ -1201,7 +1201,7 @@
 
   font-family: "Figtree", Arial, sans-serif;
 
-  font-size: 18px;
+  font-size: 24px;
 
   font-weight: 400;
 
@@ -1223,8 +1223,9 @@
 }
 
 .bsb-nav-arrow {
-  margin-left: 3px;
-  font-size: 14px;
+  margin-left: 4px;
+
+  font-size: 16px;
 }
 
 .bsb-search-nav-menu {
@@ -1232,15 +1233,15 @@
 
   z-index: 1000;
 
-  top: calc(100% + 8px);
+  top: calc(100% + 10px);
 
   left: 0;
 
   display: none;
 
-  min-width: 190px;
+  min-width: 220px;
 
-  padding: 8px 0;
+  padding: 10px 0;
 
   background: #ffffff;
 
@@ -1252,9 +1253,9 @@
 
   width: 100%;
 
-  padding: 9px 15px;
+  padding: 11px 18px;
 
-  font-size: 16px;
+  font-size: 18px;
 
   white-space: nowrap;
 }
@@ -1262,7 +1263,6 @@
 .bsb-search-nav-dropdown:hover .bsb-search-nav-menu {
   display: block;
 }
-
 
 /* ==================================================
    DISCOVER THE SISTERHOOD
