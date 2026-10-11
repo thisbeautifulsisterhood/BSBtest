@@ -2266,3 +2266,509 @@
   }
 
 }
+
+/* ==================================================
+   TEACH THE SISTERHOOD PAGE
+   ================================================== */
+
+.bsb-teach-page {
+  --bsb-black: #1c1917;
+  --bsb-green: #a4ae96;
+  --bsb-purple: #c3abba;
+  --bsb-off-white: #faf9f6;
+  --bsb-gold: #d4af37;
+  --bsb-blue: #80a19e;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: var(--bsb-black);
+  background: #ffffff;
+
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+.bsb-teach-page *,
+.bsb-teach-page *::before,
+.bsb-teach-page *::after {
+  box-sizing: border-box;
+}
+
+.bsb-teach-page p,
+.bsb-teach-page li {
+  color: var(--bsb-black);
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+
+/* ==================================================
+   TEACH HERO
+   ================================================== */
+
+.bsb-teach-hero {
+  min-height: 445px;
+
+  padding: 80px 40px;
+
+  background:
+    linear-gradient(
+      rgba(185, 193, 181, 0.20),
+      rgba(185, 193, 181, 0.20)
+    ),
+    url("../img/bsb/hero.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bsb-teach-hero-box {
+  width: 100%;
+  max-width: 1400px;
+
+  padding: 70px 25px;
+
+  background: rgba(128, 161, 158, 0.58);
+
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.20);
+}
+
+.bsb-teach-hero h1 {
+  margin: 0 0 45px;
+
+  color: var(--bsb-black);
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.bsb-teach-hero p {
+  margin: 0;
+
+  font-size: 24px;
+}
+
+
+/* ==================================================
+   EDUCATIONAL RESOURCES
+   ================================================== */
+
+.bsb-teach-intro {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #ffffff;
+}
+
+.bsb-teach-intro-grid {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 40px;
+
+  align-items: center;
+}
+
+.bsb-teach-intro-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.bsb-teach-intro-text h2 {
+  margin: 0 0 25px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+.bsb-teach-intro-text p {
+  margin: 0 0 22px;
+}
+
+
+/* ==================================================
+   BIBLIOGRAPHY
+   ================================================== */
+
+.bsb-teach-bibliography {
+  position: relative;
+
+  width: 100%;
+
+  padding: 120px 40px;
+
+  background:
+    linear-gradient(
+      rgba(128, 161, 158, 0.30),
+      rgba(128, 161, 158, 0.30)
+    ),
+    #faf9f6;
+
+  clip-path:
+    polygon(
+      0 70px,
+      100% 0,
+      100% calc(100% - 70px),
+      0 100%
+    );
+}
+
+.bsb-teach-bibliography-inner {
+  width: 100%;
+  max-width: 860px;
+
+  margin: 0 auto;
+}
+
+.bsb-teach-bibliography h2 {
+  margin: 0 0 30px;
+
+  text-align: center;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+.bsb-teach-bibliography-intro {
+  margin: 0 auto 45px;
+
+  text-align: left;
+}
+
+
+/* ==================================================
+   BIBLIOGRAPHY ACCORDIONS
+   ================================================== */
+
+.bsb-teach-accordion-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 16px 30px;
+}
+
+.bsb-teach-accordion {
+  width: 100%;
+
+  margin: 0;
+}
+
+.bsb-teach-accordion summary {
+  position: relative;
+
+  width: 100%;
+
+  padding: 18px 52px 18px 18px;
+
+  background: #a4ae96;
+
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+
+  color: #1c1917;
+
+  cursor: pointer;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 20px;
+  font-weight: 400;
+
+  line-height: 1.3;
+
+  list-style: none;
+}
+
+.bsb-teach-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.bsb-teach-accordion summary span {
+  position: absolute;
+
+  top: 50%;
+  right: 18px;
+
+  transform: translateY(-50%);
+
+  color: #71717a;
+
+  font-size: 18px;
+}
+
+.bsb-teach-accordion[open] summary {
+  background: #ffffff;
+}
+
+.bsb-teach-accordion[open] summary span {
+  transform:
+    translateY(-50%)
+    rotate(180deg);
+}
+
+.bsb-teach-accordion-content {
+  padding: 20px;
+
+  background: #faf9f6;
+}
+
+.bsb-teach-accordion-content p {
+  margin: 0 0 16px;
+
+  font-size: 17px;
+}
+
+.bsb-teach-accordion-content p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ==================================================
+   EDUCATIONAL RESOURCE LIBRARY
+   ================================================== */
+
+.bsb-teach-library {
+  width: 100%;
+
+  padding: 90px 40px 110px;
+
+  background:
+    linear-gradient(
+      rgba(164, 174, 150, 0.30),
+      rgba(164, 174, 150, 0.30)
+    ),
+    #faf9f6;
+}
+
+.bsb-teach-library-inner {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.bsb-teach-library h2 {
+  margin: 0 0 35px;
+
+  text-align: center;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+
+  line-height: 1.1;
+}
+
+.bsb-teach-library-inner > p {
+  margin: 0 0 24px;
+}
+
+
+/* ==================================================
+   RESOURCE CARDS
+   ================================================== */
+
+.bsb-teach-resource-grid {
+  margin-top: 70px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 32px;
+}
+
+.bsb-teach-resource-card {
+  position: relative;
+
+  display: block;
+
+  min-height: 330px;
+
+  padding: 55px 24px 28px;
+
+  border: 5px solid #eeeeee;
+
+  background: #ffffff;
+
+  box-shadow: 0 0 14px rgba(27, 32, 44, 0.20);
+
+  color: #1c1917 !important;
+
+  text-align: center;
+
+  text-decoration: none !important;
+}
+
+.bsb-teach-resource-card:hover {
+  color: #1c1917 !important;
+
+  text-decoration: none !important;
+}
+
+.bsb-teach-resource-icon {
+  width: 92px;
+  height: 92px;
+
+  margin: -100px auto 25px;
+
+  padding: 20px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 5px solid #eeeeee;
+
+  background: #ffffff;
+
+  color: #d4af37;
+
+  font-size: 48px;
+
+  line-height: 1;
+}
+
+.bsb-teach-resource-icon svg {
+  width: 50px;
+  height: 50px;
+}
+
+.bsb-teach-resource-card h3 {
+  margin: 0 0 18px;
+
+  color: #191a19;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 26px;
+  font-weight: 700;
+
+  line-height: 1.25;
+}
+
+.bsb-teach-resource-card p {
+  margin: 0;
+
+  color: #201f1f;
+
+  font-size: 18px;
+
+  line-height: 1.45;
+}
+
+
+/* ==================================================
+   TEACH TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+  .bsb-teach-intro-grid {
+    gap: 35px;
+  }
+
+  .bsb-teach-resource-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* ==================================================
+   TEACH MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-teach-hero {
+    min-height: 380px;
+
+    padding: 45px 20px;
+  }
+
+  .bsb-teach-hero-box {
+    padding: 50px 20px;
+  }
+
+  .bsb-teach-hero h1 {
+    font-size: 40px;
+  }
+
+  .bsb-teach-intro {
+    padding: 60px 20px;
+  }
+
+  .bsb-teach-intro-grid {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .bsb-teach-intro-text h2 {
+    font-size: 40px;
+  }
+
+  .bsb-teach-bibliography {
+    padding: 110px 20px;
+  }
+
+  .bsb-teach-bibliography h2 {
+    font-size: 40px;
+  }
+
+  .bsb-teach-accordion-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bsb-teach-library {
+    padding: 70px 20px 90px;
+  }
+
+  .bsb-teach-library h2 {
+    font-size: 38px;
+  }
+
+  .bsb-teach-resource-grid {
+    grid-template-columns: 1fr;
+
+    gap: 75px;
+  }
+
+}

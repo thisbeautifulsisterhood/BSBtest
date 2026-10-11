@@ -71,7 +71,7 @@ permalink: /study.html
         Study the Sisterhood
       </a>
 
-      <a href="https://thisbeautifulsisterhood.org/teaching/">
+      <a href="{{ '/teach.html' | relative_url }}">
         Teach the Sisterhood
       </a>
 
