@@ -140,116 +140,72 @@ permalink: /teach.html
        BIBLIOGRAPHY
        ========================================= -->
 
-  <section class="bsb-teach-bibliography">
+  <section class="bsb-bib-section">
 
-    <div class="bsb-teach-bibliography-inner">
+    <div class="bsb-bib-inner">
 
-      <h2>Bibliography</h2>
+      <h1 class="bsb-bib-title">
+        Bibliography
+      </h1>
 
-      <p class="bsb-teach-bibliography-intro">
-        Click on the dropdowns to explore a bibliography of research about
-        the Woman’s Literary Department and the 1884 New Orleans World’s Fair.
+      <p class="bsb-bib-intro">
+        Click on the dropdowns to explore a bibliography of research about the
+        Woman’s Literary Department and the 1884 New Orleans World’s Fair.
       </p>
 
+      <div class="bsb-bib-grid bsb-bib-accordion">
 
-      <div class="bsb-teach-accordion-grid">
+        <details>
 
-        <!-- WOMEN'S RIGHTS -->
-
-        <details class="bsb-teach-accordion">
-
-          <summary>
-            Women’s Rights
-            <span>⌄</span>
+          <summary class="bsb-bib-item">
+            <span>Women’s Rights</span>
+            <span class="bsb-bib-chevron">⌄</span>
           </summary>
 
-          <div class="bsb-teach-accordion-content">
-
-            <p>
-              Miki Pfeffer.
-              <em>
-                Southern Ladies and Suffragists: Julia Ward Howe and
-                Women’s Rights at the 1884 New Orleans World’s Fair
-              </em>,
-              University of Mississippi Press, 2014.
-            </p>
-
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
           </div>
 
         </details>
 
 
-        <!-- RACE AND GENDER -->
+        <details>
 
-        <details class="bsb-teach-accordion">
-
-          <summary>
-            Race and Gender
-            <span>⌄</span>
+          <summary class="bsb-bib-item">
+            <span>Digital Humanities &amp; Archives</span>
+            <span class="bsb-bib-chevron">⌄</span>
           </summary>
 
-          <div class="bsb-teach-accordion-content">
-
-            <p>
-              Katherine Adams. “Becoming Global: Gender, Race, and
-              Cognitive Mapping at the 1884 World’s Fair,”
-              <em>J19: The Journal of Nineteenth-Century Americanists</em>
-              8, no. 1 (2020): 11–41.
-            </p>
-
-            <p>
-              Miki Pfeffer, “‘Mr. Chairman and FELLOW AMERICAN CITIZENS’:
-              African American Agency at the World’s Industrial and Cotton
-              Centennial Exposition in New Orleans, 1884–1885,”
-              <em>
-                Louisiana History: The Journal of the Louisiana
-                Historical Association
-              </em>
-              51, no. 4 (Fall 2010).
-            </p>
-
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
           </div>
 
         </details>
 
 
-        <!-- DIGITAL HUMANITIES -->
+        <details>
 
-        <details class="bsb-teach-accordion">
-
-          <summary>
-            Digital Humanities &amp; Archives
-            <span>⌄</span>
+          <summary class="bsb-bib-item">
+            <span>Race and Gender</span>
+            <span class="bsb-bib-chevron">⌄</span>
           </summary>
 
-          <div class="bsb-teach-accordion-content">
-
-            <p>
-              Susan Tucker. “Julia Ward Howe, Maud Howe, and an Archival
-              Legacy: Recordkeeping and the Library of Women’s Books at
-              the 1884 Cotton Centennial,”
-              <em>Libraries: Culture, History, and Society</em>
-              5, no. 1 (2021): 1–23.
-            </p>
-
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
           </div>
 
         </details>
 
 
-        <!-- RECONSTRUCTION -->
+        <details>
 
-        <details class="bsb-teach-accordion">
-
-          <summary>
-            Reconstruction and the South
-            <span>⌄</span>
+          <summary class="bsb-bib-item">
+            <span>Reconstruction and the South</span>
+            <span class="bsb-bib-chevron">⌄</span>
           </summary>
 
-          <div class="bsb-teach-accordion-content">
-
-            <p>Coming Soon</p>
-
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
           </div>
 
         </details>

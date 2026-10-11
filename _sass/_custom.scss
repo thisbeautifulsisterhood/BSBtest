@@ -2554,6 +2554,157 @@
   margin-bottom: 0;
 }
 
+/* ==================================================
+   BIBLIOGRAPHY PAGE
+   ================================================== */
+
+.bsb-bib-section {
+  position: relative;
+  overflow: hidden;
+  background: #efefec;
+  padding: 110px 20px 90px;
+}
+
+/* diagonal teal background shape */
+.bsb-bib-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #c9d2cf;
+  clip-path: polygon(0 70%, 100% 0, 100% 84%, 0 100%);
+  z-index: 0;
+}
+
+.bsb-bib-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.bsb-bib-title {
+  margin: 0 0 22px;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  color: #12213b;
+  line-height: 1.1;
+}
+
+.bsb-bib-intro {
+  max-width: 870px;
+  margin: 0 auto 44px;
+  font-size: 22px;
+  line-height: 1.45;
+  color: #12213b;
+  text-align: left;
+}
+
+.bsb-bib-grid {
+  max-width: 860px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  row-gap: 16px;
+}
+
+.bsb-bib-item {
+  background: #a8af97;
+  color: #12213b;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 0 18px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+
+.bsb-bib-item:hover,
+.bsb-bib-item:focus {
+  color: #12213b;
+  text-decoration: none;
+}
+
+.bsb-bib-item span {
+  display: block;
+}
+
+.bsb-bib-chevron {
+  margin-left: 18px;
+  font-size: 22px;
+  line-height: 1;
+  color: #7080a0;
+  flex-shrink: 0;
+}
+
+/* if you are using details/summary */
+.bsb-bib-accordion details {
+  background: transparent;
+}
+
+.bsb-bib-accordion summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.bsb-bib-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.bsb-bib-panel {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 18px 20px 8px;
+  margin-top: 8px;
+  font-size: 17px;
+  line-height: 1.55;
+  color: #12213b;
+}
+
+.bsb-bib-panel p,
+.bsb-bib-panel li {
+  margin-bottom: 12px;
+}
+
+.bsb-bib-panel ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .bsb-bib-section {
+    padding: 80px 20px 70px;
+  }
+
+  .bsb-bib-section::after {
+    clip-path: polygon(0 62%, 100% 10%, 100% 86%, 0 100%);
+  }
+
+  .bsb-bib-title {
+    font-size: 34px;
+    margin-bottom: 18px;
+  }
+
+  .bsb-bib-intro {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .bsb-bib-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .bsb-bib-item {
+    min-height: 54px;
+    font-size: 17px;
+  }
+}
 
 /* ==================================================
    EDUCATIONAL RESOURCE LIBRARY
