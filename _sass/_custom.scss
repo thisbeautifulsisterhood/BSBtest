@@ -1175,30 +1175,25 @@
 
 .bsb-search-nav {
   width: 100%;
-
   margin: 0;
 
-  padding: 20px;
+  padding: 26px 20px;
 
   background: #ffffff;
-
   border: 0;
 }
 
 .bsb-search-nav-inner {
   width: 100%;
-
   max-width: 1215px;
 
   margin: 0 auto;
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
-  gap: 28px;
+  gap: 30px;
 }
 
 .bsb-search-nav a {
@@ -1228,9 +1223,8 @@
 }
 
 .bsb-nav-arrow {
-  margin-left: 2px;
-
-  font-size: 13px;
+  margin-left: 3px;
+  font-size: 14px;
 }
 
 .bsb-search-nav-menu {
