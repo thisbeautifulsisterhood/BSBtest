@@ -2924,3 +2924,142 @@
   }
 
 }
+
+/* ==================================================
+   CONTRIBUTE EDUCATIONAL RESOURCES
+   ================================================== */
+
+.bsb-teach-contribute {
+  width: 100%;
+
+  padding: 75px 20px 55px;
+
+  background: #f8fafc;
+}
+
+.bsb-teach-contribute-grid {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto 70px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 90px;
+
+  align-items: start;
+}
+
+.bsb-teach-contribute-heading h3 {
+  margin: 0 0 8px;
+
+  color: #1c1917;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 22px;
+  font-weight: 400;
+
+  line-height: 1.25;
+}
+
+.bsb-teach-contribute-heading h2 {
+  margin: 0;
+
+  color: #1c1917;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 44px;
+  font-weight: 600;
+
+  line-height: 1.25;
+}
+
+.bsb-teach-contribute-content p {
+  margin: 0 0 34px;
+
+  color: #1c1917;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.45;
+}
+
+.bsb-teach-contribute-content a {
+  color: #1c1917;
+}
+
+.bsb-teach-propose-button {
+  display: inline-block;
+
+  margin-top: 4px;
+
+  padding: 14px 24px;
+
+  background: #c3abba;
+
+  color: #1c1917 !important;
+
+  font-family: "Figtree", Arial, sans-serif;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  text-decoration: underline !important;
+}
+
+.bsb-teach-contribute-image {
+  width: 100%;
+  max-width: 1290px;
+
+  margin: 0 auto;
+}
+
+.bsb-teach-contribute-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ==================================================
+   CONTRIBUTE MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-teach-contribute {
+    padding: 55px 20px 45px;
+  }
+
+  .bsb-teach-contribute-grid {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    margin-bottom: 45px;
+  }
+
+  .bsb-teach-contribute-heading h2 {
+    font-size: 36px;
+  }
+
+  .bsb-teach-contribute-content p {
+    font-size: 18px;
+  }
+
+}

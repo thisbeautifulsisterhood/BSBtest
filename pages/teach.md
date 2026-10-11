@@ -353,6 +353,78 @@ permalink: /teach.html
 
   </section>
 
+  <!-- =========================================
+       CONTRIBUTE EDUCATIONAL RESOURCES
+       ========================================= -->
+
+  <section class="bsb-teach-contribute">
+
+    <div class="bsb-teach-contribute-grid">
+
+      <div class="bsb-teach-contribute-heading">
+
+        <h3>
+          Call for Content!
+        </h3>
+
+        <h2>
+          Contribute Educational
+          <br>
+          Resources and Content
+        </h2>
+
+      </div>
+
+
+      <div class="bsb-teach-contribute-content">
+
+        <p>
+          Do you have suggestions and examples for incorporating the
+          <em>Beautiful Sisterhood Project</em> in classroom teaching?
+          We are eager to publish additional education resources here!
+          These may come in the form of syllabi, units/modules, assignments,
+          readings, multimedia, and/or teaching debriefs. Selected materials
+          will be peer-reviewed and then featured on this page. Assignment
+          authors will be listed as contributors of the
+          <em>Beautiful Sisterhood</em> collection.
+        </p>
+
+        <p>
+          To propose an educational resource for consideration by the editors,
+          please submit a 50–100-word proposal and short bio via this
+          <a
+            href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <em>form</em>
+          </a>.
+        </p>
+
+        <a
+          class="bsb-teach-propose-button"
+          href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Propose a Resource
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="bsb-teach-contribute-image">
+
+      <img
+        src="{{ '/assets/img/bsb/teach-contribute.png' | relative_url }}"
+        alt=""
+      >
+
+    </div>
+
+  </section>
 
   <!-- =========================================
        BSB DIVIDER
