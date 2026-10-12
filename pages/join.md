@@ -343,14 +343,24 @@ permalink: /join.html
         <article class="bsb-team-card">
 
             <div class="bsb-team-icon bsb-team-icon-blue">
-            <svg viewBox="0 0 100 100" aria-hidden="true">
-                <circle cx="50" cy="50" r="22"></circle>
-                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
-                <path d="M50 28 L50 56"></path>
-                <path d="M38 35 L62 49"></path>
-                <path d="M62 35 L38 49"></path>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="14.31" y1="8" x2="20.05" y2="17.94"/>
+              <line x1="9.69" y1="8" x2="21.17" y2="8"/>
+              <line x1="7.38" y1="12" x2="13.12" y2="2.06"/>
+              <line x1="9.69" y1="16" x2="3.95" y2="6.06"/>
+              <line x1="14.31" y1="16" x2="2.83" y2="16"/>
+              <line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
             </svg>
-            </div>
+          </div>
 
             <h3>Kate Adams</h3>
             <p class="bsb-team-role">Site Co-Director</p>
@@ -373,14 +383,24 @@ permalink: /join.html
         <article class="bsb-team-card">
 
             <div class="bsb-team-icon bsb-team-icon-purple">
-            <svg viewBox="0 0 100 100" aria-hidden="true">
-                <circle cx="50" cy="50" r="22"></circle>
-                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
-                <path d="M50 28 L50 56"></path>
-                <path d="M38 35 L62 49"></path>
-                <path d="M62 35 L38 49"></path>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="14.31" y1="8" x2="20.05" y2="17.94"/>
+              <line x1="9.69" y1="8" x2="21.17" y2="8"/>
+              <line x1="7.38" y1="12" x2="13.12" y2="2.06"/>
+              <line x1="9.69" y1="16" x2="3.95" y2="6.06"/>
+              <line x1="14.31" y1="16" x2="2.83" y2="16"/>
+              <line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
             </svg>
-            </div>
+          </div>
 
             <h3>Jacquelyne Thoni Howard</h3>
             <p class="bsb-team-role">Site Co-Director</p>
@@ -402,14 +422,24 @@ permalink: /join.html
         <article class="bsb-team-card">
 
             <div class="bsb-team-icon bsb-team-icon-teal">
-            <svg viewBox="0 0 100 100" aria-hidden="true">
-                <circle cx="50" cy="50" r="22"></circle>
-                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
-                <path d="M50 28 L50 56"></path>
-                <path d="M38 35 L62 49"></path>
-                <path d="M62 35 L38 49"></path>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="14.31" y1="8" x2="20.05" y2="17.94"/>
+              <line x1="9.69" y1="8" x2="21.17" y2="8"/>
+              <line x1="7.38" y1="12" x2="13.12" y2="2.06"/>
+              <line x1="9.69" y1="16" x2="3.95" y2="6.06"/>
+              <line x1="14.31" y1="16" x2="2.83" y2="16"/>
+              <line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
             </svg>
-            </div>
+          </div>
 
             <h3>Susan Tucker</h3>
             <p class="bsb-team-role">Site Consultant</p>

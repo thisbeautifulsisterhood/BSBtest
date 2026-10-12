@@ -3452,7 +3452,6 @@
   align-items: stretch;
 }
 
-
 /* ==================================================
    TEAM CARDS
    ================================================== */
@@ -3461,29 +3460,29 @@
   width: 100%;
   min-height: 610px;
   padding: 18px 18px 22px;
-  background: #fafaf8;
-  border: 4px solid #d2aa2e;
-  border-radius: 30px;
+  background: #fafaf8 !important;
+  border: 4px solid #d2aa2e !important;
+  border-radius: 30px !important;
   box-shadow: 0 7px 13px rgba(0, 0, 0, 0.10);
   color: #111111;
-  overflow: hidden;
-  transition: none;
+  overflow: hidden !important;
+  transition: none !important;
 }
 
-/* KEEP CORNERS ROUNDED ON HOVER */
 .bsb-team-card:hover,
 .bsb-team-card:focus,
+.bsb-team-card:focus-within,
 .bsb-team-card:active {
-  border-radius: 30px;
-  background: #fafaf8;
-  border: 4px solid #d2aa2e;
-  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.10);
-  overflow: hidden;
+  background: #fafaf8 !important;
+  border: 4px solid #d2aa2e !important;
+  border-radius: 30px !important;
+  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.10) !important;
+  overflow: hidden !important;
+  transform: none !important;
 }
 
-
 /* ==================================================
-   TEAM ICON
+   TEAM ICON — SOURCE APERTURE SYMBOL
    ================================================== */
 
 .bsb-team-icon {
@@ -3493,18 +3492,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   border-radius: 50%;
   background: #d9ad32;
-  flex-shrink: 0;
 }
 
-/* INNER SYMBOL MUCH BIGGER */
 .bsb-team-icon svg {
-  width: 58px;
-  height: 58px;
+  width: 62px;
+  height: 62px;
   display: block;
   fill: none;
-  stroke-width: 4.5;
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -3520,7 +3518,6 @@
 .bsb-team-icon-teal svg {
   stroke: #84aeb0;
 }
-
 
 /* ==================================================
    TEAM TEXT
@@ -3557,12 +3554,12 @@
   font-style: italic;
 }
 
-
 /* ==================================================
    TEAM RESPONSIVE
    ================================================== */
 
 @media (max-width: 1100px) {
+
   .bsb-team-grid {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -3573,9 +3570,11 @@
     min-height: 0;
     margin: 0 auto;
   }
+
 }
 
 @media (max-width: 767px) {
+
   .bsb-team-section {
     padding: 40px 20px 60px;
   }
@@ -3585,15 +3584,13 @@
     font-size: 38px;
   }
 
-  .bsb-team-card {
-    padding: 18px 16px 22px;
-    border-radius: 24px;
-  }
-
+  .bsb-team-card,
   .bsb-team-card:hover,
   .bsb-team-card:focus,
+  .bsb-team-card:focus-within,
   .bsb-team-card:active {
-    border-radius: 24px;
+    padding: 18px 16px 22px;
+    border-radius: 24px !important;
   }
 
   .bsb-team-icon {
@@ -3603,79 +3600,8 @@
   }
 
   .bsb-team-icon svg {
-    width: 52px;
-    height: 52px;
-  }
-
-  .bsb-team-card h3 {
-    font-size: 22px;
-  }
-
-  .bsb-team-role {
-    font-size: 19px;
-  }
-
-  .bsb-team-card p:not(.bsb-team-role) {
-    font-size: 16px;
-  }
-}
-
-
-/* ==================================================
-   TEAM TABLET
-   ================================================== */
-
-@media (max-width: 1100px) {
-
-  .bsb-team-grid {
-    grid-template-columns: 1fr;
-
-    gap: 30px;
-  }
-
-  .bsb-team-card {
-    max-width: 720px;
-
-    min-height: 0;
-
-    margin: 0 auto;
-  }
-
-}
-
-
-/* ==================================================
-   TEAM MOBILE
-   ================================================== */
-
-@media (max-width: 767px) {
-
-  .bsb-team-section {
-    padding: 40px 20px 60px;
-  }
-
-  .bsb-team-title {
-    margin-bottom: 35px;
-
-    font-size: 38px;
-  }
-
-  .bsb-team-card {
-    padding: 18px 16px 22px;
-
-    border-radius: 24px;
-  }
-
-  .bsb-team-icon {
-    width: 76px;
-    height: 76px;
-
-    margin-left: 6px;
-  }
-
-  .bsb-team-icon svg {
-    width: 42px;
-    height: 42px;
+    width: 56px;
+    height: 56px;
   }
 
   .bsb-team-card h3 {
