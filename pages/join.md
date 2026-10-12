@@ -176,7 +176,9 @@ permalink: /join.html
 
           <summary>
             <span class="bsb-join-plus">+</span>
-            Help us <em>build</em> the Beautiful Sisterhood
+            <span class="bsb-join-label">
+              Help us <em>build</em> the Beautiful Sisterhood
+            </span>
           </summary>
 
           <div class="bsb-join-panel">
@@ -205,7 +207,9 @@ permalink: /join.html
 
           <summary>
             <span class="bsb-join-plus">+</span>
-            Help us <em>beautify</em> the Beautiful Sisterhood
+            <span class="bsb-join-label">
+              Help us <em>beautify</em> the Beautiful Sisterhood
+            </span>
           </summary>
 
           <div class="bsb-join-panel">
@@ -227,7 +231,9 @@ permalink: /join.html
 
           <summary>
             <span class="bsb-join-plus">+</span>
-            Help us <em>interpret</em> the Beautiful Sisterhood
+            <span class="bsb-join-label">
+              Help us <em>interpret</em> the Beautiful Sisterhood
+            </span>
           </summary>
 
           <div class="bsb-join-panel">
@@ -249,7 +255,9 @@ permalink: /join.html
 
           <summary>
             <span class="bsb-join-plus">+</span>
-            Help us <em>contextualize</em> the Beautiful Sisterhood
+            <span class="bsb-join-label">
+              Help us <em>contextualize</em> the Beautiful Sisterhood
+            </span>
           </summary>
 
           <div class="bsb-join-panel">
@@ -276,7 +284,9 @@ permalink: /join.html
 
           <summary>
             <span class="bsb-join-plus">+</span>
-            Help us <em>teach</em> the Beautiful Sisterhood
+            <span class="bsb-join-label">
+              Help us <em>teach</em> the Beautiful Sisterhood
+            </span>
           </summary>
 
           <div class="bsb-join-panel">

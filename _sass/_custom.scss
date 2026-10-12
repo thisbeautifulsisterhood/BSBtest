@@ -3279,7 +3279,7 @@
   display: flex;
   align-items: center;
 
-  gap: 16px;
+  gap: 12px;
 
   padding: 22px 14px;
 
@@ -3351,6 +3351,13 @@
   margin-bottom: 0;
 }
 
+.bsb-join-label {
+  display: inline;
+}
+
+.bsb-join-label em {
+  font-style: italic;
+}
 
 /* ==================================================
    JOIN CONTRIBUTE MOBILE
