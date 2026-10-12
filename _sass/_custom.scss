@@ -3424,22 +3424,21 @@
 
 .bsb-team-section {
   width: 100%;
-  padding: 48px 20px 86px;
+  padding: clamp(36px, 5vw, 70px) 20px clamp(55px, 7vw, 90px);
   background: #f7f6f3;
 }
 
 .bsb-team-inner {
-  width: 100%;
-  max-width: 1230px;
+  width: min(100%, 1230px);
   margin: 0 auto;
 }
 
 .bsb-team-title {
-  margin: 0 0 58px;
+  margin: 0 0 clamp(35px, 5vw, 60px);
   text-align: center;
   color: #12213b;
   font-family: "DM Sans", Arial, sans-serif;
-  font-size: 48px;
+  font-size: clamp(36px, 4vw, 50px);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -3448,9 +3447,10 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 32px;
+  gap: clamp(22px, 3vw, 34px);
   align-items: stretch;
 }
+
 
 /* ==================================================
    TEAM CARDS
@@ -3458,8 +3458,12 @@
 
 .bsb-team-card {
   width: 100%;
-  min-height: 610px;
-  padding: 18px 18px 22px;
+  min-width: 0;
+  padding:
+    clamp(16px, 2vw, 22px)
+    clamp(16px, 2vw, 20px)
+    clamp(20px, 2.5vw, 28px);
+
   background: #fafaf8 !important;
   border: 4px solid #d2aa2e !important;
   border-radius: 30px !important;
@@ -3481,26 +3485,30 @@
   transform: none !important;
 }
 
+
 /* ==================================================
-   TEAM ICON — SOURCE APERTURE SYMBOL
+   TEAM ICON
    ================================================== */
 
 .bsb-team-icon {
-  width: 96px;
-  height: 96px;
-  margin: 0 0 18px 12px;
+  width: clamp(78px, 8vw, 96px);
+  height: clamp(78px, 8vw, 96px);
+  margin: 0 0 18px 10px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   flex-shrink: 0;
   border-radius: 50%;
   background: #d9ad32;
 }
 
 .bsb-team-icon svg {
-  width: 62px;
-  height: 62px;
+  width: 68%;
+  height: 68%;
   display: block;
+
   fill: none;
   stroke-width: 1.5;
   stroke-linecap: round;
@@ -3519,24 +3527,27 @@
   stroke: #84aeb0;
 }
 
+
 /* ==================================================
    TEAM TEXT
    ================================================== */
 
 .bsb-team-card h3 {
-  margin: 0 0 2px;
+  margin: 0 0 3px;
   color: #0d0d0d;
+
   font-family: "Figtree", Arial, sans-serif;
-  font-size: 22px;
+  font-size: clamp(21px, 1.8vw, 24px);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.18;
 }
 
 .bsb-team-role {
-  margin: 0 0 22px;
+  margin: 0 0 20px;
   color: #111111;
+
   font-family: "Figtree", Arial, sans-serif;
-  font-size: 21px;
+  font-size: clamp(18px, 1.6vw, 21px);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -3544,76 +3555,62 @@
 .bsb-team-card p:not(.bsb-team-role) {
   margin: 0;
   color: #111111;
+
   font-family: "Figtree", Arial, sans-serif;
-  font-size: 18px;
+  font-size: clamp(16px, 1.35vw, 18px);
   font-weight: 400;
-  line-height: 1.43;
+  line-height: 1.48;
+
+  overflow-wrap: anywhere;
 }
 
 .bsb-team-card em {
   font-style: italic;
 }
 
+
 /* ==================================================
-   TEAM RESPONSIVE
+   TEAM TABLET
    ================================================== */
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
 
   .bsb-team-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .bsb-team-card {
-    max-width: 720px;
-    min-height: 0;
-    margin: 0 auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
 }
 
-@media (max-width: 767px) {
+
+/* ==================================================
+   TEAM MOBILE
+   ================================================== */
+
+@media (max-width: 650px) {
 
   .bsb-team-section {
-    padding: 40px 20px 60px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
-  .bsb-team-title {
-    margin-bottom: 35px;
-    font-size: 38px;
+  .bsb-team-grid {
+    grid-template-columns: 1fr;
   }
 
-  .bsb-team-card,
+  .bsb-team-card {
+    max-width: 100%;
+    border-radius: 24px !important;
+  }
+
   .bsb-team-card:hover,
   .bsb-team-card:focus,
   .bsb-team-card:focus-within,
   .bsb-team-card:active {
-    padding: 18px 16px 22px;
     border-radius: 24px !important;
   }
 
   .bsb-team-icon {
-    width: 86px;
-    height: 86px;
-    margin-left: 8px;
-  }
-
-  .bsb-team-icon svg {
-    width: 56px;
-    height: 56px;
-  }
-
-  .bsb-team-card h3 {
-    font-size: 22px;
-  }
-
-  .bsb-team-role {
-    font-size: 19px;
-  }
-
-  .bsb-team-card p:not(.bsb-team-role) {
-    font-size: 16px;
+    margin-left: 4px;
   }
 
 }
