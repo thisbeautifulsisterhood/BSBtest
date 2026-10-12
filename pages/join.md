@@ -329,94 +329,106 @@ permalink: /join.html
 
 
   <!-- =========================================
-       PROJECT TEAM
-       ========================================= -->
+        PROJECT TEAM
+        ========================================= -->
 
-  <section class="bsb-join-team">
+  <section class="bsb-team-section">
 
-    <div class="bsb-join-team-inner">
+    <div class="bsb-team-inner">
 
-      <h2>
-        Project Team
-      </h2>
+        <h2 class="bsb-team-title">Project Team</h2>
 
+        <div class="bsb-team-grid">
 
-      <div class="bsb-join-team-grid">
+        <article class="bsb-team-card">
 
-        <article class="bsb-join-team-card">
+            <div class="bsb-team-icon bsb-team-icon-blue">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="22"></circle>
+                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
+                <path d="M50 28 L50 56"></path>
+                <path d="M38 35 L62 49"></path>
+                <path d="M62 35 L38 49"></path>
+            </svg>
+            </div>
 
-          <div class="bsb-join-team-icon">◉</div>
+            <h3>Kate Adams</h3>
+            <p class="bsb-team-role">Site Co-Director</p>
 
-          <h3>
-            <a href="https://liberalarts.tulane.edu/english/people/kate-adams">
-              Kate Adams
-            </a>
-          </h3>
-
-          <h4>
-            Site Co-Director
-          </h4>
-
-          <p>
+            <p>
             Kate Adams is Associate Professor of English at Tulane University,
             where she holds the Kimmerling Chair in Women’s Literature. She
-            co-edits <em>Legacy: A Journal of American Women Writers</em>,
-            and is the author of
-            <em>Owning Up: Privacy, Property, and Belonging in US Women’s Life Writing</em>.
-          </p>
+            co-edits <em>Legacy: A Journal of American Women Writers</em>, and is
+            the author of <em>Owning Up: Privacy, Property, and Belonging in US
+            Women’s Life Writing</em> (Oxford 2009). Her essays about gender and
+            race in early US literature and culture have appeared in numerous
+            edited collections and journals, including <em>American Literary
+            History</em>, <em>J19</em>, <em>Arizona Quarterly</em>, <em>Hypatia</em>,
+            and <em>ESQ</em>.
+            </p>
 
         </article>
 
 
-        <article class="bsb-join-team-card">
+        <article class="bsb-team-card">
 
-          <div class="bsb-join-team-icon">◉</div>
+            <div class="bsb-team-icon bsb-team-icon-purple">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="22"></circle>
+                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
+                <path d="M50 28 L50 56"></path>
+                <path d="M38 35 L62 49"></path>
+                <path d="M62 35 L38 49"></path>
+            </svg>
+            </div>
 
-          <h3>
-            <a href="https://bit.ly/m/thonihoward">
-              Jacquelyne Thoni Howard
-            </a>
-          </h3>
+            <h3>Jacquelyne Thoni Howard</h3>
+            <p class="bsb-team-role">Site Co-Director</p>
 
-          <h4>
-            Site Co-Director
-          </h4>
-
-          <p>
+            <p>
             Jacquelyne Thoni Howard is a Senior Professor of Practice at the
             Connolly Alexander Institute for Data Science at Tulane University.
-            Her teaching and research center on digital humanities, critical
-            data studies, data literacy education, and the history of
-            information.
-          </p>
+            As a historian, her teaching and research center on digital
+            humanities, critical data studies, data literacy education, and the
+            history of information. She is a founding co-editor of the nationally
+            recognized guide and edited volume, titled <em>Feminist Pedagogy for
+            Teaching Online</em>. She has published works relating to the History
+            of Science and Technology Studies and Digital Humanities Labs.
+            </p>
 
         </article>
 
 
-        <article class="bsb-join-team-card">
+        <article class="bsb-team-card">
 
-          <div class="bsb-join-team-icon">◉</div>
+            <div class="bsb-team-icon bsb-team-icon-teal">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="22"></circle>
+                <path d="M50 28 L62 35 L62 49 L50 56 L38 49 L38 35 Z"></path>
+                <path d="M50 28 L50 56"></path>
+                <path d="M38 35 L62 49"></path>
+                <path d="M62 35 L38 49"></path>
+            </svg>
+            </div>
 
-          <h3>
-            <a href="https://en.wikipedia.org/wiki/Susan_Tucker_(archivist)">
-              Susan Tucker
-            </a>
-          </h3>
+            <h3>Susan Tucker</h3>
+            <p class="bsb-team-role">Site Consultant</p>
 
-          <h4>
-            Site Consultant
-          </h4>
-
-          <p>
+            <p>
             Susan Tucker is an archival consultant specializing in the
-            manuscripts and private records of families. Between 1985 and
-            2015, she oversaw the Newcomb Archives and the Vorhoff Library
-            at Tulane University.
-          </p>
+            manuscripts and private records of families. Between 1985 and 2015,
+            she oversaw the Newcomb Archives and the Vorhoff Library at Tulane
+            University. Among her publications are <em>Telling Memories Among
+            Southern Women</em>, <em>The Scrapbook in American Culture</em> (with
+            Katherine Ott and Patrician Buckler) and <em>City of Remembering</em>
+            (University Press of Mississippi, 2017). She was awarded the
+            Louisiana Endowment for the Humanities Lifetime Achievement Award in
+            2017.
+            </p>
 
         </article>
 
-      </div>
+        </div>
 
     </div>
 
