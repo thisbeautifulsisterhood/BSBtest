@@ -75,7 +75,7 @@ permalink: /study.html
         Teach the Sisterhood
       </a>
 
-      <a href="https://thisbeautifulsisterhood.org/join/">
+      <a href="{{ '/join.html' | relative_url }}">
         Join the Sisterhood
       </a>
 

@@ -3057,3 +3057,551 @@
   }
 
 }
+
+/* ==================================================
+   JOIN THE SISTERHOOD
+   ================================================== */
+
+.bsb-join-page {
+  --bsb-black: #1c1917;
+  --bsb-green: #a4ae96;
+  --bsb-purple: #c3abba;
+  --bsb-off-white: #faf9f6;
+  --bsb-gold: #d4af37;
+  --bsb-blue: #80a19e;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: var(--bsb-black);
+
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+.bsb-join-page *,
+.bsb-join-page *::before,
+.bsb-join-page *::after {
+  box-sizing: border-box;
+}
+
+
+/* ==================================================
+   JOIN HERO
+   ================================================== */
+
+.bsb-join-hero {
+  min-height: 445px;
+
+  padding: 80px 40px;
+
+  background:
+    linear-gradient(
+      rgba(185, 193, 181, 0.20),
+      rgba(185, 193, 181, 0.20)
+    ),
+    url("../img/bsb/hero.png");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bsb-join-hero-box {
+  width: 100%;
+  max-width: 1400px;
+
+  padding: 70px 25px;
+
+  background: rgba(128, 161, 158, 0.58);
+}
+
+.bsb-join-hero h1 {
+  margin: 0 0 45px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.bsb-join-hero p {
+  margin: 0;
+
+  font-size: 24px;
+}
+
+
+/* ==================================================
+   JOIN INTRO
+   ================================================== */
+
+.bsb-join-intro {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #ffffff;
+}
+
+.bsb-join-intro-grid {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+.bsb-join-intro-image {
+  text-align: center;
+}
+
+.bsb-join-intro-image img {
+  width: 100%;
+  max-width: 500px;
+
+  height: auto;
+
+  border-radius: 100px;
+}
+
+.bsb-join-intro-text h2 {
+  margin: 0 0 25px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.bsb-join-intro-text p {
+  margin: 0 0 25px;
+
+  font-size: 20px;
+
+  line-height: 1.5;
+}
+
+
+/* ==================================================
+   CONTRIBUTE
+   ================================================== */
+
+.bsb-join-contribute {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #faf9f6;
+}
+
+.bsb-join-contribute-inner {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto;
+}
+
+.bsb-join-contribute h2 {
+  margin: 0 0 30px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.bsb-join-contribute p,
+.bsb-join-contribute li {
+  font-size: 20px;
+
+  line-height: 1.5;
+}
+
+.bsb-join-contribute ul {
+  margin: 20px 0 30px;
+
+  padding-left: 35px;
+}
+
+.bsb-join-contribute a {
+  color: #1c1917;
+}
+
+
+/* ==================================================
+   JOIN ACCORDION
+   ================================================== */
+
+.bsb-join-accordion {
+  margin-top: 50px;
+}
+
+.bsb-join-accordion details {
+  margin-bottom: 12px;
+
+  background: #ffffff;
+}
+
+.bsb-join-accordion summary {
+  padding: 18px 22px;
+
+  background: #a4ae96;
+
+  cursor: pointer;
+
+  list-style: none;
+
+  font-size: 20px;
+}
+
+.bsb-join-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.bsb-join-plus {
+  display: inline-block;
+
+  width: 28px;
+
+  margin-right: 8px;
+
+  font-size: 24px;
+
+  text-align: center;
+}
+
+.bsb-join-accordion details[open] .bsb-join-plus {
+  transform: rotate(45deg);
+}
+
+.bsb-join-panel {
+  padding: 24px 28px;
+
+  background: #ffffff;
+}
+
+.bsb-join-panel p {
+  margin: 0 0 18px;
+}
+
+
+/* ==================================================
+   GOLD DIVIDER
+   ================================================== */
+
+.bsb-join-gold-line {
+  width: 100%;
+  height: 2px;
+
+  background: #d4af37;
+}
+
+
+/* ==================================================
+   PROJECT TEAM
+   ================================================== */
+
+.bsb-join-team {
+  width: 100%;
+
+  padding: 75px 40px;
+
+  background: #faf9f6;
+}
+
+.bsb-join-team-inner {
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+.bsb-join-team h2 {
+  margin: 0 0 50px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.bsb-join-team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 45px;
+}
+
+.bsb-join-team-card {
+  padding: 10px;
+}
+
+.bsb-join-team-icon {
+  margin-bottom: 20px;
+
+  color: #d4af37;
+
+  font-size: 42px;
+}
+
+.bsb-join-team-card h3 {
+  margin: 0 0 5px;
+
+  font-size: 22px;
+}
+
+.bsb-join-team-card h3 a {
+  color: #1c1917;
+
+  text-decoration: none;
+}
+
+.bsb-join-team-card h4 {
+  margin: 0 0 20px;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bsb-join-team-card p {
+  font-size: 17px;
+
+  line-height: 1.5;
+}
+
+
+/* ==================================================
+   CONTRIBUTORS
+   ================================================== */
+
+.bsb-join-contributors {
+  width: 100%;
+
+  padding: 80px 40px;
+
+  background: #f3f1ea;
+}
+
+.bsb-join-contributors-inner {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto;
+}
+
+.bsb-join-eyebrow {
+  margin: 0 0 5px;
+
+  font-size: 18px;
+}
+
+.bsb-join-contributors h2,
+.bsb-join-sponsors h2 {
+  margin: 0 0 20px;
+
+  font-family: "DM Sans", Arial, sans-serif;
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.bsb-join-contributors-intro {
+  margin-bottom: 50px;
+
+  font-size: 20px;
+}
+
+.bsb-join-contributors-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  column-gap: 60px;
+  row-gap: 35px;
+}
+
+.bsb-join-person {
+  position: relative;
+
+  padding-left: 44px;
+}
+
+.bsb-join-person::before {
+  content: "◆";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  color: #d4af37;
+
+  font-size: 25px;
+}
+
+.bsb-join-person strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  font-size: 19px;
+}
+
+.bsb-join-person span {
+  display: block;
+
+  font-size: 16px;
+}
+
+
+/* ==================================================
+   SPONSORS
+   ================================================== */
+
+.bsb-join-sponsors {
+  width: 100%;
+
+  padding: 75px 40px 90px;
+
+  background: #ffffff;
+
+  text-align: center;
+}
+
+.bsb-join-sponsors-inner {
+  width: 100%;
+  max-width: 1215px;
+
+  margin: 0 auto;
+}
+
+.bsb-join-sponsors-inner > p {
+  font-size: 20px;
+}
+
+.bsb-join-sponsor-grid {
+  margin-top: 55px;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 80px;
+
+  align-items: center;
+}
+
+.bsb-join-sponsor img {
+  display: block;
+
+  width: 100%;
+  max-width: 400px;
+
+  height: 250px;
+
+  margin: 0 auto 25px;
+
+  object-fit: contain;
+}
+
+.bsb-join-sponsor h3 {
+  margin: 0 0 5px;
+
+  font-size: 22px;
+}
+
+.bsb-newcomb-title {
+  color: #006747;
+}
+
+.bsb-caids-title {
+  color: #02778b;
+}
+
+.bsb-join-sponsor p {
+  margin: 0;
+
+  font-size: 17px;
+}
+
+
+/* ==================================================
+   JOIN TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+  .bsb-join-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bsb-join-contributors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* ==================================================
+   JOIN MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-join-hero {
+    min-height: 380px;
+
+    padding: 45px 20px;
+  }
+
+  .bsb-join-hero-box {
+    padding: 50px 20px;
+  }
+
+  .bsb-join-hero h1 {
+    font-size: 40px;
+  }
+
+  .bsb-join-intro {
+    padding: 60px 20px;
+  }
+
+  .bsb-join-intro-grid {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .bsb-join-contribute,
+  .bsb-join-team,
+  .bsb-join-contributors,
+  .bsb-join-sponsors {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bsb-join-team-grid,
+  .bsb-join-contributors-grid,
+  .bsb-join-sponsor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bsb-join-team h2,
+  .bsb-join-contribute h2,
+  .bsb-join-contributors h2,
+  .bsb-join-sponsors h2 {
+    font-size: 40px;
+  }
+
+}
