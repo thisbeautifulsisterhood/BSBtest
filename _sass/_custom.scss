@@ -3444,12 +3444,10 @@
   line-height: 1.1;
 }
 
-/* Truly responsive: columns are determined by available width,
-   not by one hard breakpoint. */
 .bsb-team-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(20px, 2.5vw, 34px);
   align-items: stretch;
 }
@@ -3473,7 +3471,7 @@
 
   background: #fafaf8 !important;
   border: 4px solid #d2aa2e !important;
-  border-radius: clamp(22px, 2.2vw, 30px) !important;
+  border-radius: 30px !important;
   box-shadow: 0 7px 13px rgba(0, 0, 0, 0.10);
 
   color: #111111;
@@ -3487,7 +3485,7 @@
 .bsb-team-card:active {
   background: #fafaf8 !important;
   border: 4px solid #d2aa2e !important;
-  border-radius: clamp(22px, 2.2vw, 30px) !important;
+  border-radius: 30px !important;
   box-shadow: 0 7px 13px rgba(0, 0, 0, 0.10) !important;
   overflow: hidden !important;
   transform: none !important;
@@ -3499,7 +3497,7 @@
    ================================================== */
 
 .bsb-team-icon {
-  width: clamp(76px, 7vw, 104px);
+  width: clamp(78px, 7vw, 104px);
   aspect-ratio: 1 / 1;
 
   margin: 0 0 clamp(14px, 1.7vw, 20px) clamp(4px, 1vw, 12px);
@@ -3582,38 +3580,36 @@
 
 
 /* ==================================================
-   TEAM RESPONSIVE SAFETY RULES
+   PROJECT TEAM RESPONSIVE
    ================================================== */
 
-/* Medium widths: prevent cramped 3-column cards. */
-@media (max-width: 1050px) {
+/* Smaller desktop / tablet */
+@media screen and (max-width: 1200px) {
 
   .bsb-team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 
 }
 
-/* Phones / narrow windows: one card per row. */
-@media (max-width: 680px) {
+/* Mobile */
+@media screen and (max-width: 768px) {
 
   .bsb-team-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 
   .bsb-team-card {
-    width: 100%;
-    min-height: 0;
-  }
-
-  .bsb-team-icon {
-    width: clamp(78px, 22vw, 96px);
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
   }
 
 }
 
-/* Very small phones. */
-@media (max-width: 420px) {
+/* Small phone */
+@media screen and (max-width: 480px) {
 
   .bsb-team-section {
     padding-left: 12px;
@@ -3622,18 +3618,6 @@
 
   .bsb-team-card {
     padding: 16px 14px 20px;
-  }
-
-  .bsb-team-card h3 {
-    font-size: 20px;
-  }
-
-  .bsb-team-role {
-    font-size: 17px;
-  }
-
-  .bsb-team-card p:not(.bsb-team-role) {
-    font-size: 15px;
   }
 
 }
@@ -3798,10 +3782,6 @@
    ================================================== */
 
 @media (max-width: 1024px) {
-
-  .bsb-join-team-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
   .bsb-join-contributors-grid {
     grid-template-columns: repeat(2, 1fr);
