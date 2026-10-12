@@ -3200,38 +3200,57 @@
 .bsb-join-contribute {
   width: 100%;
 
-  padding: 80px 40px;
+  padding: 40px 20px 90px;
 
-  background: #faf9f6;
+  background: #f4f4f1;
 }
 
 .bsb-join-contribute-inner {
   width: 100%;
-  max-width: 1215px;
+  max-width: 1130px;
 
   margin: 0 auto;
 }
 
 .bsb-join-contribute h2 {
-  margin: 0 0 30px;
+  margin: 0 0 28px;
+
+  color: #12213b;
 
   font-family: "DM Sans", Arial, sans-serif;
 
-  font-size: 48px;
+  font-size: 34px;
   font-weight: 700;
+
+  line-height: 1.1;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  letter-spacing: 1.5px;
 }
 
 .bsb-join-contribute p,
 .bsb-join-contribute li {
-  font-size: 20px;
+  color: #1c1917;
 
-  line-height: 1.5;
+  font-size: 19px;
+
+  line-height: 1.55;
+}
+
+.bsb-join-contribute p {
+  margin: 0 0 22px;
 }
 
 .bsb-join-contribute ul {
-  margin: 20px 0 30px;
+  margin: 0 0 26px 24px;
 
-  padding-left: 35px;
+  padding: 0;
+}
+
+.bsb-join-contribute li {
+  margin-bottom: 6px;
 }
 
 .bsb-join-contribute a {
@@ -3244,55 +3263,139 @@
    ================================================== */
 
 .bsb-join-accordion {
-  margin-top: 50px;
+  margin-top: 26px;
 }
 
 .bsb-join-accordion details {
-  margin-bottom: 12px;
+  margin: 0;
 
-  background: #ffffff;
+  border: 0;
+  border-bottom: 2px solid #2a2a2a;
+
+  background: transparent;
 }
 
 .bsb-join-accordion summary {
-  padding: 18px 22px;
+  display: flex;
+  align-items: center;
 
-  background: #a4ae96;
+  gap: 16px;
+
+  padding: 22px 14px;
+
+  background: transparent;
+
+  color: #1c1917;
 
   cursor: pointer;
 
-  list-style: none;
+  font-size: 21px;
+  font-weight: 400;
 
-  font-size: 20px;
+  line-height: 1.35;
+
+  list-style: none;
 }
 
 .bsb-join-accordion summary::-webkit-details-marker {
   display: none;
 }
 
+.bsb-join-accordion summary:hover,
+.bsb-join-accordion summary:focus {
+  background: transparent;
+}
+
 .bsb-join-plus {
   display: inline-block;
+  flex-shrink: 0;
 
-  width: 28px;
+  width: 18px;
 
-  margin-right: 8px;
+  margin: 0;
 
-  font-size: 24px;
+  color: #1c1917;
+
+  font-size: 32px;
+  font-weight: 700;
+
+  line-height: 1;
 
   text-align: center;
+
+  transform: translateY(-1px);
 }
 
 .bsb-join-accordion details[open] .bsb-join-plus {
-  transform: rotate(45deg);
+  transform: translateY(-1px) rotate(45deg);
 }
 
 .bsb-join-panel {
-  padding: 24px 28px;
+  padding: 0 18px 24px 48px;
 
-  background: #ffffff;
+  background: transparent;
+
+  color: #1c1917;
+
+  font-size: 18px;
+
+  line-height: 1.6;
 }
 
 .bsb-join-panel p {
   margin: 0 0 18px;
+}
+
+.bsb-join-panel p:last-child,
+.bsb-join-panel ul:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ==================================================
+   JOIN CONTRIBUTE MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+  .bsb-join-contribute {
+    padding-top: 35px;
+    padding-bottom: 70px;
+  }
+
+  .bsb-join-contribute h2 {
+    margin-bottom: 22px;
+
+    font-size: 28px;
+
+    letter-spacing: 1px;
+  }
+
+  .bsb-join-contribute p,
+  .bsb-join-contribute li {
+    font-size: 17px;
+  }
+
+  .bsb-join-accordion summary {
+    gap: 12px;
+
+    padding: 18px 10px;
+
+    font-size: 18px;
+  }
+
+  .bsb-join-plus {
+    width: 16px;
+
+    font-size: 28px;
+  }
+
+  .bsb-join-panel {
+    padding: 0 10px 20px 34px;
+
+    font-size: 16px;
+  }
+
 }
 
 
@@ -3598,7 +3701,6 @@
   }
 
   .bsb-join-team h2,
-  .bsb-join-contribute h2,
   .bsb-join-contributors h2,
   .bsb-join-sponsors h2 {
     font-size: 40px;
