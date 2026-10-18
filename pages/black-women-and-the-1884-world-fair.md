@@ -115,7 +115,9 @@ permalink: /black-women-and-the-1884-world-fair/
           ‹
         </button>
 
-        <div class="bsb-black-women-carousel-track">
+        <div class="bsb-black-women-carousel-viewport">
+
+          <div class="bsb-black-women-carousel-track">
 
           <article class="bsb-black-women-slide is-active">
 
@@ -318,6 +320,8 @@ permalink: /black-women-and-the-1884-world-fair/
             </a>
 
           </article>
+
+          </div>
 
         </div>
 

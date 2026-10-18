@@ -4344,13 +4344,20 @@
   justify-content: center;
 
   min-height: 520px;
+}
 
+/*
+  Important: the OG shows exactly one slide at a time.
+  This inner viewport clips the neighboring slides while
+  leaving room outside it for the previous/next arrows.
+*/
+.bsb-black-women-carousel-viewport {
+  width: min(640px, calc(100% - 160px));
   overflow: hidden;
 }
 
 .bsb-black-women-carousel-track {
-  width: min(640px, calc(100% - 160px));
-
+  width: 100%;
   display: flex;
 
   transform: translateX(0);
@@ -4380,6 +4387,11 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
+}
+
+
+.bsb-black-women-slide h2 {
+  overflow-wrap: anywhere;
 }
 
 .bsb-black-women-slide > a:first-of-type {
@@ -4572,7 +4584,7 @@
 
 @media (max-width: 900px) {
 
-  .bsb-black-women-carousel-track {
+  .bsb-black-women-carousel-viewport {
     width: min(640px, calc(100% - 120px));
   }
 
@@ -4600,7 +4612,7 @@
     min-height: 0;
   }
 
-  .bsb-black-women-carousel-track {
+  .bsb-black-women-carousel-viewport {
     width: calc(100% - 74px);
   }
 
