@@ -240,19 +240,19 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
+              href="https://thisbeautifulsisterhood.org/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/"
               target="_blank"
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2024/08/map.jpg?resize=1024%2C576&amp;ssl=1"
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/image-2.png?resize=600%2C371&amp;ssl=1"
                 alt=""
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
+              href="https://thisbeautifulsisterhood.org/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -269,7 +269,7 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
+              href="https://thisbeautifulsisterhood.org/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -281,7 +281,36 @@ permalink: /black-women-and-the-1884-world-fair/
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
+              href="https://thisbeautifulsisterhood.org/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Click to Read More!
+            </a>
+
+          </article>
+
+
+          <article class="bsb-black-women-slide">
+
+            <h2>
+              Mission Statement &amp; Team
+            </h2>
+
+            <a
+              href="https://thisbeautifulsisterhood.org/mission-statement-project-team/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/flowers-update-4-1-1.png?resize=600%2C338&amp;ssl=1"
+                alt=""
+              >
+            </a>
+
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/mission-statement-project-team/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -311,6 +340,7 @@ permalink: /black-women-and-the-1884-world-fair/
         <button type="button" aria-label="Exhibit 4"></button>
         <button type="button" aria-label="Exhibit 5"></button>
         <button type="button" aria-label="Exhibit 6"></button>
+        <button type="button" aria-label="Exhibit 7"></button>
 
       </div>
 
@@ -322,6 +352,8 @@ permalink: /black-women-and-the-1884-world-fair/
         const carousel = document.querySelector(".bsb-black-women-carousel");
 
         if (!carousel) return;
+
+        const track = carousel.querySelector(".bsb-black-women-carousel-track");
 
         const slides = Array.from(
           carousel.querySelectorAll(".bsb-black-women-slide")
@@ -339,33 +371,104 @@ permalink: /black-women-and-the-1884-world-fair/
           ".bsb-black-women-carousel-next"
         );
 
+        /*
+          The original page uses a Spectra/UAGB Swiper slider.
+          The supplied screen recording shows it advancing about every 3 seconds.
+        */
+        const autoplayDelay = 3000;
+
         let current = 0;
+        let autoplayTimer = null;
 
         function showSlide(index) {
           current = (index + slides.length) % slides.length;
 
+          track.style.transform =
+            "translateX(-" + (current * 100) + "%)";
+
           slides.forEach(function (slide, slideIndex) {
-            slide.classList.toggle("is-active", slideIndex === current);
+            const active = slideIndex === current;
+
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
           });
 
           dots.forEach(function (dot, dotIndex) {
-            dot.classList.toggle("is-active", dotIndex === current);
+            const active = dotIndex === current;
+
+            dot.classList.toggle("is-active", active);
+            dot.setAttribute("aria-current", active ? "true" : "false");
           });
+        }
+
+        function stopAutoplay() {
+          if (autoplayTimer !== null) {
+            window.clearInterval(autoplayTimer);
+            autoplayTimer = null;
+          }
+        }
+
+        function startAutoplay() {
+          stopAutoplay();
+
+          if (
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ) {
+            return;
+          }
+
+          autoplayTimer = window.setInterval(function () {
+            showSlide(current + 1);
+          }, autoplayDelay);
+        }
+
+        function restartAutoplay() {
+          stopAutoplay();
+          startAutoplay();
         }
 
         previous.addEventListener("click", function () {
           showSlide(current - 1);
+          restartAutoplay();
         });
 
         next.addEventListener("click", function () {
           showSlide(current + 1);
+          restartAutoplay();
         });
 
         dots.forEach(function (dot, index) {
           dot.addEventListener("click", function () {
             showSlide(index);
+            restartAutoplay();
           });
         });
+
+        /*
+          Match normal carousel behavior:
+          pause while someone is hovering or keyboard-interacting,
+          then resume when they leave.
+        */
+        carousel.addEventListener("mouseenter", stopAutoplay);
+        carousel.addEventListener("mouseleave", startAutoplay);
+        carousel.addEventListener("focusin", stopAutoplay);
+
+        carousel.addEventListener("focusout", function (event) {
+          if (!carousel.contains(event.relatedTarget)) {
+            startAutoplay();
+          }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) {
+            stopAutoplay();
+          } else {
+            startAutoplay();
+          }
+        });
+
+        showSlide(0);
+        startAutoplay();
       });
     </script>
 

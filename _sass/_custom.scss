@@ -4344,20 +4344,26 @@
   justify-content: center;
 
   min-height: 520px;
+
+  overflow: hidden;
 }
 
 .bsb-black-women-carousel-track {
   width: min(640px, calc(100% - 160px));
+
+  display: flex;
+
+  transform: translateX(0);
+  transition: transform 0.55s ease-in-out;
+  will-change: transform;
 }
 
 .bsb-black-women-slide {
-  display: none;
   width: 100%;
-  text-align: center;
-}
+  min-width: 100%;
+  flex: 0 0 100%;
 
-.bsb-black-women-slide.is-active {
-  display: block;
+  text-align: center;
 }
 
 .bsb-black-women-slide h2 {
@@ -4649,3 +4655,12 @@
 
 }
 
+
+
+@media (prefers-reduced-motion: reduce) {
+
+  .bsb-black-women-carousel-track {
+    transition: none;
+  }
+
+}
