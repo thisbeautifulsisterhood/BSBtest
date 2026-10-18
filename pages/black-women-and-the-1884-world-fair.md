@@ -100,193 +100,274 @@ permalink: /black-women-and-the-1884-world-fair/
 
 
     <!-- =========================================
-         EXHIBIT HIGHLIGHTS
+         EXHIBIT CAROUSEL
          ========================================= -->
 
-    <section class="bsb-black-women-highlights">
+    <section class="bsb-black-women-carousel" aria-label="Black Women and the 1884 World's Fair exhibits">
 
-      <h2>
-        Explore the Exhibit
-      </h2>
+      <div class="bsb-black-women-carousel-shell">
 
-      <div class="bsb-black-women-feature-grid">
+        <button
+          class="bsb-black-women-carousel-arrow bsb-black-women-carousel-prev"
+          type="button"
+          aria-label="Previous exhibit"
+        >
+          ‹
+        </button>
 
-        <article class="bsb-black-women-feature-card">
+        <div class="bsb-black-women-carousel-track">
 
-          <h3>
-            Black Women Authors
-          </h3>
+          <article class="bsb-black-women-slide is-active">
 
-          <a
-            href="https://thisbeautifulsisterhood.org/black-women-authors/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Wish-List-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
-              alt="A collage of six Black women writers."
+            <h2>
+              Black Women Authors
+            </h2>
+
+            <a
+              href="https://thisbeautifulsisterhood.org/black-women-authors/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Wish-List-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                alt="A collage of six Black women writers."
+              >
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://thisbeautifulsisterhood.org/black-women-authors/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
-
-        </article>
-
-
-        <article class="bsb-black-women-feature-card">
-
-          <h3>
-            Black Newspapers and Black Women Exhibitors at the Fair
-          </h3>
-
-          <a
-            href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Julia-C-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
-              alt="A Wonderful Sofa: The Contribution of an American Lady to the Colored Exhibit of the World's Fair."
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/black-women-authors/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              Click to Read More!
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
-
-        </article>
+          </article>
 
 
-        <article class="bsb-black-women-feature-card">
+          <article class="bsb-black-women-slide">
 
-          <h3>
-            Fannie Barrier Williams and the Synecdochal Whole
-          </h3>
+            <h2>
+              Black Newspapers and Black Women Exhibitors at the Fair
+            </h2>
 
-          <a
-            href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/Sala-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
-              alt="A collage of three Black women, one of whom is Fannie Barrier Williams."
+            <a
+              href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Julia-C-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                alt="A Wonderful Sofa: The Contribution of an American Lady to the Colored Exhibit of the World's Fair."
+              >
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
-
-        </article>
-
-
-        <article class="bsb-black-women-feature-card">
-
-          <h3>
-            Recovery is Not Innocent
-          </h3>
-
-          <a
-            href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/DeMaio-Thumbnail-1.png?resize=1024%2C576&amp;ssl=1"
-              alt="The World's Industrial and Cotton Centennial Exposition."
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              Click to Read More!
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
-
-        </article>
+          </article>
 
 
-        <article class="bsb-black-women-feature-card">
+          <article class="bsb-black-women-slide">
 
-          <h3>
-            Black Press Coverage of the 1884 New Orleans World’s Fair
-          </h3>
+            <h2>
+              Fannie Barrier Williams and the Synecdochal Whole
+            </h2>
 
-          <a
-            href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2024/08/map.jpg?resize=1024%2C576&amp;ssl=1"
-              alt=""
+            <a
+              href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/Sala-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                alt="A collage of three Black women, one of whom is Fannie Barrier Williams."
+              >
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
-
-        </article>
-
-
-        <article class="bsb-black-women-feature-card">
-
-          <h3>
-            Black Women, the Woman’s Department, and Constructs of Racial and Gendered Identity
-          </h3>
-
-          <a
-            href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img
-              src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/flowers-update-4-1-1.png?resize=1024%2C576&amp;ssl=1"
-              alt=""
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-          </a>
+              Click to Read More!
+            </a>
 
-          <a
-            class="bsb-black-women-read-more"
-            href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Click to Read More!
-          </a>
+          </article>
 
-        </article>
+
+          <article class="bsb-black-women-slide">
+
+            <h2>
+              Recovery is Not Innocent
+            </h2>
+
+            <a
+              href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/DeMaio-Thumbnail-1.png?resize=1024%2C576&amp;ssl=1"
+                alt="The World's Industrial and Cotton Centennial Exposition."
+              >
+            </a>
+
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Click to Read More!
+            </a>
+
+          </article>
+
+
+          <article class="bsb-black-women-slide">
+
+            <h2>
+              Black Press Coverage of the 1884 New Orleans World’s Fair
+            </h2>
+
+            <a
+              href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2024/08/map.jpg?resize=1024%2C576&amp;ssl=1"
+                alt=""
+              >
+            </a>
+
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://uploads.knightlab.com/storymapjs/adf57313cfc4fb316c17712c0f503b91/black-press-mockup/index.html"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Click to Read More!
+            </a>
+
+          </article>
+
+
+          <article class="bsb-black-women-slide">
+
+            <h2>
+              Black Women, the Woman’s Department, and Constructs of Racial and Gendered Identity
+            </h2>
+
+            <a
+              href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/flowers-update-4-4.png?resize=1024%2C576&amp;ssl=1"
+                alt=""
+              >
+            </a>
+
+            <a
+              class="bsb-black-women-carousel-button"
+              href="https://thisbeautifulsisterhood.org/black-women-the-womans-department-and-constructs-of-racial-and-gendered-identity/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Click to Read More!
+            </a>
+
+          </article>
+
+        </div>
+
+        <button
+          class="bsb-black-women-carousel-arrow bsb-black-women-carousel-next"
+          type="button"
+          aria-label="Next exhibit"
+        >
+          ›
+        </button>
+
+      </div>
+
+
+      <div class="bsb-black-women-carousel-dots" aria-label="Choose exhibit">
+
+        <button class="is-active" type="button" aria-label="Exhibit 1"></button>
+        <button type="button" aria-label="Exhibit 2"></button>
+        <button type="button" aria-label="Exhibit 3"></button>
+        <button type="button" aria-label="Exhibit 4"></button>
+        <button type="button" aria-label="Exhibit 5"></button>
+        <button type="button" aria-label="Exhibit 6"></button>
 
       </div>
 
     </section>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.querySelector(".bsb-black-women-carousel");
+
+        if (!carousel) return;
+
+        const slides = Array.from(
+          carousel.querySelectorAll(".bsb-black-women-slide")
+        );
+
+        const dots = Array.from(
+          carousel.querySelectorAll(".bsb-black-women-carousel-dots button")
+        );
+
+        const previous = carousel.querySelector(
+          ".bsb-black-women-carousel-prev"
+        );
+
+        const next = carousel.querySelector(
+          ".bsb-black-women-carousel-next"
+        );
+
+        let current = 0;
+
+        function showSlide(index) {
+          current = (index + slides.length) % slides.length;
+
+          slides.forEach(function (slide, slideIndex) {
+            slide.classList.toggle("is-active", slideIndex === current);
+          });
+
+          dots.forEach(function (dot, dotIndex) {
+            dot.classList.toggle("is-active", dotIndex === current);
+          });
+        }
+
+        previous.addEventListener("click", function () {
+          showSlide(current - 1);
+        });
+
+        next.addEventListener("click", function () {
+          showSlide(current + 1);
+        });
+
+        dots.forEach(function (dot, index) {
+          dot.addEventListener("click", function () {
+            showSlide(index);
+          });
+        });
+      });
+    </script>
 
 
     <!-- =========================================
