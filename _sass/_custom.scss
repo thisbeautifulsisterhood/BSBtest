@@ -616,6 +616,7 @@
 
 /* ==================================================
    EXPLORE CARDS
+   Source-matched hover behavior
    ================================================== */
 
 .bsb-card {
@@ -634,19 +635,12 @@
   background: transparent;
 
   color: #1c1917;
-
-  text-decoration: none;
-}
-
-.bsb-card:hover {
-  color: #1c1917;
-  text-decoration: none;
 }
 
 .bsb-card h3 {
   margin: 0 0 14px;
 
-  color: #1c1917;
+  color: #2d3748;
 
   font-family: "Figtree", Arial, sans-serif;
 
@@ -657,14 +651,21 @@
   line-height: 1.3;
 }
 
-.bsb-card h3 strong {
-  font-weight: 400;
+.bsb-card h3 a {
+  color: #2d3748 !important;
+  text-decoration: none !important;
+}
+
+.bsb-card h3 a:hover,
+.bsb-card h3 a:focus {
+  color: #2d3748 !important;
+  text-decoration: underline !important;
 }
 
 .bsb-card p {
   margin: 0;
 
-  color: #1c1917;
+  color: #2d3748;
 
   font-family: "Figtree", Arial, sans-serif;
 
@@ -695,9 +696,14 @@
   align-items: center;
   justify-content: center;
 
-  border: 5px solid #edf2f7;
+  border: 5px solid #eeeeee;
 
-  color: #111111;
+  color: rgba(0, 0, 0, 0.9);
+
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
 }
 
 .bsb-icon svg {
@@ -707,18 +713,55 @@
   height: 45px;
 }
 
+
+/* SEARCH — OG normal/hover colors */
+
 .bsb-icon-blue {
   background: #80a19e;
 }
 
+.bsb-card-search:hover .bsb-icon,
+.bsb-card-search:focus-within .bsb-icon {
+  color: #edf2f7;
+  background: #3182ce;
+  border-color: #eeeeee;
+}
+
+
+/* STUDY — OG normal/hover colors */
+
 .bsb-icon-green {
   background: #a4ae96;
+  border-color: #faf9f6;
 }
+
+.bsb-card-study:hover .bsb-icon,
+.bsb-card-study:focus-within .bsb-icon {
+  color: #edf2f7;
+  background: #2b6cb0;
+  border-color: #eeeeee;
+}
+
+
+/* JOIN — OG normal/hover colors */
 
 .bsb-icon-purple {
   background: #c3abba;
 }
 
+.bsb-card-join:hover .bsb-icon,
+.bsb-card-join:focus-within .bsb-icon {
+  color: #edf2f7;
+  background: #1a202c;
+  border-color: #eeeeee;
+}
+
+
+/*
+  The original WordPress page makes only the title itself a link.
+  Hovering anywhere inside a card changes its icon, while hovering
+  directly over Search!, Study!, or Join! underlines that title.
+*/
 
 /* ==================================================
    BSB DIVIDER

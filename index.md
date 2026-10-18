@@ -305,10 +305,7 @@ title: Home
 
       <!-- SEARCH -->
 
-      <a
-        class="bsb-card"
-        href="{{ '/search.html' | relative_url }}"
-      >
+      <div class="bsb-card bsb-card-search">
 
         <div class="bsb-icon bsb-icon-blue">
 
@@ -328,7 +325,7 @@ title: Home
         </div>
 
         <h3>
-          Search!
+          <a href="{{ '/search.html' | relative_url }}">Search!</a>
         </h3>
 
         <p>
@@ -336,16 +333,13 @@ title: Home
           state, and keyword.
         </p>
 
-      </a>
+      </div>
 
 
 
       <!-- STUDY -->
 
-      <a
-        class="bsb-card"
-        href="{{ '/study.html' | relative_url }}"
-      >
+      <div class="bsb-card bsb-card-study">
 
         <div class="bsb-icon bsb-icon-green">
 
@@ -359,23 +353,22 @@ title: Home
 
         </div>
 
-        <h3>Study!</h3>
+        <h3>
+          <a href="{{ '/study.html' | relative_url }}">Study!</a>
+        </h3>
 
         <p>
           Learn and teach with original research on books, authors, and art
           at the 1884 World’s Fair.
         </p>
 
-      </a>
+      </div>
 
 
 
       <!-- JOIN -->
 
-      <a
-        class="bsb-card"
-        href="https://thisbeautifulsisterhood.org/join/"
-      >
+      <div class="bsb-card bsb-card-join">
 
         <div class="bsb-icon bsb-icon-purple">
 
@@ -389,97 +382,22 @@ title: Home
 
         </div>
 
-        <h3>Join!</h3>
+        <h3>
+          <a href="{{ '/join.html' | relative_url }}">Join!</a>
+        </h3>
 
         <p>
           Join the <em>Sisterhood</em>! Contribute research and educational
           resources.
         </p>
 
-      </a>
-
-    </div>
-
-  </section>
-
-
-
-  <!-- ==================================================
-       BSB DIVIDER
-       ================================================== -->
-
-  <div class="bsb-footer-title">
-
-    <span>BSB</span>
-
-  </div>
-
-
-
-  <!-- ==================================================
-       EXPAND THE SISTERHOOD
-       ================================================== -->
-
-  <section class="bsb-expand">
-
-    <div class="bsb-expand-text">
-
-      <h2>
-        Expand the Sisterhood!
-      </h2>
-
-
-      <p class="bsb-footer-label">
-        Cite the Sisterhood…
-      </p>
-
-
-      <p>
-        Adams, Katherine, and Jacquelyne Thoni Howard. 2017.
-        <br>
-        <em>This Beautiful Sisterhood of Books</em> Project.
-        https://thisbeautifulsisterhood.org/ SIsterhood
-      </p>
-
-
-      <p class="bsb-footer-label">
-        Discuss the Sisterhood…
-      </p>
-
-
-      <div class="bsb-buttons">
-
-        <a
-          class="bsb-button bsb-button-blue"
-          href="https://thisbeautifulsisterhood.org/contact-us/"
-        >
-          Join US
-        </a>
-
-
-        <a
-          class="bsb-button bsb-button-purple"
-          href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-        >
-          Contact US
-        </a>
-
       </div>
 
     </div>
 
-
-    <div class="bsb-expand-image">
-
-      <img
-        src="{{ '/assets/img/bsb/flowers.png' | relative_url }}"
-        alt=""
-      >
-
-    </div>
-
   </section>
+
+
+  {% include bsb-footer.html %}
 
 </div>

@@ -1,108 +1,109 @@
 ---
 title: Site Search
-layout: bsb-search
+layout: search
 permalink: /search.html
+# see _data/search-config.csv for display options
+# Lunr.js search will be added below the content in this file
 ---
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.body.classList.add("bsb-search-body");
+
+  /* Hide CollectionBuilder's normal site masthead/navbar on this page only. */
+  const selectors = [
+    "#header",
+    "header#header",
+    ".site-header",
+    "nav.navbar",
+    ".navbar"
+  ];
+
+  selectors.forEach(function (selector) {
+    document.querySelectorAll(selector).forEach(function (element) {
+      /* Do not hide our custom white Search-page nav. */
+      if (!element.classList.contains("bsb-search-nav")) {
+        element.style.display = "none";
+      }
+    });
+  });
+});
+</script>
 
 <div class="bsb-search-page">
 
-  <!-- =========================================
-       SEARCH HERO
-       ========================================= -->
+  <!-- ==================================================
+       HERO
+       ================================================== -->
 
   <section class="bsb-search-hero">
-
     <div class="bsb-search-hero-box">
-
       <h1>Search the Sisterhood</h1>
 
       <p>
-        Recovering the 1884 Woman’s Literary Department
-        for the 21<sup>st</sup>&nbsp;Century
+        Recovering the 1884 Woman’s Literary Department for the
+        21<sup>st</sup>&nbsp;Century
       </p>
-
     </div>
-
   </section>
 
 
-  <!-- =========================================
-       WHITE NAVIGATION
-       ========================================= -->
+  <!-- ==================================================
+       WHITE NAVIGATION BAR
+       ================================================== -->
 
-  <nav class="bsb-search-nav">
-
+  <nav class="bsb-search-nav" aria-label="Sisterhood navigation">
     <div class="bsb-search-nav-inner">
 
-      <a href="{{ '/' | relative_url }}">
-        Home
-      </a>
-
+      <a href="{{ '/' | relative_url }}">Home</a>
 
       <div class="bsb-search-nav-dropdown">
-
-        <a href="{{ '/search.html' | relative_url }}">
+        <a
+          class="bsb-search-nav-main-link"
+          href="{{ '/search.html' | relative_url }}"
+        >
           Search the Sisterhood
-          <span class="bsb-nav-arrow">⌄</span>
+          <span class="bsb-nav-arrow" aria-hidden="true">⌄</span>
         </a>
 
         <div class="bsb-search-nav-menu">
-
-          <a href="{{ '/subjects.html' | relative_url }}">
-            Genres
-          </a>
-
-          <a href="{{ '/subjects.html' | relative_url }}">
-            Keywords
-          </a>
-
-          <a href="{{ '/locations.html' | relative_url }}">
-            States
-          </a>
-
-          <a href="{{ '/authors/' | relative_url }}">
-            Authors
-          </a>
-
+          <a href="{{ '/subjects.html' | relative_url }}">Genres</a>
+          <a href="{{ '/subjects.html' | relative_url }}">Keywords</a>
+          <a href="{{ '/locations.html' | relative_url }}">States</a>
+          <a href="{{ '/authors/' | relative_url }}">Authors</a>
         </div>
-
       </div>
 
-
-      <a href="{{ '/study.html' | relative_url }}">
-      Study the Sisterhood
+      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
+        Study the Sisterhood
       </a>
 
-      <a href="{{ '/teach.html' | relative_url }}">
+      <a href="https://thisbeautifulsisterhood.org/teaching/">
         Teach the Sisterhood
       </a>
 
-      <a href="{{ '/join.html' | relative_url }}">
+      <a href="https://thisbeautifulsisterhood.org/join/">
         Join the Sisterhood
       </a>
 
     </div>
-
   </nav>
 
 
-  <!-- =========================================
+  <!-- ==================================================
        DISCOVER THE SISTERHOOD
-       ========================================= -->
+       ================================================== -->
 
   <section class="bsb-discover">
 
     <div class="bsb-discover-grid">
 
       <div class="bsb-discover-image">
-
         <img
           src="{{ '/assets/img/bsb/search-library.png' | relative_url }}"
           alt="Library"
         >
-
       </div>
-
 
       <div class="bsb-discover-content">
 
@@ -148,28 +149,26 @@ permalink: /search.html
       </p>
 
       <p>
-        <em>This Beautiful Sisterhood of Books</em>
-        recovers Maud’s library for new readers and researchers.
+        <em>This Beautiful Sisterhood of Books</em>&nbsp;recovers Maud’s
+        library for new readers and researchers.
       </p>
 
     </div>
-
 
     <hr class="bsb-search-gold-rule">
 
   </section>
 
 
-  <!-- =========================================
+  <!-- ==================================================
        DATABASE INTRO
-       ========================================= -->
+       ================================================== -->
 
   <section class="bsb-database">
 
     <div class="bsb-database-grid">
 
       <div>
-
         <h3>
           Explore Maud’s library in its new digital form…
         </h3>
@@ -177,12 +176,9 @@ permalink: /search.html
         <h2>
           Search the Sisterhood Database!
         </h2>
-
       </div>
 
-
       <div>
-
         <p>
           Do you have information, such as links to resources or materials,
           that may help us complete the database?
@@ -196,7 +192,6 @@ permalink: /search.html
         >
           Contact Us
         </a>
-
       </div>
 
     </div>
@@ -204,9 +199,9 @@ permalink: /search.html
   </section>
 
 
-  <!-- =========================================
+  <!-- ==================================================
        SEARCH CATEGORY LINKS
-       ========================================= -->
+       ================================================== -->
 
   <section class="bsb-search-links">
 
@@ -245,9 +240,9 @@ permalink: /search.html
   </section>
 
 
-  <!-- =========================================
-       SPECIFIC SEARCH
-       ========================================= -->
+  <!-- ==================================================
+       LOOKING FOR SOMETHING SPECIFIC
+       ================================================== -->
 
   <section class="bsb-specific-search">
 
@@ -270,74 +265,6 @@ permalink: /search.html
   </section>
 
 
-  <!-- =========================================
-       BSB DIVIDER
-       ========================================= -->
-
-  <div class="bsb-footer-title">
-    <span>BSB</span>
-  </div>
-
-
-  <!-- =========================================
-       EXPAND THE SISTERHOOD
-       ========================================= -->
-
-  <section class="bsb-expand">
-
-    <div class="bsb-expand-text">
-
-      <h2>
-        Expand the Sisterhood!
-      </h2>
-
-      <p class="bsb-footer-label">
-        Cite the Sisterhood…
-      </p>
-
-      <p>
-        Adams, Katherine, and Jacquelyne Thoni Howard. 2017.
-        <br>
-        <em>This Beautiful Sisterhood of Books</em> Project.
-        https://thisbeautifulsisterhood.org/ SIsterhood
-      </p>
-
-      <p class="bsb-footer-label">
-        Discuss the Sisterhood…
-      </p>
-
-      <div class="bsb-buttons">
-
-        <a
-          class="bsb-button bsb-button-blue"
-          href="https://thisbeautifulsisterhood.org/contact-us/"
-        >
-          Join US
-        </a>
-
-        <a
-          class="bsb-button bsb-button-purple"
-          href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-        >
-          Contact US
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="bsb-expand-image">
-
-      <img
-        src="{{ '/assets/img/bsb/flowers.png' | relative_url }}"
-        alt=""
-      >
-
-    </div>
-
-  </section>
+  {% include bsb-footer.html %}
 
 </div>
