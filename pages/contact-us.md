@@ -195,15 +195,6 @@ permalink: /contact-us.html
             Submit
           </button>
 
-          <a
-            class="bsb-contact-secondary"
-            href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Contact Us
-          </a>
-
         </div>
 
       </form>
