@@ -4259,3 +4259,223 @@
 
 }
 
+/* ==================================================
+   BLACK WOMEN & THE 1884 WORLD'S FAIR
+   ================================================== */
+
+.bsb-black-women-page {
+  width: 100%;
+  background: #ffffff;
+  color: #1c1917;
+}
+
+.bsb-black-women-main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 28px 90px;
+}
+
+.bsb-black-women-header {
+  max-width: 800px;
+  margin: 0 auto 58px;
+  text-align: center;
+}
+
+.bsb-black-women-header h1 {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #1c1917;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: clamp(40px, 5vw, 58px);
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+.bsb-black-women-rule {
+  width: 96px;
+  height: 2px;
+  margin: 28px auto;
+  background: #71717a;
+}
+
+.bsb-black-women-intro {
+  margin: 0;
+  color: #3e593b;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: clamp(18px, 1.7vw, 22px);
+  line-height: 1.48;
+}
+
+.bsb-black-women-editors {
+  margin: 24px 0 0;
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.4;
+}
+
+.bsb-black-women-highlights {
+  margin-top: 12px;
+}
+
+.bsb-black-women-highlights > h2 {
+  margin: 0 0 34px;
+  text-align: center;
+  color: #1c1917;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.bsb-black-women-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 34px;
+}
+
+.bsb-black-women-feature-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 22px;
+  background: #faf9f6;
+  border-top: 5px solid #d4af37;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.bsb-black-women-feature-card h3 {
+  min-height: 62px;
+  margin: 0 0 16px;
+  text-align: center;
+  color: #1c1917;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.bsb-black-women-feature-card > a:first-of-type {
+  display: block;
+  overflow: hidden;
+}
+
+.bsb-black-women-feature-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.bsb-black-women-feature-card:hover img {
+  transform: scale(1.015);
+}
+
+.bsb-black-women-read-more {
+  align-self: center;
+  margin-top: 18px;
+  padding: 10px 16px;
+  color: #1c1917 !important;
+  background: #d4af37;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.bsb-black-women-read-more:hover,
+.bsb-black-women-read-more:focus {
+  color: #ffffff !important;
+  background: #1a202c;
+}
+
+.bsb-black-women-recovery {
+  max-width: 900px;
+  margin: 72px auto 0;
+}
+
+.bsb-black-women-recovery blockquote {
+  margin: 0 0 46px;
+  padding: 28px 30px;
+  color: #1c1917;
+  background: #faf9f6;
+  border-left: 6px solid #d4af37;
+}
+
+.bsb-black-women-recovery blockquote p {
+  margin: 0 0 16px;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.bsb-black-women-recovery blockquote cite {
+  display: block;
+  color: #4a5568;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.bsb-black-women-recovery-copy h2 {
+  margin: 0 0 22px;
+  color: #1c1917;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.bsb-black-women-recovery-copy p {
+  margin: 0 0 20px;
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.62;
+}
+
+@media (max-width: 767px) {
+
+  .bsb-black-women-main {
+    padding: 46px 18px 64px;
+  }
+
+  .bsb-black-women-header {
+    margin-bottom: 42px;
+  }
+
+  .bsb-black-women-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .bsb-black-women-feature-card {
+    padding: 18px;
+  }
+
+  .bsb-black-women-feature-card h3 {
+    min-height: 0;
+    font-size: 19px;
+  }
+
+  .bsb-black-women-recovery {
+    margin-top: 54px;
+  }
+
+  .bsb-black-women-recovery blockquote {
+    padding: 22px 20px;
+  }
+
+  .bsb-black-women-recovery blockquote p,
+  .bsb-black-women-recovery-copy p {
+    font-size: 16px;
+  }
+
+  .bsb-black-women-recovery-copy h2 {
+    font-size: 27px;
+  }
+
+}
+

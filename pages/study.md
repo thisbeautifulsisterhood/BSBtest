@@ -189,7 +189,7 @@ permalink: /study.html
         <h3>Featured Exhibit</h3>
 
         <h4>
-          <a href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/">
+          <a href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}">
             Black Women and the 1884 World’s Fair
           </a>
         </h4>
@@ -203,7 +203,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-outline-button"
-          href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/"
+          href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}"
         >
           Explore
         </a>
