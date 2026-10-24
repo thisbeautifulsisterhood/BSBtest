@@ -269,7 +269,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-card"
-          href="https://thisbeautifulsisterhood.org/the-original-literary-department-catalog/"
+          href="{{ '/the-original-literary-department-catalog/' | relative_url }}"
         >
 
           <img
@@ -286,7 +286,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-card"
-          href="https://thisbeautifulsisterhood.org/report-on-the-womens-department/"
+          href="{{ '/report-on-the-womens-department/' | relative_url }}"
         >
 
           <img
