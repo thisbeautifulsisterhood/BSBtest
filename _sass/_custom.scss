@@ -4676,3 +4676,235 @@
   }
 
 }
+
+
+/* ==================================================
+   STUDY SHORT-ESSAY PAGES
+   ================================================== */
+
+.bsb-essay-page {
+  width: 100%;
+  background: #ffffff;
+  color: #1c1917;
+}
+
+.bsb-essay-main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 90px;
+}
+
+.bsb-essay-header,
+.bsb-essay-copy,
+.bsb-essay-footnotes,
+.bsb-essay-resources {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bsb-essay-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.bsb-essay-header h1 {
+  margin: 0 0 24px;
+  padding: 22px 24px;
+  background: #d4d4d8;
+  color: #1c1917;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: clamp(36px, 4vw, 54px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.bsb-essay-subtitle,
+.bsb-essay-byline {
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.bsb-essay-subtitle {
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.bsb-essay-byline {
+  margin: 0;
+  font-weight: 600;
+}
+
+.bsb-essay-copy p,
+.bsb-essay-media-copy p,
+.bsb-essay-resources li {
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.58;
+}
+
+.bsb-essay-copy p {
+  margin: 0 0 28px;
+}
+
+.bsb-essay-copy strong {
+  font-weight: 700;
+}
+
+.bsb-essay-copy a,
+.bsb-essay-resources a {
+  color: #1c1917;
+  text-decoration: underline;
+}
+
+.bsb-essay-illustrations {
+  margin-top: 56px;
+}
+
+.bsb-essay-media-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  margin: 0 0 62px;
+}
+
+.bsb-essay-media-row figure {
+  margin: 0;
+  text-align: center;
+}
+
+.bsb-essay-media-row img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bsb-essay-media-row figcaption {
+  margin-top: 10px;
+  color: #555555;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.bsb-essay-media-copy p {
+  margin: 0 0 20px;
+  font-size: 17px;
+}
+
+.bsb-essay-rule {
+  width: 100%;
+  max-width: 800px;
+  margin: 24px auto 38px;
+  border: 0;
+  border-top: 2px solid #71717a;
+}
+
+.bsb-essay-resources ul {
+  margin: 22px 0 0;
+  padding-left: 24px;
+}
+
+.bsb-essay-resources li {
+  margin-bottom: 14px;
+}
+
+.bsb-essay-footnotes p {
+  margin: 0 0 18px;
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+
+  .bsb-essay-main {
+    padding: 42px 18px 64px;
+  }
+
+  .bsb-essay-header h1 {
+    padding: 18px;
+    font-size: 34px;
+  }
+
+  .bsb-essay-subtitle,
+  .bsb-essay-byline {
+    font-size: 17px;
+  }
+
+  .bsb-essay-copy p,
+  .bsb-essay-resources li {
+    font-size: 17px;
+  }
+
+  .bsb-essay-media-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 50px;
+  }
+
+  .bsb-essay-media-copy p {
+    font-size: 16px;
+  }
+
+}
+
+
+/* ==================================================
+   MAUD ESSAY IMAGE SIZING — MATCH SOURCE PAGE
+   ================================================== */
+
+.bsb-essay-page .bsb-essay-illustrations {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bsb-essay-page .bsb-essay-media-row figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bsb-essay-page .bsb-essay-media-row figure img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  object-fit: contain;
+}
+
+/* Bookplate */
+.bsb-essay-page .bsb-essay-media-row:nth-child(1) figure img {
+  width: 491px !important;
+}
+
+/* Eminent Women lithograph */
+.bsb-essay-page .bsb-essay-media-row:nth-child(2) figure img {
+  width: 386px !important;
+}
+
+/* Woman's Department */
+.bsb-essay-page .bsb-essay-media-row:nth-child(3) figure img {
+  width: 429px !important;
+}
+
+/* WCTU Pavilion */
+.bsb-essay-page .bsb-essay-media-row:nth-child(4) figure img {
+  width: 401px !important;
+}
+
+@media (max-width: 767px) {
+  .bsb-essay-page .bsb-essay-media-row figure img {
+    width: auto !important;
+    max-width: min(100%, 430px) !important;
+  }
+}
