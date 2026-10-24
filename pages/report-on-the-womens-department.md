@@ -42,29 +42,44 @@ permalink: /report-on-the-womens-department/
         <em>Report and Catalogue of the Woman’s Department of the World’s Exposition, Held at New Orleans, 1884-1885</em>
       </p>
 
-      <div class="bsb-document-report-card">
-
-        <img
-          src="{ '/assets/img/bsb/study-report.webp' | relative_url }"
-          alt="Report and Catalogue of the Woman’s Department of the World’s Exposition, Held at New Orleans, 1884–1885"
+      <div class="bsb-document-embed">
+        <object
+          data="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          type="application/pdf"
+          width="100%"
+          height="987"
+          aria-label="Report and Catalogue of the Woman’s Department of the World’s Exposition, Held at New Orleans, 1884–1885"
         >
-
-        <div>
           <p>
-            Read the full report and catalogue prepared for the Woman’s Department
-            of the 1884–1885 New Orleans World’s Exposition.
+            Your browser could not display the PDF inline.
+            <a
+              href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Open the full report here.
+            </a>
           </p>
+        </object>
+      </div>
 
-          <a
-            class="bsb-document-download"
-            href="http://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Open Full Report
-          </a>
-        </div>
+      <div class="bsb-document-links">
+        <a
+          href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Report and Catalogue of the Woman’s Department
+        </a>
 
+        <a
+          class="bsb-document-download"
+          href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Open Full Report
+        </a>
       </div>
 
     </div>
