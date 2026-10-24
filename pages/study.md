@@ -223,7 +223,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-card"
-          href="https://thisbeautifulsisterhood.org/mauds-sisterhood-in-library-history/"
+          href="{{ '/mauds-sisterhood-in-library-history/' | relative_url }}"
         >
 
           <img
@@ -240,7 +240,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-card"
-          href="https://thisbeautifulsisterhood.org/the-1884-new-orleans-worlds-fair/"
+          href="{{ '/the-1884-new-orleans-worlds-fair/' | relative_url }}"
         >
 
           <img
@@ -366,6 +366,72 @@ permalink: /study.html
   </section>
 
 
-  {% include bsb-footer.html %}
+  <!-- =========================================
+       BSB DIVIDER
+       ========================================= -->
+
+  <div class="bsb-footer-title">
+    <span>BSB</span>
+  </div>
+
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+
+  <section class="bsb-expand">
+
+    <div class="bsb-expand-text">
+
+      <h2>
+        Expand the Sisterhood!
+      </h2>
+
+      <p class="bsb-footer-label">
+        Cite the Sisterhood…
+      </p>
+
+      <p>
+        Adams, Katherine, and Jacquelyne Thoni Howard. 2017.
+        <br>
+        <em>This Beautiful Sisterhood of Books</em> Project.
+        https://thisbeautifulsisterhood.org/ SIsterhood
+      </p>
+
+      <p class="bsb-footer-label">
+        Discuss the Sisterhood…
+      </p>
+
+      <div class="bsb-buttons">
+
+        <a
+          class="bsb-button bsb-button-blue"
+          href="https://thisbeautifulsisterhood.org/contact-us/"
+        >
+          Join Us
+        </a>
+
+        <a
+          class="bsb-button bsb-button-purple"
+          href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
+        >
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="bsb-expand-image">
+
+      <img
+        src="{{ '/assets/img/bsb/flowers.png' | relative_url }}"
+        alt=""
+      >
+
+    </div>
+
+  </section>
 
 </div>
