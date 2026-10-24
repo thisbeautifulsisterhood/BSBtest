@@ -44,7 +44,7 @@ permalink: /report-on-the-womens-department/
 
       <div class="bsb-document-embed">
         <object
-          data="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          data="{{ '/assets/docs/bsb/Report-on-the-Womens-Department.pdf' | relative_url }}"
           type="application/pdf"
           width="100%"
           height="987"
@@ -53,7 +53,7 @@ permalink: /report-on-the-womens-department/
           <p>
             Your browser could not display the PDF inline.
             <a
-              href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+              href="{{ '/assets/docs/bsb/Report-on-the-Womens-Department.pdf' | relative_url }}"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -65,7 +65,7 @@ permalink: /report-on-the-womens-department/
 
       <div class="bsb-document-links">
         <a
-          href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          href="{{ '/assets/docs/bsb/Report-on-the-Womens-Department.pdf' | relative_url }}"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -74,7 +74,7 @@ permalink: /report-on-the-womens-department/
 
         <a
           class="bsb-document-download"
-          href="https://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          href="{{ '/assets/docs/bsb/Report-on-the-Womens-Department.pdf' | relative_url }}"
           target="_blank"
           rel="noreferrer noopener"
         >

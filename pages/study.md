@@ -354,7 +354,7 @@ permalink: /study.html
 
         <a
           class="bsb-study-teach-button"
-          href="https://thisbeautifulsisterhood.org/teaching/"
+          href="{{ '/teach.html' | relative_url }}"
         >
           Access the BSB Teaching Library
         </a>
@@ -406,7 +406,7 @@ permalink: /study.html
 
         <a
           class="bsb-button bsb-button-blue"
-          href="https://thisbeautifulsisterhood.org/contact-us/"
+          href="{{ '/contact-us.html' | relative_url }}"
         >
           Join Us
         </a>

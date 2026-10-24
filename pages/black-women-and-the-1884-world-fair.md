@@ -131,7 +131,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Wish-List-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/Wish-List-Thumbnail.png' | relative_url }}"
                 alt="A collage of six Black women writers."
               >
             </a>
@@ -160,7 +160,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/06/Julia-C-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/Julia-C-Thumbnail.png' | relative_url }}"
                 alt="A Wonderful Sofa: The Contribution of an American Lady to the Colored Exhibit of the World's Fair."
               >
             </a>
@@ -189,7 +189,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/Sala-Thumbnail.png?resize=1024%2C576&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/Sala-Thumbnail.png' | relative_url }}"
                 alt="A collage of three Black women, one of whom is Fannie Barrier Williams."
               >
             </a>
@@ -218,7 +218,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2023/05/DeMaio-Thumbnail-1.png?resize=1024%2C576&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/DeMaio-Thumbnail-1.png' | relative_url }}"
                 alt="The World's Industrial and Cotton Centennial Exposition."
               >
             </a>
@@ -247,7 +247,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/image-2.png?resize=600%2C371&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/image-2.png' | relative_url }}"
                 alt=""
               >
             </a>
@@ -276,7 +276,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/flowers-update-4-4.png?resize=1024%2C576&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/flowers-update-4-4.png' | relative_url }}"
                 alt=""
               >
             </a>
@@ -305,7 +305,7 @@ permalink: /black-women-and-the-1884-world-fair/
               rel="noreferrer noopener"
             >
               <img
-                src="https://i0.wp.com/thisbeautifulsisterhood.org/wp-content/uploads/2025/09/flowers-update-4-1-1.png?resize=600%2C338&amp;ssl=1"
+                src="{{ '/assets/img/bsb/black-women-exhibit/flowers-update-4-1-1.png' | relative_url }}"
                 alt=""
               >
             </a>

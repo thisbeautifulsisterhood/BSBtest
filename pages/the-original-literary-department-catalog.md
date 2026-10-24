@@ -41,7 +41,7 @@ permalink: /the-original-literary-department-catalog/
       <p class="bsb-document-intro">
         The Original Literary Department Catalog, as included in
         <a
-          href="http://www.memory.loc.gov/service/gdc/scd0001/2010/20100503001re/20100503001re.pdf"
+          href="{{ '/report-on-the-womens-department/' | relative_url }}"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -51,7 +51,7 @@ permalink: /the-original-literary-department-catalog/
 
       <div class="bsb-document-embed">
         <iframe
-          src="https://thisbeautifulsisterhood.org/wp-content/uploads/2020/02/Howes-Literary-Department-Inventory.pdf"
+          src="{{ '/assets/docs/bsb/Howes-Literary-Department-Inventory.pdf' | relative_url }}"
           title="Howe's Literary Department Inventory"
           loading="lazy"
         ></iframe>
@@ -59,7 +59,7 @@ permalink: /the-original-literary-department-catalog/
 
       <div class="bsb-document-links">
         <a
-          href="https://thisbeautifulsisterhood.org/wp-content/uploads/2020/02/Howes-Literary-Department-Inventory.pdf"
+          href="{{ '/assets/docs/bsb/Howes-Literary-Department-Inventory.pdf' | relative_url }}"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -68,7 +68,7 @@ permalink: /the-original-literary-department-catalog/
 
         <a
           class="bsb-document-download"
-          href="https://thisbeautifulsisterhood.org/wp-content/uploads/2020/02/Howes-Literary-Department-Inventory.pdf"
+          href="{{ '/assets/docs/bsb/Howes-Literary-Department-Inventory.pdf' | relative_url }}"
           target="_blank"
           rel="noreferrer noopener"
         >
