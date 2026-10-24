@@ -4,7 +4,7 @@ layout: default
 permalink: /mauds-sisterhood-in-library-history/
 ---
 
-<div class="bsb-essay-page">
+<div class="bsb-essay-page bsb-maud-page">
 
 
   <nav class="bsb-search-nav">

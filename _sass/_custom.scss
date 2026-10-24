@@ -4857,54 +4857,134 @@
 
 }
 
-
 /* ==================================================
-   MAUD ESSAY IMAGE SIZING — MATCH SOURCE PAGE
+   MAUD ESSAY LAYOUT — SOURCE-MATCHED
    ================================================== */
 
-.bsb-essay-page .bsb-essay-illustrations {
-  width: 100%;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+/*
+  Source structure:
+  - article copy constrained to 800px
+  - each illustrated row is also effectively 800px wide
+  - two equal 50% columns
+  - 1.5rem (~24px) gap
+  - columns top-aligned
+*/
+.bsb-maud-page .bsb-essay-copy {
+  max-width: 800px;
 }
 
-.bsb-essay-page .bsb-essay-media-row figure {
+.bsb-maud-page .bsb-essay-copy p {
+  margin: 0 0 28px;
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: clamp(20px, 1.4vw, 24px);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.bsb-maud-page .bsb-essay-illustrations {
+  width: 100%;
+  max-width: 800px;
+  margin: 54px auto 0;
+}
+
+.bsb-maud-page .bsb-essay-media-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 24px;
+  row-gap: 0;
+  align-items: start;
+  margin: 0 0 48px;
+}
+
+.bsb-maud-page .bsb-essay-media-row figure {
+  width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 
-.bsb-essay-page .bsb-essay-media-row figure img {
+.bsb-maud-page .bsb-essay-media-row figure img {
+  display: block;
   width: auto !important;
   height: auto !important;
   max-width: 100% !important;
+  margin: 0 auto;
   object-fit: contain;
 }
 
-/* Bookplate */
-.bsb-essay-page .bsb-essay-media-row:nth-child(1) figure img {
+.bsb-maud-page .bsb-essay-media-row figcaption {
+  max-width: 100%;
+  margin: 8px auto 0;
+  color: #555;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.bsb-maud-page .bsb-essay-media-copy {
+  padding-top: 0;
+}
+
+.bsb-maud-page .bsb-essay-media-copy p {
+  margin: 0 0 22px;
+  color: #1c1917;
+  font-family: "Figtree", Arial, sans-serif;
+  font-size: clamp(14px, 1.05vw, 18px);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/*
+  Keep the actual source image widths.
+  The 800px two-column container naturally constrains them when needed,
+  which is what the original WordPress layout does.
+*/
+.bsb-maud-page .bsb-essay-media-row:nth-child(1) figure img {
   width: 491px !important;
 }
 
-/* Eminent Women lithograph */
-.bsb-essay-page .bsb-essay-media-row:nth-child(2) figure img {
+.bsb-maud-page .bsb-essay-media-row:nth-child(2) figure img {
   width: 386px !important;
 }
 
-/* Woman's Department */
-.bsb-essay-page .bsb-essay-media-row:nth-child(3) figure img {
+.bsb-maud-page .bsb-essay-media-row:nth-child(3) figure img {
   width: 429px !important;
 }
 
-/* WCTU Pavilion */
-.bsb-essay-page .bsb-essay-media-row:nth-child(4) figure img {
+.bsb-maud-page .bsb-essay-media-row:nth-child(4) figure img {
   width: 401px !important;
 }
 
 @media (max-width: 767px) {
-  .bsb-essay-page .bsb-essay-media-row figure img {
-    width: auto !important;
-    max-width: min(100%, 430px) !important;
+
+  .bsb-maud-page .bsb-essay-copy p {
+    font-size: 18px;
   }
+
+  .bsb-maud-page .bsb-essay-illustrations {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .bsb-maud-page .bsb-essay-media-row {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin-bottom: 46px;
+  }
+
+  .bsb-maud-page .bsb-essay-media-row figure img {
+    width: auto !important;
+    max-width: min(100%, 390px) !important;
+  }
+
+  .bsb-maud-page .bsb-essay-media-copy p {
+    font-size: 16px;
+  }
+
 }
