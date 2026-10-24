@@ -84,10 +84,30 @@ permalink: /contact-us.html
 
       <form
         class="bsb-contact-form"
-        action="mailto:beautifulsisterhoodbooks@gmail.com"
-        method="post"
-        enctype="text/plain"
+        action="https://formsubmit.co/beautifulsisterhoodbooks@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
       >
+
+        <input
+          type="hidden"
+          name="_subject"
+          value="New This Beautiful Sisterhood Website Submission"
+        >
+
+        <input
+          type="hidden"
+          name="_template"
+          value="table"
+        >
+
+        <input
+          type="text"
+          name="_honey"
+          style="display:none"
+          tabindex="-1"
+          autocomplete="off"
+        >
 
         <h2>
           Your Information
@@ -109,7 +129,7 @@ permalink: /contact-us.html
             <label for="bsb-email">Email</label>
             <input
               id="bsb-email"
-              name="Email"
+              name="email"
               type="email"
               required
             >
@@ -162,12 +182,12 @@ permalink: /contact-us.html
             id="bsb-file"
             name="Attachment"
             type="file"
-            accept=".jpg,.jpeg,.pdf"
+            accept=".jpg,.jpeg,.pdf,image/jpeg,application/pdf"
           >
 
           <p class="bsb-contact-note">
-            Note: file attachments depend on your email application and browser.
-            You can always email materials directly using the address below.
+            JPEG and PDF files are supported. Total uploaded file size must be
+            10 MB or less.
           </p>
 
         </div>
