@@ -108,7 +108,7 @@ permalink: /mauds-sisterhood-in-library-history/
 
       <p>
         See also the original project’s
-        <a href="https://thisbeautifulsisterhood.org/more-about-the-library/" target="_blank" rel="noreferrer noopener"><strong>About the Library</strong></a>
+        <a href="{{ '/more-about-the-library/' | relative_url }}"><strong>About the Library</strong></a>
         section, as well as the following books and articles:
       </p>
 

@@ -74,15 +74,15 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
 
-      <a href="https://thisbeautifulsisterhood.org/study-the-sisterhood/">
+      <a href="{{ '/study.html' | relative_url }}">
         Study the Sisterhood
       </a>
 
-      <a href="https://thisbeautifulsisterhood.org/teaching/">
+      <a href="{{ '/teach.html' | relative_url }}">
         Teach the Sisterhood
       </a>
 
-      <a href="https://thisbeautifulsisterhood.org/join/">
+      <a href="{{ '/join.html' | relative_url }}">
         Join the Sisterhood
       </a>
 
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <a
           class="bsb-search-outline-button"
-          href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/"
+          href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}"
         >
           Access The “Black Women and the 1884 World Fair Exhibit”
         </a>

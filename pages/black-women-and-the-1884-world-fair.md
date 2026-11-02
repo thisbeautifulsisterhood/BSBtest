@@ -126,21 +126,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/black-women-authors/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-women-authors/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/Wish-List-Thumbnail.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/Wish-List-Thumbnail.png' | relative_url }}"
                 alt="A collage of six Black women writers."
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/black-women-authors/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-women-authors/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -155,21 +151,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-newspapers-and-black-women-exhibitors-at-the-fair/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/Julia-C-Thumbnail.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/Julia-C-Thumbnail.png' | relative_url }}"
                 alt="A Wonderful Sofa: The Contribution of an American Lady to the Colored Exhibit of the World's Fair."
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/black-newspapers-and-black-women-exhibitors-at-the-fair/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-newspapers-and-black-women-exhibitors-at-the-fair/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -184,21 +176,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/fannie-barrier-williams-timeline/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/Sala-Thumbnail.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/Sala-Thumbnail.png' | relative_url }}"
                 alt="A collage of three Black women, one of whom is Fannie Barrier Williams."
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/fannie-barrier-williams-timeline/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/fannie-barrier-williams-timeline/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -213,21 +201,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/the-non-innocence-of-recovery-and-the-1884-worlds-fair/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/DeMaio-Thumbnail-1.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/DeMaio-Thumbnail-1.png' | relative_url }}"
                 alt="The World's Industrial and Cotton Centennial Exposition."
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/the-non-innocence-of-recovery-and-the-1884-worlds-fair/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/the-non-innocence-of-recovery-and-the-1884-worlds-fair/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -242,21 +226,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/image-2.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/image-2.png' | relative_url }}"
                 alt=""
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/the-new-orleans-worlds-fair-of-1884-constructs-of-progress/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -271,21 +251,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/flowers-update-4-4.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/flowers-update-4-4.png' | relative_url }}"
                 alt=""
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/black-women-the-womens-department-and-constructs-of-racial-and-gendered-identity-at-the-worlds-fair-of-1884/' | relative_url }}"
             >
               Click to Read More!
             </a>
@@ -300,21 +276,17 @@ permalink: /black-women-and-the-1884-world-fair/
             </h2>
 
             <a
-              href="https://thisbeautifulsisterhood.org/mission-statement-project-team/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/mission-statement-project-team/' | relative_url }}"
             >
               <img
-                src="{{ '/assets/img/bsb/black-women-exhibit/flowers-update-4-1-1.png' | relative_url }}"
+                src="{{ '/assets/img/bsb/flowers-update-4-1-1.png' | relative_url }}"
                 alt=""
               >
             </a>
 
             <a
               class="bsb-black-women-carousel-button"
-              href="https://thisbeautifulsisterhood.org/mission-statement-project-team/"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="{{ '/mission-statement-project-team/' | relative_url }}"
             >
               Click to Read More!
             </a>

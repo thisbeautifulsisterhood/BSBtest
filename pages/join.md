@@ -162,7 +162,7 @@ permalink: /join.html
         We especially invite research and writing that asks questions we
         haven’t yet thought to ask. If you would like to contribute original
         research or assign research projects to your students,
-        <a href="https://thisbeautifulsisterhood.org/contact-us/">
+        <a href="{{ '/contact-us.html' | relative_url }}">
           contact us
         </a>
         to propose topics. We can provide guidelines and examples, and we
