@@ -142,395 +142,79 @@ permalink: /teach.html
 
   <section class="bsb-bib-section">
 
-    <div class="bsb-bib-slant" aria-hidden="true"></div>
-
     <div class="bsb-bib-inner">
 
-      <h2 class="bsb-bib-title">
+      <h1 class="bsb-bib-title">
         Bibliography
-      </h2>
+      </h1>
 
       <p class="bsb-bib-intro">
         Click on the dropdowns to explore a bibliography of research about the
         Woman’s Literary Department and the 1884 New Orleans World’s Fair.
       </p>
 
-      <div class="bsb-bib-grid">
+      <div class="bsb-bib-grid bsb-bib-accordion">
 
-        <div class="bsb-bib-column">
+        <details>
 
-          <details class="bsb-bib-item">
-            <summary>
-              <span>Women’s Rights</span>
-              <span class="bsb-bib-chevron" aria-hidden="true"></span>
-            </summary>
+          <summary class="bsb-bib-item">
+            <span>Women’s Rights</span>
+            <span class="bsb-bib-chevron">⌄</span>
+          </summary>
 
-            <div class="bsb-bib-panel">
-              <ul>
-                <li>
-                  Miki Pfeffer.
-                  <em>Southern Ladies and Suffragists: Julia Ward Howe and Women’s Rights at the 1884 New Orleans World’s Fair</em>,
-                  University of Mississippi Press, 2014.
-                </li>
-              </ul>
-            </div>
-          </details>
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
+          </div>
+
+        </details>
 
 
-          <details class="bsb-bib-item">
-            <summary>
-              <span>Race and Gender</span>
-              <span class="bsb-bib-chevron" aria-hidden="true"></span>
-            </summary>
+        <details>
 
-            <div class="bsb-bib-panel">
-              <ul>
-                <li>
-                  Katherine Adams. “Becoming Global: Gender, Race, and Cognitive Mapping at the 1884 World’s Fair,”
-                  <em>J19: The Journal of Nineteenth-Century Americanists</em>
-                  8, no. 1 (2020): 11–41.
-                </li>
+          <summary class="bsb-bib-item">
+            <span>Digital Humanities &amp; Archives</span>
+            <span class="bsb-bib-chevron">⌄</span>
+          </summary>
 
-                <li>
-                  Pfeffer, Miki, “‘Mr. Chairman and FELLOW AMERICAN CITIZENS’: African American Agency at the World’s
-                  Industrial and Cotton Centennial Exposition in New Orleans, 1884–1885,”
-                  <em>Louisiana History: The Journal of the Louisiana Historical Association</em>
-                  51, no. 4 (Fall 2010).
-                </li>
-              </ul>
-            </div>
-          </details>
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
+          </div>
 
-        </div>
+        </details>
 
 
-        <div class="bsb-bib-column">
+        <details>
 
-          <details class="bsb-bib-item">
-            <summary>
-              <span>Digital Humanities &amp; Archives</span>
-              <span class="bsb-bib-chevron" aria-hidden="true"></span>
-            </summary>
+          <summary class="bsb-bib-item">
+            <span>Race and Gender</span>
+            <span class="bsb-bib-chevron">⌄</span>
+          </summary>
 
-            <div class="bsb-bib-panel">
-              <ul>
-                <li>
-                  Susan Tucker. “Julia Ward Howe, Maud Howe, and an Archival Legacy: Recordkeeping and the Library of
-                  Women’s Books at the 1884 Cotton Centennial,”
-                  <em>Libraries: Culture, History, and Society</em>
-                  5, no. 1 (2021): 1–23.
-                </li>
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
+          </div>
 
-                <li>
-                  Kate Adams and Jacquelyne Thoni Howard, “Recovery without Reification: Curating
-                  <em>This Beautiful Sisterhood of Books</em>,”
-                  <em>Record, Document, Archive</em>. LSU Press, Forthcoming 2026.
-                </li>
-              </ul>
-            </div>
-          </details>
+        </details>
 
 
-          <details class="bsb-bib-item">
-            <summary>
-              <span>Reconstruction and the South</span>
-              <span class="bsb-bib-chevron" aria-hidden="true"></span>
-            </summary>
+        <details>
 
-            <div class="bsb-bib-panel">
-              <p>Coming Soon</p>
-            </div>
-          </details>
+          <summary class="bsb-bib-item">
+            <span>Reconstruction and the South</span>
+            <span class="bsb-bib-chevron">⌄</span>
+          </summary>
 
-        </div>
+          <div class="bsb-bib-panel">
+            <!-- bibliography content -->
+          </div>
+
+        </details>
 
       </div>
 
     </div>
 
   </section>
-
-
-  <style>
-    /* Source-matched Teaching page bibliography */
-    .bsb-teach-page .bsb-bib-section {
-      position: relative;
-      overflow: hidden;
-      margin: 0;
-      padding: 120px 40px 150px;
-      background: rgba(128, 161, 158, 0.30);
-      color: #1c1917;
-    }
-
-    .bsb-teach-page .bsb-bib-slant {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 118px;
-      background: #faf9f6;
-      clip-path: polygon(0 0, 100% 0, 0 100%);
-      pointer-events: none;
-    }
-
-    .bsb-teach-page .bsb-bib-inner {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      max-width: 780px;
-      margin: 0 auto;
-    }
-
-    .bsb-teach-page .bsb-bib-title {
-      margin: 0 0 18px;
-      color: #1c1917;
-      font-family: "DM Sans", Arial, sans-serif;
-      font-size: clamp(36px, 3.6vw, 48px);
-      font-weight: 400;
-      line-height: 1.2;
-      text-align: center;
-    }
-
-    .bsb-teach-page .bsb-bib-intro {
-      margin: 0 0 44px;
-      color: #1c1917;
-      font-family: "Figtree", Arial, sans-serif;
-      font-size: clamp(18px, 1.35vw, 20px);
-      font-weight: 400;
-      line-height: 1.4;
-      text-align: left;
-    }
-
-    .bsb-teach-page .bsb-bib-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px 28px;
-      align-items: start;
-    }
-
-    .bsb-teach-page .bsb-bib-column {
-      display: grid;
-      gap: 16px;
-      align-content: start;
-    }
-
-    .bsb-teach-page .bsb-bib-item {
-      margin: 0;
-      background: transparent;
-    }
-
-    .bsb-teach-page .bsb-bib-item summary {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      min-height: 50px;
-      margin: 0;
-      padding: 14px 16px;
-      background: #a4ae96;
-      color: #1c1917;
-      cursor: pointer;
-      font-family: "Figtree", Arial, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 1.25;
-      list-style: none;
-    }
-
-    .bsb-teach-page .bsb-bib-item summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .bsb-teach-page .bsb-bib-item[open] summary {
-      background: #ffffff;
-    }
-
-    .bsb-teach-page .bsb-bib-chevron {
-      width: 11px;
-      height: 11px;
-      flex: 0 0 11px;
-      border-right: 2px solid #718096;
-      border-bottom: 2px solid #718096;
-      transform: rotate(45deg);
-      transition: transform 0.18s ease;
-    }
-
-    .bsb-teach-page .bsb-bib-item[open] .bsb-bib-chevron {
-      transform: rotate(225deg);
-      margin-top: 6px;
-    }
-
-    .bsb-teach-page .bsb-bib-panel {
-      padding: 24px 28px 26px;
-      background: #faf9f6;
-      color: #1c1917;
-      font-family: "Figtree", Arial, sans-serif;
-      font-size: clamp(17px, 1.2vw, 20px);
-      line-height: 1.35;
-    }
-
-    .bsb-teach-page .bsb-bib-panel ul {
-      margin: 0;
-      padding-left: 22px;
-    }
-
-    .bsb-teach-page .bsb-bib-panel li + li {
-      margin-top: 8px;
-    }
-
-    .bsb-teach-page .bsb-bib-panel p {
-      margin: 0;
-      color: #1c1917;
-      font-size: inherit;
-      line-height: inherit;
-    }
-
-    @media (max-width: 767px) {
-      .bsb-teach-page .bsb-bib-section {
-        padding: 92px 18px 80px;
-      }
-
-      .bsb-teach-page .bsb-bib-slant {
-        height: 72px;
-      }
-
-      .bsb-teach-page .bsb-bib-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
-      }
-
-      .bsb-teach-page .bsb-bib-title {
-        font-size: 36px;
-      }
-
-      .bsb-teach-page .bsb-bib-intro {
-        font-size: 18px;
-        margin-bottom: 30px;
-      }
-
-      .bsb-teach-page .bsb-bib-panel {
-        font-size: 17px;
-        padding: 20px;
-      }
-    }
-  </style>
-
-
-  <style>
-    /* ==================================================
-       TEACH PAGE ACCORDION BUG FIX
-       Force each bibliography accordion to remain vertical.
-       CollectionBuilder/global styles can otherwise place the
-       open panel beside its summary.
-       ================================================== */
-
-    .bsb-teach-page .bsb-bib-column,
-    .bsb-teach-page .bsb-bib-item,
-    .bsb-teach-page .bsb-bib-item[open] {
-      display: block !important;
-      width: 100% !important;
-      min-width: 0 !important;
-    }
-
-    .bsb-teach-page .bsb-bib-item {
-      box-sizing: border-box !important;
-      overflow: visible !important;
-    }
-
-    .bsb-teach-page .bsb-bib-item > summary {
-      box-sizing: border-box !important;
-      display: flex !important;
-      width: 100% !important;
-      max-width: none !important;
-      float: none !important;
-    }
-
-    .bsb-teach-page .bsb-bib-item > .bsb-bib-panel {
-      box-sizing: border-box !important;
-      display: block !important;
-      position: static !important;
-      width: 100% !important;
-      max-width: none !important;
-      min-width: 0 !important;
-      float: none !important;
-      clear: both !important;
-      margin: 0 !important;
-    }
-
-    .bsb-teach-page .bsb-bib-item:not([open]) > .bsb-bib-panel {
-      display: none !important;
-    }
-
-    .bsb-teach-page .bsb-bib-item[open] > .bsb-bib-panel {
-      display: block !important;
-    }
-
-    /* Match the source page proportions more closely. */
-    .bsb-teach-page .bsb-bib-inner {
-      max-width: 860px !important;
-    }
-
-    .bsb-teach-page .bsb-bib-grid {
-      width: 100% !important;
-      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-      column-gap: 32px !important;
-      row-gap: 16px !important;
-      align-items: start !important;
-    }
-
-    .bsb-teach-page .bsb-bib-column {
-      min-width: 0 !important;
-    }
-
-    @media (max-width: 767px) {
-      .bsb-teach-page .bsb-bib-grid {
-        grid-template-columns: 1fr !important;
-      }
-    }
-  </style>
-
-
-  <style>
-    /* Source typography correction:
-       bibliography citations are regular weight; titles stay italic only. */
-    .bsb-teach-page .bsb-bib-panel,
-    .bsb-teach-page .bsb-bib-panel ul,
-    .bsb-teach-page .bsb-bib-panel li,
-    .bsb-teach-page .bsb-bib-panel p {
-      font-weight: 400 !important;
-    }
-
-    .bsb-teach-page .bsb-bib-panel em {
-      font-weight: 400 !important;
-      font-style: italic !important;
-    }
-
-    .bsb-teach-page .bsb-bib-panel strong,
-    .bsb-teach-page .bsb-bib-panel b {
-      font-weight: 400 !important;
-    }
-  </style>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const bibliography = document.querySelector(".bsb-bib-section");
-      if (!bibliography) return;
-
-      const items = bibliography.querySelectorAll(".bsb-bib-item");
-
-      items.forEach(function (item) {
-        item.addEventListener("toggle", function () {
-          if (!item.open) return;
-
-          items.forEach(function (other) {
-            if (other !== item) {
-              other.open = false;
-            }
-          });
-        });
-      });
-    });
-  </script>
 
 
   <!-- =========================================
@@ -568,7 +252,7 @@ permalink: /teach.html
 
         <a
           class="bsb-teach-resource-card"
-          href="{{ '/spatial_map/' | relative_url }}"
+          href="https://thisbeautifulsisterhood.org/spatial_map/"
         >
 
           <div class="bsb-teach-resource-icon">
@@ -637,7 +321,7 @@ permalink: /teach.html
 
         <a
           class="bsb-teach-resource-card"
-          href="{{ '/create-a-recovery-exhibit/' | relative_url }}"
+          href="https://thisbeautifulsisterhood.org/create-a-recovery-exhibit/"
         >
 
           <div class="bsb-teach-resource-icon">
@@ -742,7 +426,74 @@ permalink: /teach.html
 
   </section>
 
+  <!-- =========================================
+       BSB DIVIDER
+       ========================================= -->
 
-  {% include bsb-footer.html %}
+  <div class="bsb-footer-title">
+    <span>BSB</span>
+  </div>
+
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+
+  <section class="bsb-expand">
+
+    <div class="bsb-expand-text">
+
+      <h2>
+        Expand the Sisterhood!
+      </h2>
+
+      <p class="bsb-footer-label">
+        Cite the Sisterhood…
+      </p>
+
+      <p>
+        Adams, Katherine, and Jacquelyne Thoni Howard. 2017.
+        <br>
+        <em>This Beautiful Sisterhood of Books</em> Project.
+        https://thisbeautifulsisterhood.org/ SIsterhood
+      </p>
+
+      <p class="bsb-footer-label">
+        Discuss the Sisterhood…
+      </p>
+
+      <div class="bsb-buttons">
+
+        <a
+          class="bsb-button bsb-button-blue"
+          href="https://thisbeautifulsisterhood.org/contact-us/"
+        >
+          Join Us
+        </a>
+
+        <a
+          class="bsb-button bsb-button-purple"
+          href="https://tulane.co1.qualtrics.com/jfe/form/SV_09gg00GSSSi4LVY"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="bsb-expand-image">
+
+      <img
+        src="{{ '/assets/img/bsb/flowers.png' | relative_url }}"
+        alt=""
+      >
+
+    </div>
+
+  </section>
 
 </div>
