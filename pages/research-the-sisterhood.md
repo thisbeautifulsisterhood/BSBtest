@@ -27,12 +27,24 @@ permalink: /research-the-sisterhood/
   </nav>
 
   <section class="bsb-research-hero">
+
+    <img
+      class="bsb-research-hero-image"
+      src="{{ '/assets/img/bsb/Copy-of-This-Beautiful-Sisterhood-of-Books-6.png' | relative_url }}"
+      alt=""
+      aria-hidden="true"
+    >
+
+    <div class="bsb-research-hero-dim" aria-hidden="true"></div>
+
     <div class="bsb-research-hero-box">
       <p class="bsb-research-hero-title">Educational Resource Library &amp; Archive</p>
+
       <p class="bsb-research-hero-subtitle">
         Recovering the 1884 Woman’s Literary Department for the 21<sup>st</sup>&nbsp;Century
       </p>
     </div>
+
   </section>
 
   <main>
@@ -226,25 +238,28 @@ permalink: /research-the-sisterhood/
   }
 
   .bsb-research-page .bsb-search-nav {
+    box-sizing: border-box;
     width: 100%;
     margin: 0;
-    padding: 8px 40px;
-    background: #fff;
+    padding: 7px 40px;
+    background: #ffffff;
   }
 
   .bsb-research-page .bsb-search-nav-inner {
     width: 100%;
-    max-width: 1000px;
-    min-height: 72px;
+    max-width: 980px;
+    min-height: 40px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
+    gap: 24px;
   }
 
   .bsb-research-page .bsb-search-nav a {
     color: #1c1917;
+    font-size: clamp(16px, 1.05vw, 18px);
+    line-height: 1.2;
     text-decoration: none;
     white-space: nowrap;
   }
@@ -256,34 +271,51 @@ permalink: /research-the-sisterhood/
 
   .bsb-research-hero {
     box-sizing: border-box;
+    position: relative;
     width: 100%;
-    min-height: 468px;
+    min-height: 466px;
     margin: 0;
     padding: 110px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background:
-      linear-gradient(rgba(185,193,181,.20), rgba(185,193,181,.20)),
-      url("{ '/assets/img/bsb/Copy-of-This-Beautiful-Sisterhood-of-Books-6.png' | relative_url }")
-      center center / cover no-repeat;
+    overflow: hidden;
+  }
+
+  .bsb-research-hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+  }
+
+  .bsb-research-hero-dim {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgba(185, 193, 181, 0.20);
   }
 
   .bsb-research-hero-box {
     box-sizing: border-box;
-    width: min(1268px,100%);
+    position: relative;
+    z-index: 2;
+    width: min(1268px, calc(100% - 80px));
     max-width: 1268px;
     margin: 0 auto;
-    padding: 56px 16px 48px;
-    background: rgba(128,161,158,.58);
-    box-shadow: 20px 20px 30px rgba(0,0,0,.20);
+    padding: 54px 16px 47px;
+    background: rgba(128, 161, 158, 0.58);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.20);
   }
 
   .bsb-research-hero-title {
-    margin: 0 0 50px;
+    margin: 0 0 49px;
     color: #1c1917;
     font-family: "DM Sans", Arial, sans-serif;
-    font-size: clamp(36px,3.3vw,48px);
+    font-size: clamp(36px, 3.3vw, 48px);
     font-weight: 400;
     line-height: 1.2;
   }
@@ -291,11 +323,16 @@ permalink: /research-the-sisterhood/
   .bsb-research-hero-subtitle {
     margin: 0;
     color: #1c1917;
-    font-size: clamp(20px,1.45vw,24px);
+    font-family: "Figtree", Arial, sans-serif;
+    font-size: clamp(20px, 1.45vw, 24px);
+    font-weight: 400;
     line-height: 1.4;
   }
 
-  .bsb-research-intro,
+  .bsb-research-intro {
+    padding: 80px 40px 74px;
+  }
+
   .bsb-research-instructions,
   .bsb-research-notes {
     padding: 80px 40px;
@@ -310,8 +347,9 @@ permalink: /research-the-sisterhood/
 
   .bsb-research-intro-grid {
     display: grid;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
-    gap: 40px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 40px;
+    row-gap: 0;
     align-items: center;
   }
 
@@ -322,15 +360,16 @@ permalink: /research-the-sisterhood/
 
   .bsb-research-intro-image img {
     display: block;
-    width: min(500px,100%);
+    width: 500px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
   }
 
   .bsb-research-intro-copy h1 {
-    margin: 0 0 24px;
+    margin: 0 0 20px;
     font-family: "DM Sans", Arial, sans-serif;
-    font-size: clamp(40px,3.75vw,54px);
+    font-size: clamp(40px, 3.75vw, 54px);
     line-height: 1.2;
     font-weight: 800;
   }
@@ -442,10 +481,11 @@ permalink: /research-the-sisterhood/
 
   @media (max-width: 767px) {
     .bsb-research-page .bsb-search-nav {
-      padding: 10px 18px;
+      padding: 9px 18px;
     }
 
     .bsb-research-page .bsb-search-nav-inner {
+      min-height: 44px;
       flex-wrap: wrap;
       gap: 14px 20px;
     }
@@ -456,6 +496,7 @@ permalink: /research-the-sisterhood/
     }
 
     .bsb-research-hero-box {
+      width: 100%;
       padding: 34px 20px;
     }
 
