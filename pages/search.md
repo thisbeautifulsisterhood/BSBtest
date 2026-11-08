@@ -10,6 +10,23 @@ permalink: /search.html
 document.addEventListener("DOMContentLoaded", function () {
   document.body.classList.add("bsb-search-body");
 
+  /* Remove CollectionBuilder's top spacing above the custom Search page.
+     Walk only through this page's ancestor wrappers so other sections/pages
+     are not affected. */
+  const searchPage = document.querySelector(".bsb-search-page");
+  if (searchPage) {
+    let wrapper = searchPage.parentElement;
+
+    while (wrapper && wrapper !== document.body) {
+      wrapper.style.marginTop = "0";
+      wrapper.style.paddingTop = "0";
+      wrapper = wrapper.parentElement;
+    }
+
+    document.body.style.marginTop = "0";
+    document.body.style.paddingTop = "0";
+  }
+
   /* Hide CollectionBuilder's normal site masthead/navbar on this page only. */
   const selectors = [
     "#header",
@@ -38,6 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <style>
+  body.bsb-search-body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body.bsb-search-body > main,
+  body.bsb-search-body > #main,
+  body.bsb-search-body > .container,
+  body.bsb-search-body > .container-fluid {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
   .bsb-search-page {
     width: 100vw;
     max-width: none;
