@@ -6,6 +6,18 @@ permalink: /spatial_map/
 
 <div class="bsb-map-page">
 
+
+  <section class="bsb-map-banner">
+    <div class="bsb-map-banner-overlay"></div>
+    <div class="bsb-map-banner-inner">
+      <p class="bsb-map-banner-title">Educational Resource Library &amp; Archive</p>
+      <p class="bsb-map-banner-subtitle">
+        Recovering the 1884 Woman’s Literary Department for the 21<sup>st</sup> Century
+      </p>
+    </div>
+  </section>
+
+
   <nav class="bsb-search-nav">
     <div class="bsb-search-nav-inner">
       <a href="{{ '/' | relative_url }}">Home</a>
@@ -29,17 +41,6 @@ permalink: /spatial_map/
       <a href="{{ '/join.html' | relative_url }}">Join the Sisterhood</a>
     </div>
   </nav>
-
-
-  <section class="bsb-map-banner">
-    <div class="bsb-map-banner-overlay"></div>
-    <div class="bsb-map-banner-inner">
-      <p class="bsb-map-banner-title">Educational Resource Library &amp; Archive</p>
-      <p class="bsb-map-banner-subtitle">
-        Recovering the 1884 Woman’s Literary Department for the 21<sup>st</sup> Century
-      </p>
-    </div>
-  </section>
 
 
   <main>
@@ -309,50 +310,92 @@ permalink: /spatial_map/
 
 <style>
   .bsb-map-page {
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    overflow-x: hidden;
     background: #ffffff;
     color: #1c1917;
     font-family: "Figtree", Arial, sans-serif;
   }
 
-  .bsb-map-banner {
-    position: relative;
-    min-height: 290px;
+
+  .bsb-map-page .bsb-search-nav {
+    width: 100%;
+    margin: 0;
+    padding: 8px 40px;
+    background: #ffffff;
+  }
+
+  .bsb-map-page .bsb-search-nav-inner {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 72px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 72px 40px;
+    justify-content: center;
+    gap: 28px;
+  }
+
+  .bsb-map-page .bsb-search-nav a {
+    color: #1c1917;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .bsb-map-page .bsb-search-nav a:hover,
+  .bsb-map-page .bsb-search-nav a:focus {
+    text-decoration: underline;
+  }
+
+  .bsb-map-banner {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 468px;
+    margin: 0;
+    padding: 110px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background:
+      linear-gradient(rgba(185, 193, 181, 0.20), rgba(185, 193, 181, 0.20)),
       url("{{ '/assets/img/bsb/Copy-of-This-Beautiful-Sisterhood-of-Books-6.png' | relative_url }}")
-      center / cover no-repeat;
+      center center / cover no-repeat;
   }
 
   .bsb-map-banner-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(185, 193, 181, 0.58);
+    display: none;
   }
 
   .bsb-map-banner-inner {
+    box-sizing: border-box;
     position: relative;
     z-index: 1;
-    width: 100%;
-    max-width: 1200px;
+    width: min(1268px, 100%);
+    max-width: 1268px;
     margin: 0 auto;
-    padding: 28px 34px;
+    padding: 56px 16px 48px;
     background: rgba(128, 161, 158, 0.58);
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.20);
   }
 
   .bsb-map-banner-title {
-    margin: 0 0 18px;
+    margin: 0 0 50px;
     font-family: "DM Sans", Arial, sans-serif;
-    font-size: clamp(36px, 4vw, 48px);
+    font-size: clamp(36px, 3.3vw, 48px);
+    font-weight: 400;
     line-height: 1.2;
     color: #1c1917;
   }
 
   .bsb-map-banner-subtitle {
     margin: 0;
-    font-size: clamp(20px, 1.7vw, 24px);
+    font-family: "Figtree", Arial, sans-serif;
+    font-size: clamp(20px, 1.45vw, 24px);
+    font-weight: 400;
     line-height: 1.4;
     color: #1c1917;
   }
@@ -366,7 +409,7 @@ permalink: /spatial_map/
   .bsb-map-content,
   .bsb-map-intro-grid {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
@@ -392,7 +435,7 @@ permalink: /spatial_map/
   .bsb-map-intro-copy h1 {
     margin: 0 0 24px;
     font-family: "DM Sans", Arial, sans-serif;
-    font-size: clamp(40px, 4.5vw, 54px);
+    font-size: clamp(40px, 3.75vw, 54px);
     line-height: 1.2;
     font-weight: 800;
   }
@@ -518,12 +561,25 @@ permalink: /spatial_map/
 
   @media (max-width: 767px) {
     .bsb-map-banner {
-      min-height: 240px;
-      padding: 52px 18px;
+      min-height: 360px;
+      padding: 60px 18px;
     }
 
     .bsb-map-banner-inner {
-      padding: 22px;
+      padding: 34px 20px;
+    }
+
+    .bsb-map-banner-title {
+      margin-bottom: 28px;
+    }
+
+    .bsb-map-page .bsb-search-nav {
+      padding: 10px 18px;
+    }
+
+    .bsb-map-page .bsb-search-nav-inner {
+      flex-wrap: wrap;
+      gap: 14px 20px;
     }
 
     .bsb-map-intro,
