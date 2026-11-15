@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
     padding: 80px 40px;
     background:
       linear-gradient(rgba(114, 130, 121, 0.80), rgba(114, 130, 121, 0.80)),
-      url("{{ '/assets/img/bsb/rectangular-old-fashioned-curly-golden-border-with-light-blue-background-1.png' | relative_url }}")
+      url("{{ '/assets/img/bsb/search-panel.png' | relative_url }}")
       center / cover no-repeat;
     color: #ffffff;
   }

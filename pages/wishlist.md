@@ -147,7 +147,7 @@ The Beautiful Sisterhood project publishes crowd-sourced research from scholars 
 {% for author in current %}
   <li>
     {% if author.image != "" %}
-    <img src="{{ '/objects/' | append: author.image | relative_url }}"
+    <img src="{{ '/assets/img/bsb/' | append: author.image | relative_url }}"
          alt="{{ author.name }}"
          onerror="this.style.display='none'">
     {% endif %}

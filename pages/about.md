@@ -8,7 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% assign bsb_about_hero = '/assets/img/bsb/Copy-of-This-Beautiful-Sisterhood-of-Books-6.png' | relative_url %}
+{% include feature/jumbotron.html objectid=bsb_about_hero %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 

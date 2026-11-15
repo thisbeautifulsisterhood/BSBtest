@@ -103,14 +103,14 @@ title: Home
           recovery&nbsp;project that
           <a href="{{ '/search.html' | relative_url }}">recreates</a>
           the Woman’s Literary Department from the New Orleans 1884 World’s Fair
-          and “<a href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/">recovers the exclusion</a>”
+          and “<a href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}">recovers the exclusion</a>”
           of Black women and their work from the Woman’s Department exhibit.
           The <em>Beautiful Sisterhood</em> Project is for scholars, educators,
           students, and members of the public who wish to explore, build, and
           help interpret our collections. The site offers a
           <a href="{{ '/search.html' | relative_url }}">digital archive</a>,
           a curriculum for undergraduate students, and
-          <a href="https://thisbeautifulsisterhood.org/learn-more-about-the-sisterhood/">exhibits</a>
+          <a href="{{ '/study.html' | relative_url }}">exhibits</a>
           on topics relating to the 1884 Woman’s Department.
           The <em>Beautiful Sisterhood Project</em> is committed to publishing
           new research by scholars at all levels, inside and outside of the academy.
@@ -172,9 +172,9 @@ title: Home
           without reification or further erasure. With this racialized and gendered
           history in mind, we have reconstructed the original collection as a
           searchable database and built exhibits featuring
-          “<a href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/">Black Women and the Fair</a>.”
+          “<a href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}">Black Women and the Fair</a>.”
           We are currently working to integrate the works found in the
-          “<a href="https://thisbeautifulsisterhood.org/black-women-and-the-1884-world-fair/">Black Women and the Fair</a>”
+          “<a href="{{ '/black-women-and-the-1884-world-fair/' | relative_url }}">Black Women and the Fair</a>”
           exhibit into the site’s
           <a href="{{ '/search.html' | relative_url }}">database</a>
           of the original collection, like their white counterparts, while also
@@ -191,7 +191,7 @@ title: Home
             Contact us
           </a>
           about your ideas. We welcome your
-          <a href="https://thisbeautifulsisterhood.org/contact-us/">
+          <a href="{{ '/contact-us.html' | relative_url }}">
             contributions!
           </a>
         </p>

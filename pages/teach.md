@@ -599,7 +599,7 @@ permalink: /teach.html
 
         <a
           class="bsb-button bsb-button-blue"
-          href="https://thisbeautifulsisterhood.org/contact-us/"
+          href="{{ '/contact-us.html' | relative_url }}"
         >
           Join Us
         </a>

@@ -48,7 +48,7 @@ permalink: /mauds-sisterhood-in-library-history/
 
       <div class="bsb-essay-media-row">
         <figure>
-          <img src="{{ '/assets/img/bsb/maud/bookplate-e1549650958761.jpeg' | relative_url }}" alt="Bookplate placed by Maud Howe">
+          <img src="{{ '/assets/img/bsb/bookplate-e1549650958761.jpeg' | relative_url }}" alt="Bookplate placed by Maud Howe">
           <figcaption><em>Newcomb College Center for Research on Women, Tulane University.</em></figcaption>
         </figure>
         <div class="bsb-essay-media-copy">
@@ -59,7 +59,7 @@ permalink: /mauds-sisterhood-in-library-history/
 
       <div class="bsb-essay-media-row">
         <figure>
-          <img src="{{ '/assets/img/bsb/maud/eminent-women-1884.2og.jpeg' | relative_url }}" alt="Famous writers alongside Maud Howe in her study">
+          <img src="{{ '/assets/img/bsb/eminent-women-1884.2og.jpeg' | relative_url }}" alt="Famous writers alongside Maud Howe in her study">
           <figcaption>Eminent Women, 1884<br/>Lithograph created by Eugene L’Africain</figcaption>
         </figure>
         <div class="bsb-essay-media-copy">
@@ -70,7 +70,7 @@ permalink: /mauds-sisterhood-in-library-history/
 
       <div class="bsb-essay-media-row">
         <figure>
-          <img src="{{ '/assets/img/bsb/maud/1885womansdepartmentedited-1-e1549649185904.jpeg' | relative_url }}" alt="Literary section with women-authored books and newspapers">
+          <img src="{{ '/assets/img/bsb/1885womansdepartmentedited-1-e1549649185904.jpeg' | relative_url }}" alt="Literary section with women-authored books and newspapers">
           <figcaption><em>View of hall in the Women’s Department at the 1884 New Orleans World’s Fair.</em></figcaption>
         </figure>
         <div class="bsb-essay-media-copy">
@@ -82,7 +82,7 @@ permalink: /mauds-sisterhood-in-library-history/
 
       <div class="bsb-essay-media-row">
         <figure>
-          <img src="{{ '/assets/img/bsb/maud/1885nationalwomenschristiantemperanceunionexhibit.jpeg' | relative_url }}" alt="A pavilion with booths and three American flags hung next to a sign that reads "National Women's Christian Temperance Union".">
+          <img src="{{ '/assets/img/bsb/1885nationalwomenschristiantemperanceunionexhibit.jpeg' | relative_url }}" alt="A pavilion with booths and three American flags hung next to a sign that reads "National Women's Christian Temperance Union".">
           <figcaption><em>Kenneth R. Speth Collection</em></figcaption>
         </figure>
         <div class="bsb-essay-media-copy">
