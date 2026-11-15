@@ -144,77 +144,210 @@ permalink: /teach.html
 
     <div class="bsb-bib-inner">
 
-      <h1 class="bsb-bib-title">
-        Bibliography
-      </h1>
+      <h1 class="bsb-bib-title">Bibliography</h1>
 
       <p class="bsb-bib-intro">
         Click on the dropdowns to explore a bibliography of research about the
         Woman’s Literary Department and the 1884 New Orleans World’s Fair.
       </p>
 
-      <div class="bsb-bib-grid bsb-bib-accordion">
+      <div class="bsb-bib-columns">
 
-        <details>
+        <!-- LEFT COLUMN -->
+        <div class="bsb-bib-column">
 
-          <summary class="bsb-bib-item">
-            <span>Women’s Rights</span>
-            <span class="bsb-bib-chevron">⌄</span>
-          </summary>
+          <details class="bsb-bib-details">
+            <summary class="bsb-bib-item">
+              <span>Women’s Rights</span>
+              <span class="bsb-bib-chevron">⌄</span>
+            </summary>
 
-          <div class="bsb-bib-panel">
-            <!-- bibliography content -->
-          </div>
+            <div class="bsb-bib-panel">
+              <ul>
+                <li>
+                  Miki Pfeffer. <em>Southern Ladies and Suffragists: Julia Ward
+                  Howe and Women’s Rights at the 1884 New Orleans World’s Fair</em>,
+                  University of Mississippi Press, 2014.
+                </li>
+              </ul>
+            </div>
+          </details>
 
-        </details>
+          <details class="bsb-bib-details">
+            <summary class="bsb-bib-item">
+              <span>Race and Gender</span>
+              <span class="bsb-bib-chevron">⌄</span>
+            </summary>
+
+            <div class="bsb-bib-panel">
+              <ul>
+                <li>
+                  Katherine Adams. “Becoming Global: Gender, Race, and Cognitive
+                  Mapping at the 1884 World’s Fair,”
+                  <em>J19: The Journal of Nineteenth-Century Americanists</em>
+                  8, no. 1 (2020): 11–41.
+                </li>
+
+                <li>
+                  Pfeffer, Miki, “‘Mr. Chairman and FELLOW AMERICAN CITIZENS’:
+                  African American Agency at the World’s Industrial and Cotton
+                  Centennial Exposition in New Orleans, 1884–1885,”
+                  <em>Louisiana History: The Journal of the Louisiana Historical
+                  Association</em> 51, no. 4 (Fall 2010).
+                </li>
+              </ul>
+            </div>
+          </details>
+
+        </div>
 
 
-        <details>
+        <!-- RIGHT COLUMN -->
+        <div class="bsb-bib-column">
 
-          <summary class="bsb-bib-item">
-            <span>Digital Humanities &amp; Archives</span>
-            <span class="bsb-bib-chevron">⌄</span>
-          </summary>
+          <details class="bsb-bib-details">
+            <summary class="bsb-bib-item">
+              <span>Digital Humanities &amp; Archives</span>
+              <span class="bsb-bib-chevron">⌄</span>
+            </summary>
 
-          <div class="bsb-bib-panel">
-            <!-- bibliography content -->
-          </div>
+            <div class="bsb-bib-panel">
+              <ul>
+                <li>
+                  Susan Tucker. “Julia Ward Howe, Maud Howe, and an Archival
+                  Legacy: Recordkeeping and the Library of Women’s Books at the
+                  1884 Cotton Centennial,”
+                  <em>Libraries: Culture, History, and Society</em> 5, no. 1
+                  (2021): 1–23.
+                </li>
 
-        </details>
+                <li>
+                  Kate Adams and Jacquelyne Thoni Howard, “Recovery without
+                  Reification: Curating <em>This Beautiful Sisterhood of Books</em>,”
+                  <em>Record, Document, Archive. LSU Press, Forthcoming 2026.</em>
+                </li>
+              </ul>
+            </div>
+          </details>
 
+          <details class="bsb-bib-details">
+            <summary class="bsb-bib-item">
+              <span>Reconstruction and the South</span>
+              <span class="bsb-bib-chevron">⌄</span>
+            </summary>
 
-        <details>
+            <div class="bsb-bib-panel">
+              <p>Coming Soon</p>
+            </div>
+          </details>
 
-          <summary class="bsb-bib-item">
-            <span>Race and Gender</span>
-            <span class="bsb-bib-chevron">⌄</span>
-          </summary>
-
-          <div class="bsb-bib-panel">
-            <!-- bibliography content -->
-          </div>
-
-        </details>
-
-
-        <details>
-
-          <summary class="bsb-bib-item">
-            <span>Reconstruction and the South</span>
-            <span class="bsb-bib-chevron">⌄</span>
-          </summary>
-
-          <div class="bsb-bib-panel">
-            <!-- bibliography content -->
-          </div>
-
-        </details>
+        </div>
 
       </div>
 
     </div>
 
   </section>
+
+  <style>
+    .bsb-bib-columns {
+      width: 100%;
+      max-width: 860px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 32px;
+      align-items: start;
+    }
+
+    .bsb-bib-column {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .bsb-bib-details {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: transparent;
+    }
+
+    .bsb-bib-details:not([open]) > .bsb-bib-panel {
+      display: none !important;
+    }
+
+    .bsb-bib-details[open] > .bsb-bib-item {
+      background: #ffffff;
+    }
+
+    .bsb-bib-details[open] .bsb-bib-chevron {
+      transform: rotate(180deg);
+    }
+
+    .bsb-bib-item {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .bsb-bib-item::-webkit-details-marker {
+      display: none;
+    }
+
+    .bsb-bib-item::marker {
+      content: "";
+    }
+
+    .bsb-bib-chevron {
+      flex: 0 0 auto;
+      transition: transform 0.18s ease;
+    }
+
+    .bsb-bib-panel {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      background: #faf9f6;
+    }
+
+    .bsb-bib-panel ul {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 767px) {
+      .bsb-bib-columns {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".bsb-bib-column").forEach(function (column) {
+        const accordions = column.querySelectorAll(".bsb-bib-details");
+
+        accordions.forEach(function (current) {
+          current.addEventListener("toggle", function () {
+            if (!current.open) return;
+
+            accordions.forEach(function (other) {
+              if (other !== current) {
+                other.open = false;
+              }
+            });
+          });
+        });
+      });
+    });
+  </script>
 
 
   <!-- =========================================
@@ -252,7 +385,7 @@ permalink: /teach.html
 
         <a
           class="bsb-teach-resource-card"
-          href="https://thisbeautifulsisterhood.org/spatial_map/"
+          href="{{ '/spatial_map/' | relative_url }}"
         >
 
           <div class="bsb-teach-resource-icon">
