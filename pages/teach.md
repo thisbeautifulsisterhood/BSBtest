@@ -454,7 +454,7 @@ permalink: /teach.html
 
         <a
           class="bsb-teach-resource-card"
-          href="https://thisbeautifulsisterhood.org/create-a-recovery-exhibit/"
+          href="{{ '/create-a-recovery-exhibit/' | relative_url }}"
         >
 
           <div class="bsb-teach-resource-icon">
